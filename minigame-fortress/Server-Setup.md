@@ -18,4 +18,8 @@
 
 월드 파일은 [Releases]에 있는 [world.zip]에서 구하실 수 있습니다.
 
-빌드에 문제가 생기거나 서버 실행에 문제가 생긴 경우 [Server Error FaQ](./Server-Error-FaQ.md)나 (이후 작성 예정 시간이 없다;;;)
+빌드에 문제가 생기거나 서버 실행에 문제가 생긴 경우 [Server Error FaQ](/Server-Error-FaQ.md)나 [Minecraft Gradle FaQ](/Minecraft-Gradle-FaQ.md)를 참고하여 주시길 바랍니다.
+
+- 실행영상
+
+    - 환경 : Windows 10 1809 

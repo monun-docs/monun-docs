@@ -15,6 +15,10 @@ Google과 같은 검색 사이트에서 직접 검색하여 먼저 문제를 찾
 
 # Java Version Error
 
+## 시작하기 전에
+
+Java Version 관련 오류는 여러가지가 있습니다. 이 글에서는 대표적인 오류 내용으로 설명을합니다.
+
 ```
 org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: ~~~ has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
 ```
@@ -31,55 +35,23 @@ org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError
 
 Java 11이하의 Java를 제거하고 Java 11을 설치하는 방법입니다.
 
-설치하는 방법은 다양합니다.
-
-Oracle에서 직접 지원하는 안정적인 [Oracle JDK 11](https://www.oracle.com/java/technologies/javase-jdk11-downloads.html)를 설치 하거나,
-
-GPL 라이선스로 제공되는 OpenJDK를 다운로드 할 수도 있습니다.
-
-#### OpenJDK 설치
-
-이 문서에서는 GPL 라이선스를 사용하는 OpenJDK를 기준으로 설명됩니다.
+설치하는 방법은 다양합니다. [여기](/Java-Installation.md)에서 확인해주시길 바랍니다.
 
 ---
 
-### Windows:
-
-> OJDKBuild에서 다운로드: [여기](https://github.com/ojdkbuild/ojdkbuild/)로 접속해 README.md에 있는 .msi를 실행하면 됩니다.
-
-> AdoptOpenJDK에서 다운로드: [여기](https://github.com/AdoptOpenJDK/openjdk11-binaries/releases)로 접속해 Assets에 있는 .msi를 설치하시면 됩니다.
-
----
-
-### macOS:
-
-HomeBrew를 사용하여 AdoptOpenJDK에서 다운로드 합니다.
-
-`brew tap AdoptOpenJDK/openjdk`
-
-`brew cask install adoptopenjdk11`
-
----
-
-### Linux:
-
-#### Debian 계열 Linux 환경 (apt 사용):
-
-```shell
-sudo apt-get update && sudo apt-get install -y openjdk-11-jdk-headless
 ```
 
-#### Arch 계열 Linux 환경 (pacman 사용):
-
-```shell
-sudo pacman -Syu && sudo pacman -S jre11-openjdk-headless
 ```
+
+와 같은 오류가 나올 경우 이 글을 확인해주세요.
+
 ---
 
-이외의 바이너리 파일들은 https://jdk.java.net/ 에서 확인 가능합니다.
+32비트의 Java를 설치하여서 나오는 오류 내용입니다.
 
----
+64비트의 Java를 설치하고 시도해 보시길 바랍니다. OpenJDK11이 권장됩니다.
 
+설치 문서는 [여기](/Java-Installation.md)에서 확인해주시길 바랍니다.
 <br>
 <br>
 
