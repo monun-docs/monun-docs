@@ -10,6 +10,14 @@
 
 Issue 또는 Pull Request 사용. 친한 분일 경우 디스코드 연락 주셔도 무관합니다.
 
+#### Collaborator 참여
+
+자유롭게 디스코드 혹은 트위터 DM 남겨주세요!
+
 #### 라이선스
 
 [[Creative Commons Attribution Share Alike 4.0 International](https://github.com/qogusdn1017/monun-documentation-contribution/blob/main/LICENSE.md)]
+
+##
+
+이 프로젝트는 monun 본인이 원하지 않을 시 본인 요청에 따라 삭제 될 수 있습니다.
