@@ -41,12 +41,14 @@
 
 각각의 의존성은 아래와 같습니다.
 
-``
+```
 Tap
 Kommand
-`` 와 같습니다.
+```
+와 같습니다.
 
 [Tap](https://github.com/monun/tap/releases)
+
 [Kommand](https://github.com/monun/kommand/releases)
 
 위 와 같은 플러그인의 요인에 들어가는 의존성을 꼭 서버에 적용하여 주세요.
