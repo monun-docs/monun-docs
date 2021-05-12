@@ -1,6 +1,6 @@
 # Server Setup
 
-본 문서에서는 위 [링크](https://github.com/monun/minigame-fortress)의 서버 설정에서 다룹니다.
+본 문서에서는 위 [링크](https://github.com/monun/inv-captive)의 서버 설정에서 다룹니다.
 
 ---
 
