@@ -63,11 +63,12 @@ sudo apt-get update && sudo apt-get install -y openjdk-11-jdk-headless
 ```shell
 sudo pacman -Syu && sudo pacman -S jre11-openjdk-headless
 ```
----
 
 #### RHEL 계열 Linux 환경 (yum 사용):
 ```shell
 sudo yum install java-11-openjdk-devel.x86_64
 ```
+
+---
 
 이외의 JDK 바이너리 파일들은 https://jdk.java.net/ 에서 확인 가능합니다.
