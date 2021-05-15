@@ -28,7 +28,7 @@ GPL 라이선스로 제공되는 OpenJDK를 다운로드 할 수도 있습니다
 
 > AdoptOpenJDK에서 다운로드: [여기](https://github.com/AdoptOpenJDK/openjdk11-binaries/releases)로 접속해 Assets에 있는 .msi를 설치하시면 됩니다.
 
-> Chocolatey를 이용하여 AdoptOpenJDK를 설치 할 수 있습니다. 명령은 다음과 같습니다:
+> [Chocolatey](https://chocolatey.org/)를 이용하여 AdoptOpenJDK를 설치 할 수 있습니다. 명령은 다음과 같습니다:
 
 ```
 choco install openjdk11
@@ -64,5 +64,10 @@ sudo apt-get update && sudo apt-get install -y openjdk-11-jdk-headless
 sudo pacman -Syu && sudo pacman -S jre11-openjdk-headless
 ```
 ---
+
+#### RHEL 계열 Linux 환경 (yum 사용):
+```shell
+sudo yum install java-11-openjdk-devel.x86_64
+```
 
 이외의 JDK 바이너리 파일들은 https://jdk.java.net/ 에서 확인 가능합니다.
