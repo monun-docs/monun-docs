@@ -1,0 +1,25 @@
+{
+  "name": "monun-documentation-contribution",
+  "version": "1.0.0",
+  "description": "각별님 (현 코드네임 [[Monun](https://github.com/monun/)]님) 을 위해 제작한 사람들이 자주 묻는 질문 및 플러그인 & 라이브러리 적용 설명법 모음 문서",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "doc": "vuepress dev --port 8000",
+    "build": "vuepress build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/issac4892/monun-documentation-contribution.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/issac4892/monun-documentation-contribution/issues"
+  },
+  "homepage": "https://github.com/issac4892/monun-documentation-contribution#readme",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
