@@ -16,7 +16,7 @@ Issue 또는 Pull Request 사용. 친한 분일 경우 디스코드 연락 주�
 
 #### 라이선스
 
-[[Creative Commons Attribution Share Alike 4.0 International](https://github.com/qogusdn1017/monun-documentation-contribution/blob/main/LICENSE.md)]
+[Creative Commons Attribution Share Alike 4.0 International](https://github.com/qogusdn1017/monun-documentation-contribution/blob/main/LICENSE.md)
 
 ##
 
