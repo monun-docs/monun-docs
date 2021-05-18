@@ -31,7 +31,7 @@ GPL 라이선스로 제공되는 OpenJDK를 다운로드 할 수도 있습니다
 > [Chocolatey](https://chocolatey.org/)를 이용하여 AdoptOpenJDK를 설치 할 수 있습니다. 명령은 다음과 같습니다:
 
 ```
-choco install openjdk16
+choco install adoptopenjdk16
 ```
 
 ---
