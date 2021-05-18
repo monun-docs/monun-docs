@@ -1,0 +1,24 @@
+{
+  "name": "monun-documentation-contribution",
+  "version": "1.0.0",
+  "description": "Documentation contribute purposes. For Monun. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev",
+    "docs:build": "vuepress build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/issac4892/monun-documentation-contribution.git"
+  },
+  "author": "issac4892",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/issac4892/monun-documentation-contribution/issues"
+  },
+  "homepage": "https://github.com/issac4892/monun-documentation-contribution#readme",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
