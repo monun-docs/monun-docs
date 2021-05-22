@@ -1,5 +1,5 @@
 {
-  "name": "monun-documentation-contribution",
+  "name": "monun-docs",
   "version": "1.0.0",
   "description": "Documentation contribute purposes. For Monun. ",
   "main": "index.js",
@@ -10,16 +10,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/issac4892/monun-documentation-contribution.git"
+    "url": "git+https://github.com/qogusdn1017/monun-docs.git"
   },
   "author": "issac4892",
   "license": "CC-BY-SA-4.0",
   "bugs": {
-    "url": "https://github.com/issac4892/monun-documentation-contribution/issues"
+    "url": "https://github.com/qogusdn1017/monun-docs.gi"
   },
-  "homepage": "https://github.com/issac4892/monun-documentation-contribution#readme",
+  "homepage": "https://github.com/qogusdn1017/monun-docs.gi#readme",
   "devDependencies": {
     "vuepress": "^1.8.2"
   }
   
 }
+7
