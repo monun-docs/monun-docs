@@ -27,7 +27,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@3.7.1
         if: ${{ github.event_name == 'push'}}
         with:
-          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+    #      ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages
           FOLDER: .vuepress/dist/
           CLEAN: true
