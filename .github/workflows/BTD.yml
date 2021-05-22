@@ -31,3 +31,5 @@ jobs:
           BRANCH: gh-pages
           FOLDER: .vuepress/dist/
           CLEAN: true
+          git-config-name: qogusdn1017
+          git-config-email: qogusdn1017@naver.com
