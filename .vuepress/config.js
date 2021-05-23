@@ -16,7 +16,7 @@ module.exports = {
           ['/physics', 'Physics'],
           ['/regions', 'Regions'],
           ['/tap', 'Tap'],
-          
+          ]
     }
   }
   
