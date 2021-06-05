@@ -1,3 +1,5 @@
+const { sidebar } = require("./sidebarGenerator");
+
 // config.js
 module.exports = {
     title: 'monun-docs', // 사이트 타이틀
@@ -9,35 +11,14 @@ module.exports = {
           title: 'MonunDocs',   // required
           collapsable: true, // optional, defaults to true
           sidebarDepth: 1,    // optional, defaults to 1
-          children: [
-            '/',
-            {
+          children: sidebar({
               title: 'Farm',   // required
               collapsable: true, // optional, defaults to true
               sidebarDepth: 1,    // optional, defaults to 1
               children: [
                 '/farm/Server-Error-FaQ'
               ]
-            },
-            {
-              title: 'Inv-Captive',   // required
-              collapsable: true, // optional, defaults to true
-              sidebarDepth: 1,    // optional, defaults to 1
-              children: [
-                '/inv-captive/Server-Error-FaQ',
-                '/inv-captive/Server-Setup'
-              ]
-            },
-            {
-              title: 'Minigame-Fortress',   // required
-              collapsable: true, // optional, defaults to true
-              sidebarDepth: 1,    // optional, defaults to 1
-              children: [
-                '/minigame-fortress/Java-Installation',
-                '/minigame-fortress/Server-Setup'
-              ]
-            }
-          ]
+          })
         }
       ]
     }
