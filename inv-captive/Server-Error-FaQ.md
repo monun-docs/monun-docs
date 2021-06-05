@@ -5,7 +5,7 @@
 <br>
 <br>
 
-# 질문 하기 전에
+## 질문 하기 전에
 
 Google과 같은 검색 사이트에서 직접 검색하여 먼저 문제를 찾아 보시는 것을 추천 드립니다.
 
@@ -13,7 +13,7 @@ Google과 같은 검색 사이트에서 직접 검색하여 먼저 문제를 찾
 
 ---
 
-# Java Version Error
+## Java Version Error
 
 ```
 org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: ~~~ has been compiled by a more recent version of the Java Runtime (class file version 55.0), this version of the Java Runtime only recognizes class file versions up to 52.0
@@ -27,7 +27,7 @@ org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError
 
 이 과정에서 JDK 11을 이용해 플러그인이 컴파일 되고, 현재로써는 PaperMC가 계속 Java 8을 지원하지만 JDK 11을 이용해 컴파일 된 플러그인이 로딩이 되고 있지 않습니다.
 
-## 해결 방법
+### 해결 방법
 
 Java 11이하의 Java를 제거하고 Java 11을 설치하는 방법입니다.
 
@@ -83,7 +83,7 @@ sudo pacman -Syu && sudo pacman -S jre11-openjdk-headless
 <br>
 <br>
 
-# Unknown Dependency
+## Unknown Dependency
 
 ```
 org.bukkit.plugin.UnknownDependencyException: Unknown dependency ~~~. Please download and install ~~~ to run this plugin.
