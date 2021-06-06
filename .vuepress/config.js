@@ -8,7 +8,7 @@ module.exports = {
       logo: 'https://avatars.githubusercontent.com/u/77531416?v=4', // monun logo
       sidebar: [
         {
-          title: 'MonunDocs',   // required
+          title: 'Monun-Docs',   // required
           collapsable: true, // optional, defaults to true
           sidebarDepth: 1,    // optional, defaults to 1
           children: sidebar({
