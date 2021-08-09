@@ -49,7 +49,7 @@ module.exports = {
       links: [
         
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} monun. All rights reserved.`,
+      copyright: `Copyright © ${new Date().getFullYear()} monun. Licensed with CC BY-SA 4.0.`,
     },
     prism: {
       theme: require('prism-react-renderer/themes/github'),
