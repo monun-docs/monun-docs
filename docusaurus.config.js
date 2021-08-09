@@ -21,16 +21,20 @@ module.exports = {
       },
       items: [
         {
-          type: 'doc',
-          docId: 'tech/index',
-          position: 'left',
-          label: 'Tech Docs',
-        },
-        {
-          type: 'doc',
-          docId: 'usage/index',
-          position: 'left',
-          label: 'Usage Docs',
+          label: 'Docs',
+          position: 'left', // or 'right'
+          items: [
+            {
+              label: 'Tech Docs',
+              to: 'docs/Tech Docs/Index',
+            },
+            {
+              label: 'Usage Docs',
+              to: 'docs/Usage Docs/Index',
+
+            },
+          ],
+
         },
         {
           href: 'https://github.com/hyeonworks/monun-docs',
@@ -47,8 +51,8 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} monun. All rights reserved.`,
     },
     prism: {
-//      theme: lightCodeTheme,
-      darkTheme: darkCodeTheme,
+      theme: require('prism-react-renderer/themes/github'),
+      darkTheme: require('prism-react-renderer/themes/dracula'),
     },
   },
   presets: [
