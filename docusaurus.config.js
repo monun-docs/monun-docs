@@ -9,15 +9,16 @@ module.exports = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: '/img/favicon.ico',
   organizationName: 'HyeonWorks', // Usually your GitHub org/user name.
   projectName: 'monun-docs', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'monun',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'monun',
+        src: 'img/logo1.svg',
+        srcDark: 'img/77531416_negative.png',
       },
       items: [
         {
@@ -54,6 +55,11 @@ module.exports = {
       theme: require('prism-react-renderer/themes/github'),
       darkTheme: require('prism-react-renderer/themes/dracula'),
     },
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false,
+      respectPrefersColorScheme: false,
+    }
   },
   presets: [
     [

@@ -20,7 +20,7 @@ function HomepageHeader() {
             to="/docs/Tech Docs/Index">
             Tech Docs
           </Link>
-          <h5></h5>
+          {' '}
           <Link
             className="button button--secondary button--lg"
             to="/docs/Usage Docs/Index">
