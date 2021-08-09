@@ -1,33 +1,23 @@
-# Website
+# [Welcome to Monun Docs!]
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+각별님 (현 코드네임 [Monun](https://github.com/monun/)님) 을 위해 제작한 사람들이 자주 묻는 질문 및 플러그인 & 라이브러리 적용 설명법 모음 문서
 
-## Installation
+## 안내
 
-```console
-yarn install
-```
+이 가이드 내의 말하는 이는 모두 monun님으로 고정되어 있습니다.
 
-## Local Development
+## 오타지적, 내용 향상, 잘못된 부분 수정 등 기여 하기
 
-```console
-yarn start
-```
+Issue 또는 Pull Request 사용. 친한 분일 경우 디스코드 연락 주셔도 무관합니다.
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## Collaborator 참여
 
-## Build
+자유롭게 디스코드 혹은 트위터 DM 남겨주세요!
 
-```console
-yarn build
-```
+## 라이선스
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+[Creative Commons Attribution Share Alike 4.0 International](https://github.com/qogusdn1017/monun-documentation-contribution/blob/main/LICENSE.md)
 
-## Deployment
+---
 
-```console
-GIT_USER=<Your GitHub username> USE_SSH=true yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+이 프로젝트는 monun 본인이 원하지 않을 시 본인 요청에 따라 삭제 될 수 있습니다.
