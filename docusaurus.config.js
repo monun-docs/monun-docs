@@ -56,8 +56,8 @@ module.exports = {
       darkTheme: require('prism-react-renderer/themes/dracula'),
     },
     colorMode: {
-      defaultMode: 'dark',
-      disableSwitch: false,
+      defaultMode: "dark",
+      disableSwitch: true,
       respectPrefersColorScheme: false,
     }
   },
