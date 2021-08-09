@@ -11,7 +11,7 @@
 [Releases](https://github.com/monun/inv-captive/releases)에 있는 `server.ps1`을 설치하세요.
 순차적으로 해당의 파일을 다운로드 하신 후 열어주시면 됩니다.
 
-오류 사항의 관해 위 [링크](./Server-Error-FaQ.md)을 참조하세요.
+오류 사항의 관해 위 [링크](/docs/Tech Docs/inv-captive/Server-Error-FaQ.md)을 참조하세요.
 
 **리눅스 환경의 경우 PowerShell을 설치하셔야 동작됩니다.**
 
@@ -19,7 +19,7 @@
 
 본 문서에서 JDK란 `Java Development Kit`의 약어입니다.
 
-위 JDK 관련한 오류는 해당 [링크](./Server-Error-FaQ.md)을 클릭하세요.
+위 JDK 관련한 오류는 해당 [링크](/docs/Tech Docs/inv-captive/Server-Error-FaQ.md)을 클릭하세요.
 
 본 플러그인은 `JDK-11` 부터 지원하고 있습니다.
 
