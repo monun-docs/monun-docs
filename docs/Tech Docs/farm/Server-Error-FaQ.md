@@ -2,8 +2,6 @@
 
 마인크래프트 서버 실행 시 나오는 오류 메시지들에 대한 자주 묻는 질문 모음입니다.
 
-<br>
-<br>
 
 ## 질문 하기 전에
 
@@ -79,9 +77,6 @@ sudo pacman -Syu && sudo pacman -S jre11-openjdk-headless
 이외의 바이너리 파일들은 https://jdk.java.net/ 에서 확인 가능합니다.
 
 ---
-
-<br>
-<br>
 
 ## Unknown Dependency
 
