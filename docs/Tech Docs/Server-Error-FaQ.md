@@ -48,7 +48,7 @@ Java 11이하의 Java를 제거하고 Java 11을 설치하는 방법입니다.
 
 64비트의 Java를 설치하고 시도해 보시길 바랍니다. OpenJDK11이 권장됩니다.
 
-설치 문서는 [여기](/Java-Installation.md)에서 확인해주시길 바랍니다.
+설치 문서는 [여기](docs/Tech Docs/Java-Installation)에서 확인해주시길 바랍니다.
 # Unknown Dependency
 
 ```
