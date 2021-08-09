@@ -4,8 +4,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'monun-docs',
-  tagline: 'lol',
-  url: 'https://your-docusaurus-test-site.com',
+  tagline: '',
+  url: 'https://monun.me',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -22,9 +22,15 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'intro',
+          docId: 'tech/index',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Tech Docs',
+        },
+        {
+          type: 'doc',
+          docId: 'usage/index',
+          position: 'left',
+          label: 'Usage Docs',
         },
         {
           href: 'https://github.com/hyeonworks/monun-docs',
@@ -41,7 +47,7 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} monun. All rights reserved.`,
     },
     prism: {
-      theme: lightCodeTheme,
+//      theme: lightCodeTheme,
       darkTheme: darkCodeTheme,
     },
   },
