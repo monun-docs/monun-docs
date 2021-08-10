@@ -59,6 +59,10 @@ module.exports = {
       defaultMode: "dark",
       disableSwitch: false,
       respectPrefersColorScheme: false,
+      switchConfig: {
+        darkIcon: '🌙',
+        lightIcon: '☀️',
+      }
     }
   },
   presets: [
