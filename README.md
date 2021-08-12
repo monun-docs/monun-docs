@@ -1,6 +1,8 @@
 # Welcome to Monun Docs!
 
-각별님 (현 코드네임 [Monun](https://github.com/monun/)님) 을 위해 제작한 사람들이 자주 묻는 질문 및 플러그인 & 라이브러리 적용 설명법 모음 문서
+각별님 (현 코드네임 [Monun](https://github.com/monun/)님) 을 위해 제작한 사람들이 자주 묻는 질문 및 플러그인 & 라이브러리 적용 설명법 모음 문서입니다.
+
+실제 Main Page는 docs/폴더에서 확인하세요.
 
 ## 안내
 
