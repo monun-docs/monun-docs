@@ -24,8 +24,9 @@ paper를 넣었다면 폴더 안을 우 클릭 후 세로 만들기 > 텍스트 
 
 열은 텍스트 파일에 이렇게 써줍니다.
 
-java -Xms1G -Xmx12G paper-1.16.1-138.jar
-pause(pause는 선택사항입니다.)
+'java -Xms1G -Xmx12G paper-1.16.1-138.jar'
+'pause' (pause는 선택사항입니다.)
+
 써주셨으면 메모장 위쪽에 있는 파일 클릭 후 저장을 눌러줍니다.
 
 저장하셨다면. txt 파일을. bat 파일로 바꿔줍니다.
@@ -34,7 +35,7 @@ pause(pause는 선택사항입니다.)
 
 바꾸셨다면. bat 파일을 두 번 클릭하여 실행시켜보면
 
-You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
+'You need to agree to the EULA in order to run the server. Go to eula.txt for more info'
 
 라면서 실행이 안 됩니다.
 
