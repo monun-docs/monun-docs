@@ -11,8 +11,8 @@ Monun Docs의 전체 문서 구조입니다!
 
 ## Home Docs
 
-- [Main Page](/docs/Index.md)
-- [Navtigation (<- 현재 여기에 계십니다!)](/docs/Navigation.md)
+- [Main Page](/docs/Home Docs/Index.md)
+- [Navtigation (<- 현재 여기에 계십니다!)](/docs/Home Docs/Navigation.md)
 
 ## Dev Docs
 

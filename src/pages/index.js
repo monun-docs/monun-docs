@@ -17,8 +17,14 @@ function HomepageHeader() {
           <center>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/Tech Docs/Index">
-            Tech Docs
+            to="/docs/Home Docs/Index">
+            Home Docs
+          </Link>
+          {' '}
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/Dev Docs/Index">
+            Dev Docs
           </Link>
           {' '}
           <Link
@@ -38,7 +44,7 @@ export default function Home() {
   return (
     <Layout
       title={`Main Page`}
-      description="monun-docs main page">
+      description="Monun Docs Main Page">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

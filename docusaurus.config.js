@@ -29,6 +29,10 @@ module.exports = {
           position: 'left', // or 'right'
           items: [
             {
+              label: 'Home Docs',
+              to: 'docs/Home Docs/Index',
+            },
+            {
               label: 'Dev Docs',
               to: 'docs/Dev Docs/Index',
             },
