@@ -1,0 +1,1 @@
+# [inv-captive](https://github.com/monun/inv-captive) Plugin Usage Index

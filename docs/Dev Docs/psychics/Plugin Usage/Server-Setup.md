@@ -1,1 +1,1 @@
-# Basic Server Setup
+# Psychics Server Setup

@@ -18,7 +18,7 @@ Kommand 라이브러리를 프로젝트에 넣어봅시다.
     <groupId>io.github.monun</groupId>
     <artifactId>kommand-api</artifactId>
     <version>(version)</version>
-    <scope>runtime</scope>
+    <scope>compile</scope>
 </dependency>
 ```
 
@@ -32,7 +32,7 @@ repositories {
 
 ```kotlin
 dependencies {
-    compileOnly("io.github.monun:kommand-api:<version>")
+    implementation("io.github.monun:kommand-api:<version>")
 }
 ```
 
@@ -51,5 +51,3 @@ libraries:
 프로젝트를 리로딩 하여서 적용이 되었는지 확인해보세요!
 
 ---
-
-[[<- 이전으로]()] [[다음으로 ->]()]

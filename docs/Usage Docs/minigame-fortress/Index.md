@@ -1,0 +1,1 @@
+# [minigame-fortress](https://github.com/monun/minigame-fortress) Plugin Usage Index

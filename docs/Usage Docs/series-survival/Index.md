@@ -1,0 +1,1 @@
+# [Series Survival](https://github.com/monun/regions) Plugin Usage Index
