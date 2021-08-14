@@ -2,7 +2,7 @@ const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 const currentYear = new Date().getFullYear();
-const copyrightYear = currentYear !== 2021 ? `2021-${currentYear}` else '2021';
+const copyrightYear = currentYear !== 2021 ? `2021-${currentYear}` : '2021';
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
