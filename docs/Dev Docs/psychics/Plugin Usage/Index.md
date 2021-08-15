@@ -1,0 +1,1 @@
+# [Psychics](https://github.com/monun/psychics) Plugin Usage Index

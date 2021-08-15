@@ -12,7 +12,7 @@
 
 [2019년 4월 이후 적용된 Oracle JDK의 새로운 라이선스 정책](https://www.oracle.com/java/technologies/javase/jdk-faqs.html) 에 따라, 개발이나 프로토타입 제작 등 개인 사용 목적이 아닌, 프로덕션에서는 Oracle JDK를 무료로 이용할 수 없습니다. (유료 구독 필요, 자세한 내용은 위 문서 참고)
 
-해당 정책 이후, 오픈소스 개발자들을 중심으로, 탈 Oracle JDK 움직임이 일어나게 되었고, [GPLv2+CE](http://openjdk.java.net/legal/gplv2+ce.html) 라이선스를 취하고 있는 OpenJDK 기반의 다른 배포판들을 찾아 떠나게 되었습니다.
+해당 정책 이후, 오픈소스 개발자들을 중심으로, 사람들은 [GPLv2+CE](http://openjdk.java.net/legal/gplv2+ce.html) 라이선스를 취하고 있는 OpenJDK 기반의 다른 배포판들을 찾아 떠나게 되었습니다.
 
 대표적인 OpenJDK 기반의 배포판에는, AdoptOpenJDK 및 Azul Zulu, Amazon Corretto 등이 있습니다. 
 

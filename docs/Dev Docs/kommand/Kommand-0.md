@@ -1,4 +1,4 @@
-# Kommand Getting Started
+# 0. Kommand Getting Started
 
 ## 개발 환경
     * JDK 16
