@@ -5,7 +5,7 @@
 
 ## Contents
 
-- [능력자 (psychics)](<../Dev Docs/psychics/Plugin Usage/Index.md>)
+- [능력자 (psychics)](../Dev Docs/psychics/Plugin Usage/Index.md)
 - [생존일지 (series-survival)](./series-survival/Index.md)
 - [농작물 플러그인 (farm)](./farm/Index.md)
 - [구역설정 플러그인 (regions)](./regions/Index.md)
