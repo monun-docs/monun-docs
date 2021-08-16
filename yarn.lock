@@ -4080,7 +4080,7 @@ dns-txt@^2.0.2:
   dependencies:
     buffer-indexof "^1.0.0"
 
-docusaurus@^1.14.7:
+docusaurus@1.14.7:
   version "1.14.7"
   resolved "https://registry.yarnpkg.com/docusaurus/-/docusaurus-1.14.7.tgz#f51858ab643b29ec52264d6dd85e0d629e5b3a4a"
   integrity sha512-UWqar4ZX0lEcpLc5Tg+MwZ2jhF/1n1toCQRSeoxDON/D+E9ToLr+vTRFVMP/Tk84NXSVjZFRlrjWwM2pXzvLsQ==
