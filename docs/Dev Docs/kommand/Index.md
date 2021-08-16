@@ -21,11 +21,11 @@ Kommand는 위와 같은 문제를 해결하고 명령문을 보다 직관적인
 
 ## Kommand 문서 Navigation
 
-- [0. Getting Started](/docs/Dev%20Docs/kommand/Kommand-0.md)
-- [1. Writing Sample Kommand](/docs/Dev%20Docs/kommand/Kommand-1.md)
-- [2. Requires, Arguments, Contexts](/docs/Dev%20Docs/kommand/Kommand-2.md)
-- [3. More About KommandArgument](/docs/Dev%20Docs/kommand/Kommand-3.md)
-    - [3-1. KommandArgument Content Explanation](/docs/Dev%20Docs/kommand/Kommand-3-1.md)
+- [0. Getting Started](./Kommand-0)
+- [1. Writing Sample Kommand](./Kommand-1)
+- [2. Requires, Arguments, Contexts](./Kommand-2)
+- [3. More About KommandArgument](./Kommand-3)
+    - [3-1. KommandArgument Content Explanation](./Kommand-3-1)
 
 ## License
 Kommand의 라이선스는 GPL-3.0입니다.
