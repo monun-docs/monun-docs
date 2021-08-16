@@ -83,7 +83,5 @@
 
 Go언어로 제작된 서버 실행기: [aroxu](https://github.com/aroxu/server-script)
 
-- 해당 구현체의 Docs는 [여기](./Server-Script-aroxu)를 확인해주세요.
-
 ## License
 Server Script의 라이선스는 MIT입니다.
