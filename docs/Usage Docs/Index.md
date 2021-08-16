@@ -1,25 +1,15 @@
-# Welcome to Monun Docs(Usage)!
+# Usage Docs Navigation Index
 
-각별님 (현 코드네임 [Monun](https://github.com/monun/)님) 을 위해 제작한 사람들이 자주 묻는 질문 및 플러그인 & 라이브러리 적용 설명법 모음 문서
-
-T..his is WIP.
-
-## 안내
-
-이 가이드 내의 말하는 이는 모두 monun님으로 고정되어 있습니다.
-
-## 오타지적, 내용 향상, 잘못된 부분 수정 등 기여 하기
-
-Issue 또는 Pull Request 사용. 친한 분일 경우 디스코드 연락 주셔도 무관합니다.
-
-## Collaborator 참여
-
-자유롭게 디스코드 혹은 트위터 DM 남겨주세요!
-
-## 라이선스
-
-[Creative Commons Attribution Share Alike 4.0 International](https://github.com/qogusdn1017/monun-documentation-contribution/blob/main/LICENSE.md)
-
+플러그인 사용 문서의 네비게이션 Index 문서입니다.
 ---
 
-이 프로젝트는 monun 본인이 원하지 않을 시 본인 요청에 따라 삭제 될 수 있습니다.
+## Contents
+
+- [능력자 (psychics)](<../Dev Docs/psychics/Plugin Usage/Index>)
+- [생존일지 (series-survival)](./series-survival/Index)
+- [농작물 플러그인 (farm)](./farm/Index)
+- [구역설정 플러그인 (regions)](./regions/Index)
+- [불편한 동거 (inv-captive)](./inv-captive/Index)
+- [포트리스 (minigame-fortress)](./minigame-fortress/Index)
+- [파쿠르 메이커 (parkour-maker)](./parkour-maker/Index)
+- [kotlin-plugin **(deprecated, 1.16.5 이하에서만 사용)**](./kotlin-plugin/Index)

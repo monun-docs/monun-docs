@@ -1,8 +1,8 @@
-# [Welcome to Monun Docs!](https://monun.me/)
+# Welcome to Monun Docs!
 
-각별님 (현 코드네임 [Monun](https://github.com/monun/)님) 을 위해 제작한 사람들이 자주 묻는 질문 및 플러그인 & 라이브러리 적용 설명법 모음 문서입니다.
+각별님 (현 코드네임 [monun](https://github.com/monun)) 을 위해 제작한 사람들이 자주 묻는 질문 및 플러그인 & 라이브러리 적용 설명법 모음 문서입니다.
 
-웹 페이지는 https://monun.me 에서, Docs의 구조는 [docs 폴더](https://github.com/HyeonWorks/monun-docs/tree/main/docs/)를 확인해주세요.
+Docs의 구조는 [docs 폴더](https://github.com/HyeonWorks/monun-docs/tree/main/docs/)를 확인해주세요.
 
 ## 안내
 
@@ -35,7 +35,7 @@ Twitter: [@qogusdn1017](https://twitter.com/qogusdn1017) or [@baehyeonwoo1017](h
 관리자
 
 - [aroxu](https://github.com/aroxu)
-- [PatrickKR](https://github.com/patrick-mc)
+- [PatrickKR](https://github.com/patrick-choe)
 - [심심하다 (issac4892)](https://github.com/issac4892)
 
 기여 인원

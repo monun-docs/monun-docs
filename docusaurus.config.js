@@ -1,9 +1,12 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+const currentYear = new Date().getFullYear();
+const copyrightYear = currentYear !== 2021 ? `2021-${currentYear}` : '2021';
+
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'monun-docs',
+  title: 'Monun Docs',
   tagline: '',
   url: 'https://monun.me',
   baseUrl: '/',
@@ -26,19 +29,22 @@ module.exports = {
           position: 'left', // or 'right'
           items: [
             {
-              label: 'Tech Docs',
-              to: 'docs/Tech Docs/Index',
+              label: 'Home Docs',
+              to: 'docs/Home Docs/Index',
+            },
+            {
+              label: 'Dev Docs',
+              to: 'docs/Dev Docs/Index',
             },
             {
               label: 'Usage Docs',
               to: 'docs/Usage Docs/Index',
-
             },
           ],
 
         },
         {
-          href: 'https://github.com/hyeonworks/monun-docs',
+          href: 'https://github.com/HyeonWorks/monun-docs',
           label: 'GitHub',
           position: 'right',
         },
@@ -49,7 +55,7 @@ module.exports = {
       links: [
         
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} monun. Licensed with CC BY-SA 4.0.`,
+      copyright: `Copyright © ${copyrightYear} Docs Team. Licensed under CC BY-SA 4.0.`,
     },
     prism: {
       theme: require('prism-react-renderer/themes/github'),
