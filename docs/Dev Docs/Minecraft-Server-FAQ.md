@@ -16,7 +16,7 @@ Google과 같은 검색 사이트에서 직접 검색하여 먼저 문제를 찾
 org.bukkit.plugin.InvalidPluginException: java.lang.UnsupportedClassVersionError: ~~~ has been compiled by a more recent version of the Java Runtime (class file version xx.0), this version of the Java Runtime only recognizes class file versions up to xx.0
 ```
 
-와 같거나 유사한 경우, 자바 버전에 관련된 문제입니다. JDK 11이나 JDK 16을 설치해야합니다. (최신쪽은 대부분 16 사용중입니다.) 설치 내용은 [Java Installation](/docs/Dev Docs/Java-Installations.md) 문서를 참조해주세요.
+와 같거나 유사한 경우, 자바 버전에 관련된 문제입니다. JDK 11이나 JDK 16을 설치해야합니다. (최신쪽은 대부분 16 사용중입니다.) 설치 내용은 [Java Installation](./Java-Installation) 문서를 참조해주세요.
 
 ## Unknown Dependency:
 

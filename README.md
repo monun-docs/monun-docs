@@ -43,6 +43,7 @@ Twitter: [@qogusdn1017](https://twitter.com/qogusdn1017) or [@baehyeonwoo1017](h
 - [NamuTree0345](https://github.com/NamuTree0345)
 - [Project_TL](https://github.com/ProjectTL12345)
 - [PyBsh](https://github.com/PyBsh)
+- [Dytro](https://github.com/dytrolnc)
 
 ---
 

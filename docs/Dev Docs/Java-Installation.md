@@ -20,6 +20,8 @@ Oracle 에서 배포하는 OpenJDK 를 그대로 사용하거나 개인 사용 �
 
 각 배포판별 장단점 등을 고려하여, 원하는 배포판을 받아 사용하시면 됩니다.
 
+이 문서는 OpenJDK 기준으로 설명합니다.
+
 ## OS별 OpenJDK 배포판 설치 방법
 
 ### Windows:
@@ -28,7 +30,7 @@ Oracle 에서 배포하는 OpenJDK 를 그대로 사용하거나 개인 사용 �
 >
 > [OpenJDK](https://jdk.java.net/16/)
 >
-> [Amazon Corretto](https://docs.aws.amazon.com/corretto/latest/corretto-16-ug/downloads-list.html): [[.msi](https://corretto.aws/downloads/latest/amazon-corretto-16-x64-windows-jdk.msi)] [[.zip](https://corretto.aws/downloads/latest/amazon-corretto-16-x64-windows-jdk.zip)]
+> [Amazon Corretto](https://docs.aws.amazon.com/corretto/latest/corretto-16-ug/downloads-list.html): [.msi](https://corretto.aws/downloads/latest/amazon-corretto-16-x64-windows-jdk.msi) [.zip](https://corretto.aws/downloads/latest/amazon-corretto-16-x64-windows-jdk.zip)
 >
 > [AdoptOpenJDK](https://adoptopenjdk.net/releases.html?variant=openjdk16&jvmVariant=hotspot)
 >
@@ -46,11 +48,11 @@ Oracle 에서 배포하는 OpenJDK 를 그대로 사용하거나 개인 사용 �
 >
 > [OpenJDK](https://jdk.java.net/16/)
 >
+> [Amazon Corretto](https://corretto.aws/downloads/latest/amazon-corretto-16-x64-macos-jdk.pkg)
+>
 > [AdoptOpenJDK](https://adoptopenjdk.net/releases.html?variant=openjdk16&jvmVariant=hotspot)
 >
 > [Azul Zulu](https://www.azul.com/downloads/?version=java-16-sts&os=macos&package=jdk)
->
-> [Amazon Corretto](https://corretto.aws/downloads/latest/amazon-corretto-16-x64-macos-jdk.pkg)
 
 JAVA_HOME 설정이 필요한 경우는 아래를 참조하세요.
 ```bash
@@ -64,7 +66,7 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 >
 > [OpenJDK](https://jdk.java.net/16/)
 >
-> [Amazon Corretto](https://docs.aws.amazon.com/corretto/latest/corretto-16-ug/downloads-list.html): [[Linux x64 .deb](https://corretto.aws/downloads/latest/amazon-corretto-16-x64-linux-jdk.deb)] [[Linux x64 .rpm](https://corretto.aws/downloads/latest/amazon-corretto-16-x64-linux-jdk.rpm)] [[Linux x64 .tar.gz](https://corretto.aws/downloads/latest/amazon-corretto-16-x64-linux-jdk.tar.gz)]
+> [Amazon Corretto](https://docs.aws.amazon.com/corretto/latest/corretto-16-ug/downloads-list.html): [Linux x64 .deb](https://corretto.aws/downloads/latest/amazon-corretto-16-x64-linux-jdk.deb) [Linux x64 .rpm](https://corretto.aws/downloads/latest/amazon-corretto-16-x64-linux-jdk.rpm) [Linux x64 .tar.gz](https://corretto.aws/downloads/latest/amazon-corretto-16-x64-linux-jdk.tar.gz)
 >
 > [AdoptOpenJDK](https://adoptopenjdk.net/releases.html?variant=openjdk16&jvmVariant=hotspot)
 >
@@ -117,12 +119,12 @@ sudo reboot # do not use -f option
 
 ---
 
-이후 터미널에서 ``java -version``으로 버전을 확인하세요.
+이후 터미널에서 `java -version` 으로 버전을 확인하세요.
 
-```
-openjdk version "16.x.x" 2021-07-20
-OpenJDK Runtime Environment Corretto-16.x.x.x.x (build 16.x.x+x)
-OpenJDK 64-Bit Server VM Corretto-16.x.x.x.x (build 16.x.x+x, mixed mode, sharing)
+```sh
+> java -version
+openjdk version "16.x.x" 202x-xx-xx
+...
 ```
 
 ---
