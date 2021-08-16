@@ -37,9 +37,9 @@
    * 예) 프로젝트를 복제 `git clone https://github.com/monun/server-script.git`
 2. [선택] 스크립트를 수정 (플러그인, 백업, 재시작 등)
 3. 실행권한 부여
-   * `chmod +x ./<script>.sh`
+   * `chmod +x ./{script}.sh`
 4. 실행
-   * `./<script>.sh` (.\<script> 폴더에서 server.sh 스크립트를 이용한 서버가 실행됨)
+   * `./{script}.sh` (`.{script}` 폴더에서 server.sh 스크립트를 이용한 서버가 실행됨)
 5. [선택] 사전설정된 스크립트를 배포
 
 ### Windows
