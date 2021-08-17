@@ -39,4 +39,4 @@ Monun Docs의 전체 문서 구조입니다!
 - [불편한 동거 (inv-captive)](<../Usage Docs/inv-captive/Index>)
 - [포트리스 (minigame-fortress)](<../Usage Docs/minigame-fortress/Index>)
 - [파쿠르 메이커 (parkour-maker)](<../Usage Docs/parkour-maker/Index>)
-- [kotlin-plugin **(비추천 / deprecated)**](<../Usage Docs/kotlin-plugin/Index>)
+- [kotlin-plugin **(deprecated, 1.16.5 이하에서만 사용)**](<../Usage Docs/kotlin-plugin/Index>)
