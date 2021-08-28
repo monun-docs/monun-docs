@@ -79,7 +79,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/hyeonworks/monun-docs/edit/main/',
+            'https://github.com/hyeonworks/monun-docs/edit/docs/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
