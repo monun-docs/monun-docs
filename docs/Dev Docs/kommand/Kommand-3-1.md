@@ -31,7 +31,7 @@ KommandArugment에서 지원하는 Argument 타입은 다음과 같습니다:
 | Argument Type              | Kommand method | Return Type  | Simple Description             |
 | -------------------------- | -------------- | ------------ | ------------------------------ |
 | minecraft:color            | color()        | ChatColor    | 채팅에서 지원하는 모든 색상 값입니다. |
-| minecraft:componet         | component()    | Component    | <!-- TODO: 이거어케함--> |
+| minecraft:component         | component()    | Component    | <!-- TODO: 이거어케함--> |
 | minecraft:nbt_compound_nbt | compoundTag()  | JsonObject   | SNBT 포멧의 복합 NBT입니다.    |
 | minecraft:dimension        | dimension()    | World        | 개채, 청크 및 블록을 포함하는 월드입니다. |
 | minecraft:entity_anchor    | entityAnchor() | EntityAnchor | Entity의 eyes 혹은 feet입니다. |
