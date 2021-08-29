@@ -1,3 +1,7 @@
+---
+sidebar_label: Kotlin Plugin Usage
+---
+
 # [Kotlin Plugin](https://github.com/monun/kotlin-plugin/) Usage
 
 ## WARNING!

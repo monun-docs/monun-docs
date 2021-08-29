@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Navigation
 
 Monun Docs의 전체 문서 구조입니다!

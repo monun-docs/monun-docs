@@ -25,24 +25,43 @@ module.exports = {
       },
       items: [
         {
-          label: 'Docs',
-          position: 'left', // or 'right'
-          items: [
-            {
-              label: 'Home Docs',
-              to: 'docs/Home Docs/Index',
-            },
-            {
-              label: 'Dev Docs',
-              to: 'docs/Dev Docs/Index',
-            },
-            {
-              label: 'Usage Docs',
-              to: 'docs/Usage Docs/Index',
-            },
-          ],
-
+          type: 'doc',
+          docId: 'Home Docs/Index',
+          label: 'Home',
+          position: 'left'
         },
+        {
+          type: 'doc',
+          docId: 'Dev Docs/Index',
+          label: 'Dev',
+          position: 'left'
+        },
+        {
+          type: 'doc',
+          docId: 'Usage Docs/Index',
+          label: 'Usage',
+          position: 'left'
+        },
+
+        // {
+        //   label: 'Docs',
+        //   position: 'left', // or 'right'
+        //   items: [
+        //     {
+        //       label: 'Home Docs',
+        //       to: 'docs/Home Docs/Index',
+        //     },
+        //     {
+        //       label: 'Dev Docs Docs',
+        //       to: 'docs/Dev Docs Docs/Index',
+        //     },
+        //     {
+        //       label: 'Usage Docs Docs',
+        //       to: 'docs/Usage Docs Docs/Index',
+        //     },
+        //   ],
+        //
+        // },
         {
           href: 'https://github.com/HyeonWorks/monun-docs',
           label: 'GitHub',
