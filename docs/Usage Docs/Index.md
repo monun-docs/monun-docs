@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Usage Docs Navigation Index
 
 플러그인 사용 문서의 네비게이션 Index 문서입니다.
