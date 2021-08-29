@@ -1,3 +1,7 @@
+---
+sidebar_label: Psychics Usage Index
+---
+
 # [Psychics](https://github.com/monun/psychics) Plugin Usage Index
 
 ## Psychics가 무엇인가요?

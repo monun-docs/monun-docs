@@ -1,3 +1,8 @@
+---
+sidebar_label: Kommand Usage
+sidebar_position: 1
+---
+
 # [Kommand](https://github.com/monun/kommand/) Usage
 
 **※ 최신버전의 [Kommand](https://github.com/monun/kommand/)를 기준으로 작성합니다.**

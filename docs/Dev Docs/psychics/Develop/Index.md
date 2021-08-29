@@ -1,3 +1,8 @@
+---
+sidebar_label: Psychics Develop Docs
+sidebar_position: 1
+---
+
 # [Psychics](https://github.com/monun/psychics/) Develop Docs
 
 ## Psychics 문서 Navigation

@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # Server Error FAQ
 
 마인크래프트 서버 실행 시 나오는 오류 메시지들에 대한 자주 묻는 질문 모음입니다.

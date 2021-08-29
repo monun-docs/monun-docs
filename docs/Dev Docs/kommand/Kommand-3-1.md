@@ -1,3 +1,7 @@
+---
+sidebar_position: 6
+---
+
 # 3-1. KommandArgument Content Explanation
 
 이 문서는 KommandArgument 내부의 내용들에 대해 해설합니다.

@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # 1. Writing Sample Kommand
 
 이 문서에서는 Sample Kommand 명령어 제작을 다룹니다.

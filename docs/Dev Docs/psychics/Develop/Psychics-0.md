@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # 0. Psychics Getting Started
 
 ## 개발 환경
