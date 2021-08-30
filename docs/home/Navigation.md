@@ -16,17 +16,17 @@ Monun Docs의 전체 문서 구조입니다!
 
 ## Home Docs
 
-- [Main Page](/docs)
-- [Navigation (<- 현재 여기에 계십니다!)](/docs/Navigation)
+- [Main Page](Index.md)
+- [Navigation (<- 현재 여기에 계십니다!)](Navigation)
 
 ## Dev Docs
 
 #### 개발 주요 문서:
 
-- [자바 설치 설명서 (Java Installation)](../dev/Java-Installation.md)
-- [서버 스크립트 (Server Script)](../dev/Server-Script.md)
-- [마인크래프트 관련 Gradle 자주 묻는 질문 모음 (Minecraft Gradle FAQ)](../dev/Minecraft-Gradle-FAQ.md)
-- [마인크래프트 서버 관련 자주 묻는 질문 모음 (Minecraft Server FAQ)](../dev/Minecraft-Server-FAQ.md)
+- [자바 설치 설명서 (Java Installation)](dev/Java-Installation.md)
+- [서버 스크립트 (Server Script)](dev/Server-Script.md)
+- [마인크래프트 관련 Gradle 자주 묻는 질문 모음 (Minecraft Gradle FAQ)](dev/Minecraft-Gradle-FAQ.md)
+- [마인크래프트 서버 관련 자주 묻는 질문 모음 (Minecraft Server FAQ)](dev/Minecraft-Server-FAQ.md)
 
 #### 라이브러리 문서:
 

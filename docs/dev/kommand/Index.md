@@ -1,6 +1,6 @@
 ---
-title: Kommand Usage
-sidebar_position: 1
+title: Kommand Usage 
+sidebar_position: 1 
 slug: /dev/kommand
 ---
 
@@ -27,11 +27,12 @@ Kommand는 위와 같은 문제를 해결하고 명령문을 보다 직관적인
 
 ## Kommand 문서 Navigation
 
-- [0. Getting Started](./0)
-- [1. Writing Sample Kommand](./1)
-- [2. Requires, Arguments, Contexts](./2)
-- [3. More About KommandArgument](./3)
-    - [3-1. KommandArgument Content Explanation](./3-1)
+- [0. Getting Started](0-getting-started.md)
+- [1. Writing Sample Kommand](1-sample-kommand.md)
+- [2. Requires, Arguments, Contexts](2-requires-arguments-contexts.md)
+- [3. More About KommandArgument](3-more-kommandargument.md)
+    - [3-1. KommandArgument Content Explanation](3-1-kommandargument-content-explanation.md)
 
 ## License
+
 Kommand의 라이선스는 GPL-3.0입니다.

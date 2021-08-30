@@ -19,6 +19,6 @@ slug: /dev
 
 #### 라이브러리 문서:
 
-- [Tap](./tap/Index)
-- [Kommmand](./kommand/Index)
-- [Psychics](psychics/dev/Index)
+- [Tap](tap/Index.md)
+- [Kommmand](kommand/Index.md)
+- [Psychics](psychics/Index.md)
