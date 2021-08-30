@@ -26,19 +26,19 @@ module.exports = {
       items: [
         {
           type: 'doc',
-          docId: 'Home Docs/Index',
+          docId: 'home/Index',
           label: 'Home',
           position: 'left'
         },
         {
           type: 'doc',
-          docId: 'Dev Docs/Index',
+          docId: 'dev/Index',
           label: 'Dev',
           position: 'left'
         },
         {
           type: 'doc',
-          docId: 'Usage Docs/Index',
+          docId: 'usage/Index',
           label: 'Usage',
           position: 'left'
         },
@@ -48,8 +48,8 @@ module.exports = {
         //   position: 'left', // or 'right'
         //   items: [
         //     {
-        //       label: 'Home Docs',
-        //       to: 'docs/Home Docs/Index',
+        //       label: 'home',
+        //       to: 'docs/home/Index',
         //     },
         //     {
         //       label: 'Dev Docs Docs',
