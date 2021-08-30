@@ -1,4 +1,5 @@
 ---
+title: Welcome to Monun Docs!
 slug: /
 sidebar_position: 1
 ---
