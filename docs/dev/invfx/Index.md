@@ -1,5 +1,5 @@
 ---
-sidebar_label: InvFx Usage
+title: InvFx Usage
 slug: /dev/invfx
 ---
 

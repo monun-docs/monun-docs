@@ -1,5 +1,5 @@
 ---
-sidebar_label: Kotlin Plugin Usage
+title: Kotlin Plugin Usage
 slug: /usage/kotlin-plugin
 ---
 

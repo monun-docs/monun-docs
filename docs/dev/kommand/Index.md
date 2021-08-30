@@ -1,5 +1,5 @@
 ---
-sidebar_label: Kommand Usage
+title: Kommand Usage
 sidebar_position: 1
 slug: /dev/kommand
 ---

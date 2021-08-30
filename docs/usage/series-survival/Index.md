@@ -1,5 +1,5 @@
 ---
-sidebar_label: Series Survival Plugin Usage Index
+title: Series Survival Plugin Usage Index
 slug: /usage/series-survival
 ---
 

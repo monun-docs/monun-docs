@@ -17,19 +17,19 @@ function HomepageHeader() {
           <center>
           <Link
             className="button button--secondary button--lg"
-            to="/docs/Home Docs/Index">
+            to="/docs">
             Home Docs
           </Link>
           {' '}
           <Link
             className="button button--secondary button--lg"
-            to="/docs/Dev Docs/Index">
+            to="/docs/dev">
             Dev Docs
           </Link>
           {' '}
           <Link
             className="button button--secondary button--lg"
-            to="/docs/Usage Docs/Index">
+            to="/docs/usage">
             Usage Docs
           </Link>
           </center>

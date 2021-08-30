@@ -1,5 +1,5 @@
 ---
-sidebar_label: Psychics Usage Index
+title: Psychics Usage Index
 slug: /usage/psychics
 ---
 

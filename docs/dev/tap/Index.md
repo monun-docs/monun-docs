@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-sidebar_label: Tap Develop Docs
+title: Tap Develop Docs
 slug: /dev/tap
 ---
 

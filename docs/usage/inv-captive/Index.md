@@ -1,5 +1,5 @@
 ---
-sidebar_label: inv-captive Plugin Usage Index
+title: inv-captive Plugin Usage Index
 slug: /usage/inv-captive
 ---
 

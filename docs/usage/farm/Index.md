@@ -1,5 +1,5 @@
 ---
-sidebar_label: Farm Plugin Usage Index
+title: Farm Plugin Usage Index
 slug: /usage/farm
 ---
 

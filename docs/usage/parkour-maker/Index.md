@@ -1,5 +1,5 @@
 ---
-sidebar_label: Parkour Maker Plugin Usage Index
+title: Parkour Maker Plugin Usage Index
 slug: /usage/parkour-maker
 ---
 

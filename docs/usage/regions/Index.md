@@ -1,5 +1,5 @@
 ---
-sidebar_label: Regions Plugin Usage Index
+title: Regions Plugin Usage Index
 slug: /usage/regions
 ---
 

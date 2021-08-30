@@ -1,5 +1,5 @@
 ---
-sidebar_label: MiniGame-Fortress Plugin Usage Index
+title: MiniGame-Fortress Plugin Usage Index
 slug: /usage/minigame-fortress
 ---
 

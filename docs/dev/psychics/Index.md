@@ -1,5 +1,5 @@
 ---
-sidebar_label: Psychics Develop Docs
+title: Psychics Develop Docs
 sidebar_position: 1
 slug: /dev/psychics
 ---
