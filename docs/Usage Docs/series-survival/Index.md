@@ -1,1 +1,0 @@
-# [Series Survival](https://github.com/monun/series-survival) Plugin Usage Index
