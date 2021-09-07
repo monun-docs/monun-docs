@@ -15,6 +15,8 @@ module.exports = {
   favicon: '/img/favicon.ico',
   organizationName: 'HyeonWorks', // Usually your GitHub org/user name.
   projectName: 'monun-docs', // Usually your repo name.
+
+  themeConfig: {
 algolia: {
       apiKey: 'ebc61fbed286e0e09ee4da35584900c2',
       indexName: 'monun',
@@ -30,7 +32,7 @@ algolia: {
 
       //... other Algolia params
     },
-  themeConfig: {
+
     navbar: {
       title: 'monun',
       logo: {
