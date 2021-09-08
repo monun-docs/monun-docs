@@ -22,7 +22,6 @@ algolia: {
       indexName: 'monun',
 
       // Optional: see doc section below
-      contextualSearch: true,
 
       // Optional: see doc section below
       appId: '33PMPUTGP8',
