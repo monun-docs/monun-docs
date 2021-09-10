@@ -18,13 +18,13 @@ module.exports = {
 
   themeConfig: {
 algolia: {
-      apiKey: 'ebc61fbed286e0e09ee4da35584900c2',
+      apiKey: '8ad2a601315ccbff297d828d51ec6542',
       indexName: 'monun',
 
       // Optional: see doc section below
 
       // Optional: see doc section below
-      appId: '33PMPUTGP8',
+      
 
       // Optional: Algolia search parameters
      // searchParameters: {},
