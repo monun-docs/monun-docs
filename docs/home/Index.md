@@ -24,7 +24,7 @@ Twitter: [@qogusdn1017](https://twitter.com/qogusdn1017) or [@baehyeonwoo1017](h
 
 ## 라이선스
 
-[Creative Commons Attribution Share Alike 4.0 International](https://github.com/qogusdn1017/monun-documentation-contribution/blob/main/LICENSE.md)
+[Creative Commons Attribution Share Alike 4.0 International](https://github.com/HyeonWorks/monun-docs/blob/docs/LICENSE)
 
 ---
 
