@@ -15,7 +15,7 @@ slug: /usage/minigame-fortress/server-setup
 
 [Releases](https://github.com/monun/minigame-fortress/releases)에 있는 server.ps1을 다운로드.
 
-해당 파일을 다운로드 하신 후 열어주시면 됩니다.
+새로 만든 디렉토리에 넣어 실행시켜주시면 됩니다.
 
 디렉토리의 경로에 따라 powershell 혹은 cmd을 구동하여 ./server.ps1 을 입력하세요.
 
