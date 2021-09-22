@@ -17,6 +17,10 @@ slug: /usage/minigame-fortress/server-setup
 
 해당 파일을 다운로드 하신 후 열어주시면 됩니다.
 
+디렉토리의 경로에 따라 powershell 혹은 cmd을 구동하여 ./server.ps1 을 입력하세요.
+
+**리눅스 환경의 경우 PowerShell을 설치하셔야 동작됩니다.**
+
 서버 구축과 서버 오류 사항과 관련된 내용은 [여기](/docs/Dev Docs/Minecraft-Server-FAQ.md)를 참조하세요.
 
 ## JDK 지원 안내
