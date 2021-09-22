@@ -42,18 +42,18 @@ slug: /usage/minigame-fortress/server-setup
 [ProtocolLib 4.6.0]
 [worldedit-bukkit-7.2.2]
 ```
-[Kotlin 1.4.30](https://github.com/monun/kotlin-plugin/releases/download/1.1.0/Kotlin-1.4.30.jar)
+[Kotlin 1.4.30(https://github.com/monun/kotlin-plugin/releases/download/1.1.0/Kotlin-1.4.30.jar)]
 
-[Minigame-fortress 0.0.1](https://github.com/monun/minigame-fortress/releases/download/0.0.1/Fortress.jar)
+[Minigame-fortress 0.0.1(https://github.com/monun/minigame-fortress/releases/download/0.0.1/Fortress.jar)]
 
-[Team-spawn 0.0.1](https://github.com/monun/team-spawn/releases/download/0.0.1/TeamSpawn.jar)
+[Team-spawn 0.0.1(https://github.com/monun/team-spawn/releases/download/0.0.1/TeamSpawn.jar)]
 
-[Block-trigger 0.0.1](https://github.com/monun/block-trigger/releases/download/0.0.1/BlockTrigger.jar)
+[Block-trigger 0.0.1(https://github.com/monun/block-trigger/releases/download/0.0.1/BlockTrigger.jar)]
 
-[Delayed-respawn 0.0.1](https://github.com/monun/delayed-respawn/releases/download/0.0.1/DelayedRespawn.jar)
+[Delayed-respawn 0.0.1(https://github.com/monun/delayed-respawn/releases/download/0.0.1/DelayedRespawn.jar)]
 
-[ProtocolLib 4.6.0](https://github.com/dmulloy2/ProtocolLib/releases/download/4.6.0/ProtocolLib.jar)
+[ProtocolLib 4.6.0(https://github.com/dmulloy2/ProtocolLib/releases/download/4.6.0/ProtocolLib.jar)]
 
-[Worldedit-bukkit-7.2.2](https://dev.bukkit.org/projects/worldedit/files/3433988)
+[Worldedit-bukkit-7.2.2(https://dev.bukkit.org/projects/worldedit/files/3433988)]
 
 위와 같은 플러그인의 요인에 들어가는 의존성을 꼭 서버폴더 plugins 내부폴더에 적용하여 주세요.
