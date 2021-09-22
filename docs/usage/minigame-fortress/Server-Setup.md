@@ -7,6 +7,10 @@ slug: /usage/minigame-fortress/server-setup
 본 문서에서는 [minigame-fortress](https://github.com/monun/minigame-fortress)의 서버설정에 대해서 다룹니다.
 
 ---
+## JDK 지원 안내
+본 플러그인은 Java 8, Java 11을 지원합니다.
+
+하지만 Java 11 사용을 권장합니다.
 
 ## 자동 서버 구축 
 이 플러그인은 자동 서버 구축을 지원합니다.
@@ -22,11 +26,6 @@ slug: /usage/minigame-fortress/server-setup
 **리눅스 환경의 경우 PowerShell을 설치하셔야 동작됩니다.**
 
 서버 구축과 서버 오류 사항과 관련된 내용은 [여기](/docs/Dev Docs/Minecraft-Server-FAQ.md)를 참조하세요.
-
-## JDK 지원 안내
-본 플러그인은 Java 8, Java 11을 지원합니다.
-
-하지만 Java 11 사용을 권장합니다.
 ## 의존성 사용
 
 > 위 내용대로 서버 구축을 하였다면 본 항목은 생략하셔도 됩니다.
