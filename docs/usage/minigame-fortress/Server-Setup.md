@@ -24,7 +24,7 @@ slug: /usage/minigame-fortress/server-setup
 서버 구축과 서버 오류 사항과 관련된 내용은 [여기](/docs/Dev Docs/Minecraft-Server-FAQ.md)를 참조하세요.
 
 ## JDK 지원 안내
-본 플러그인은 java 8, java 11을 지원합니다.
+본 플러그인은 Java 8, Java 11을 지원합니다.
 
 하지만 Java 11 사용을 권장합니다.
 ## 의존성 사용
@@ -42,12 +42,18 @@ slug: /usage/minigame-fortress/server-setup
 [ProtocolLib 4.6.0]
 [worldedit-bukkit-7.2.2]
 ```
-[kotlin 1.4.30](https://github.com/monun/kotlin-plugin/releases/download/1.1.0/Kotlin-1.4.30.jar)
-[minigame-fortress 0.0.1](https://github.com/monun/minigame-fortress/releases/download/0.0.1/Fortress.jar)
-[team-spawn 0.0.1](https://github.com/monun/team-spawn/releases/download/0.0.1/TeamSpawn.jar)
-[block-trigger 0.0.1](https://github.com/monun/block-trigger/releases/download/0.0.1/BlockTrigger.jar)
-[delayed-respawn 0.0.1](https://github.com/monun/delayed-respawn/releases/download/0.0.1/DelayedRespawn.jar)
+[Kotlin 1.4.30](https://github.com/monun/kotlin-plugin/releases/download/1.1.0/Kotlin-1.4.30.jar)
+
+[Minigame-fortress 0.0.1](https://github.com/monun/minigame-fortress/releases/download/0.0.1/Fortress.jar)
+
+[Team-spawn 0.0.1](https://github.com/monun/team-spawn/releases/download/0.0.1/TeamSpawn.jar)
+
+[Block-trigger 0.0.1](https://github.com/monun/block-trigger/releases/download/0.0.1/BlockTrigger.jar)
+
+[Delayed-respawn 0.0.1](https://github.com/monun/delayed-respawn/releases/download/0.0.1/DelayedRespawn.jar)
+
 [ProtocolLib 4.6.0](https://github.com/dmulloy2/ProtocolLib/releases/download/4.6.0/ProtocolLib.jar)
-[worldedit-bukkit-7.2.2](https://dev.bukkit.org/projects/worldedit/files/3433988)
+
+[Worldedit-bukkit-7.2.2](https://dev.bukkit.org/projects/worldedit/files/3433988)
 
 위와 같은 플러그인의 요인에 들어가는 의존성을 꼭 서버폴더 plugins 내부폴더에 적용하여 주세요.
