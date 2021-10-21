@@ -1,14 +1,14 @@
 # [Welcome to Monun Docs!](https://monun.me/)
 
+[각별 / monun](https://github.com/monun) 레포지토리를 사용하는 분들을 위해 제작한 사람들이 자주 묻는 질문 및 플러그인 & 라이브러리 적용 설명법 모음 문서입니다.
+
+웹 페이지는 https://monun.me 에서, Docs의 구조는 [docs 폴더](https://github.com/HyeonWorks/monun-docs/tree/main/docs/)를 확인해주세요.
+
 # 공지사항
 
 **현재 Maintainer 시험기간으로 인해 업데이트가 잦습니다.**
 
 ---
-
-[각별 / monun](https://github.com/monun) 레포지토리를 사용하는 분들을 위해 제작한 사람들이 자주 묻는 질문 및 플러그인 & 라이브러리 적용 설명법 모음 문서입니다.
-
-웹 페이지는 https://monun.me 에서, Docs의 구조는 [docs 폴더](https://github.com/HyeonWorks/monun-docs/tree/main/docs/)를 확인해주세요.
 
 ## 오타지적, 내용 향상, 잘못된 부분 수정 등 기여 하기
 
