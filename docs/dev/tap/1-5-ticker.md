@@ -3,7 +3,7 @@ sidebar_position: 8
 ---
 
 # 1-5. Ticker
-Ticker는 BukkitRunnable을 개선하고 보완한 기능이다.
+Ticker는 BukkitRunnable을 개선하고 보완한 기능입니다.
 
 ## 종류
 ### Plank

@@ -13,7 +13,7 @@ sidebar_position: 5
 Tap은 가상 서버를 만들고, 그 서버 안에 존재하는 플레이어들에게 가상 개체에 대한 정보를 보냅니다. 
 
 ### 서버 생성
-Tap을 사용해 가상 서버를 생성하는 방법은 다음과 같습니다
+Tap을 사용해 가상 서버를 생성하는 방법은 다음과 같습니다.
 ```kotlin
 val server = FakeEntityServer.create(PLUGIN)
 ```
@@ -33,11 +33,11 @@ class MyPlugin: JavaPlugin() {
 ```
 
 ### 플레이어 추가
-서버 생성 이후, 가상 개체에 대한 정보를 받을 플레이어를 추가합니다
+서버 생성 이후, 가상 개체에 대한 정보를 받을 플레이어를 추가합니다.
 ```kotlin
 server.addPlayer(PLAYER)
 ```
-또, 플레이어를 제거할 수 있습니다
+또, 플레이어를 제거할 수 있습니다.
 ```kotlin
 server.removePlayer(PLAYER)
 ```
@@ -138,7 +138,7 @@ class MyPlugin: JavaPlugin(), Listener {
 }
 ```
 
-### 탑승객 추가 및 제거 (마운팅)
+### 탑승객 추가 및 제거
 *추가*
 ```kotlin
 val fakeEntity: FakeEntity
@@ -154,7 +154,7 @@ fakeEntity.removePassenger(PASSENGER)
 ```
 
 ### 이동
-가상 개체를 이동할 경우, 이동할 목적지, 또는 변위를 설정해야합니다
+가상 개체를 이동할 경우, 이동할 목적지, 또는 변위를 설정해야합니다.
 
 *목적지*
 ```kotlin
@@ -178,7 +178,7 @@ fakeEntity.move(DX, DY, DZ, YAW, PITCH)
 ```
 
 ### 메타데이터 업데이트
-버킷 API를 사용해 가상 개체를 수정할 경우, 모든 함수가 작동되는 것은 아니니 이 점을 참고해 주세요
+버킷 API를 사용해 가상 개체를 수정할 경우, 모든 함수가 작동되는 것은 아니니 이 점을 참고해 주세요.
 ```fakeEntity: FakeEntity
 fakeEntity.updateMetadata<T: Entity> {
     LAMBDA: T -> Unit

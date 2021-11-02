@@ -44,7 +44,7 @@ libraries:
     - org.jetbrains.kotlin:kotlin-reflect:1.5.21
     - org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0
 ```
-> 주의! 여기에서는 invfx-api 대신 invfx을 넣어야한다
+> 주의! 여기에서는 invfx-api 대신 invfx을 넣어야합니다.
 
 
 <!--
