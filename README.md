@@ -1,4 +1,4 @@
-# [Welcome to Monun Docs!](https://monun.me/) <<TEST>>
+# [Welcome to Monun Docs!](https://monun.me/) <TEST>
 
 [각별 / monun](https://github.com/monun) 레포지토리를 사용하는 분들을 위해 제작한 사람들이 자주 묻는 질문 및 플러그인 & 라이브러리 적용 설명법 모음 문서입니다.
 
