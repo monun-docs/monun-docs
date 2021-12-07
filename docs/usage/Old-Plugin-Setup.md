@@ -4,10 +4,11 @@
 
 ## 옛 버전의 서버 실행하기
 ### Server-Script
-서버스크립트에서, 사용자가 Config를 통해 서버 프로그램을 받아오는 URL을 직접 사용할 수 있습니다. 방법은 간단합니다.
+server-script에서, 사용자가 Config를 통해 서버 프로그램을 받아오는 URL을 직접 사용할 수 있습니다. 방법은 간단합니다.
 
-1. server.sh.config를 연다(없을 경우 만든다)
-2. `server=https://papermc.io/api/v1/paper/1.16.5/latest/download`을 추가하거나 수정합니다 (1.16.5가 아닌 버전을 원할 경우 1.16.5 대신에 원하는 버전을 입력합니다)
+1. server.sh.conf를 연다(없을 경우 스크립트를 한번 돌리거나 만든다)
+2. `server=https://papermc.io/api/v2/projects/<project>/versions/<version>/builds/<build>/downloads/<downloads>`을 추가하거나 수정합니다.
+  - (예: project - paper, version - 버전, build - 빌드번호, downloads - paper-버전-빌드번호.jar)
 3. 서버 실행
 
 ### 직접 다운로드 하기
