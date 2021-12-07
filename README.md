@@ -16,7 +16,7 @@ Issue 또는 Pull Request 를 적극적으로 이용해 주세요!
 
 Discord: BaeHyeonWoo#1017 / PatrickKR#0645
 
-Twitter: [@qogusdn1017](https://twitter.com/qogusdn1017) or [@baehyeonwoo1017](https://twitter.com/baehyeonwoo1017)
+Twitter: [@monundocs](https://twitter.com/monundocs)
 
 ## 라이선스
 
@@ -44,6 +44,7 @@ Twitter: [@qogusdn1017](https://twitter.com/qogusdn1017) or [@baehyeonwoo1017](h
 - [Dytro](https://github.com/dytroInc)
 - [pikokr](https://github.com/pikokr)
 - [정현수](https://github.com/wjdgustn)
+- [dolphin2410](https://github.com/dolphin2410)
 
 ---
 
