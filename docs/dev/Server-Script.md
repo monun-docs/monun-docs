@@ -67,7 +67,7 @@ sidebar_position: 5
 ## start.sh.conf의 server 설정하기 (서버로 사용할 jar파일 설정하기)
 
 1. URL로 설정하기 (웹에서 파일을 다운로드하여 `~/.minecraft/server/` 폴더에 저장 후 서버 시작)
-   * `server=https://papermc.io/api/v1/paper/1.17/latest/download` : wget을 통해 웹에서 다운로드 합니다.
+   * `server=https://papermc.io/api/v2/projects/<project>/versions/<version>/builds/<build>/downloads/<downloads>` : wget을 통해 웹에서 다운로드 합니다.
 2. 로컬 경로로 설정하기
    * `server=/user/monun/my.jar`
      * 리눅스 디렉터리 /user/monun/my.jar 를 이용해 서버를 실행합니다.
@@ -86,6 +86,7 @@ sidebar_position: 5
 ## 다른 구현체들
 
 Go언어로 제작된 서버 실행기: [aroxu](https://github.com/aroxu/server-script)
+Python & Rust: [dolphin2410](https://github.com/dolphin2410/server-script)
 
 ## License
 Server Script의 라이선스는 MIT입니다.
