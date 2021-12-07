@@ -4,10 +4,6 @@
 
 웹 페이지는 https://monun.me 에서, Docs의 구조는 [docs 폴더](https://github.com/HyeonWorks/monun-docs/tree/main/docs/)를 확인해주세요.
 
-# 공지사항
-
-**현재 Maintainer 시험기간으로 인해 업데이트가 잦지 않습니다.**
-
 ---
 
 ## 오타지적, 내용 향상, 잘못된 부분 수정 등 기여 하기
