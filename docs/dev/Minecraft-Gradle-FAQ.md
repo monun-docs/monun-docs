@@ -55,10 +55,17 @@ location of your Java installation.
          project :
 ```
 
-와 같거나 유사한 경우, Spigot 파일들이 로컬 메이븐에 저장되어 있지 않기에 발생하는 오류입니다.
+와 같거나 유사한 경우, Spigot 파일들이 메이븐 로컬 저장소에 있지 않아서 발생하는 오류입니다.
+
+### 1.16.5 이하 및 Legacy Versions
 
 [BuildTools](https://www.spigotmc.org/wiki/buildtools/)를 이용해 관련 파일들을 받아 주시길 바랍니다.
 
 `java -jar BuildTools.jar --rev <version>`
 
 build.gradle.kts에 [setupWorkspace가 들어가 있는 경우](https://github.com/monun/tap/blob/master/build.gradle.kts), `./gradlew setupWorkspace` 명령을 통해 자동으로 BuildTools 작업을 실행 하실 수 있습니다.
+
+### 1.17 이상
+1.17 이상의 버전을 지원하는 대부분의 라이브러리들은 `paperstrap` 플러그인이 라이브러리에 내장되어 있어 사용하실 수 있습니다. 
+
+이 경우, `./gradlew setupDependencies`로 `Paper` 및 `Spigot`을 자동으로 받으실 수 있습니다. 하지만, 이러한 라이브러리들은 `Spigot`이 아닌 `Paper`에 의존하기 때문에, `./gradlew setupPaperAll`을 이용하셔도 무관합니다.
