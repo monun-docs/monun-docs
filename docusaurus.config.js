@@ -13,7 +13,7 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: '/img/favicon.ico',
-  organizationName: 'HyeonWorks', // Usually your GitHub org/user name.
+  organizationName: 'monun-docs', // Usually your GitHub org/user name.
   projectName: 'monun-docs', // Usually your repo name.
 
   themeConfig: {
@@ -79,7 +79,7 @@ algolia: {
         //
         // },
         {
-          href: 'https://github.com/HyeonWorks/monun-docs',
+          href: 'https://github.com/monun-docs/monun-docs',
           label: 'GitHub',
           position: 'right',
         },
@@ -115,7 +115,7 @@ algolia: {
           routeBasePath: '/',
           // Please change this to your repo.
           editUrl:
-            'https://github.com/hyeonworks/monun-docs/edit/docs/',
+            'https://github.com/monun-docs/monun-docs/edit/development/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

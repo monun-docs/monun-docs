@@ -84,7 +84,7 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 sudo apt-get install -y ./파일이름.deb
 ```
 
-#### 아치 리눅스 환경
+#### Arch Linux 환경
 
 > [AUR](https://aur.archlinux.org/)에서 다운로드 or [yay](https://aur.archlinux.org/packages/yay)를 이용한 빌드 (yay 패키지 설치 필요)
 
@@ -94,10 +94,19 @@ git clone https://aur.archlinux.org/<pkgname>
 cd <pkgname>
 makepkg-si
 
-#yay
+# yay
 yay -S <pkgname>
 
 # yay로 설치를 하시게 된다면 기본 경로는 상황에 따라 달라 질 수 있습니다.
+```
+
+archlinux-java-run 패키지를 이용해 실시간으로 Java 버전 버데이트
+
+```shell
+# yay
+yay -S archlinux-java-run
+
+sudo archlinux-java set <JAVA_ENV>
 ```
 
 #### 이외 Linux 환경

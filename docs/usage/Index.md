@@ -18,3 +18,4 @@ slug: /usage
 - [포트리스 (minigame-fortress)](minigame-fortress/Index.md)
 - [파쿠르 메이커 (parkour-maker)](parkour-maker/Index.md)
 - [kotlin-plugin **(deprecated, 1.16.5 이하에서만 사용)**](kotlin-plugin/index.md)
+- [서버 설정하기(~1.16.5)](Old-Plugin-Setup.md)

@@ -15,6 +15,7 @@ slug: /dev/tap
     - [1-3. Fake Projectile](1-3-fake-projectile.md)
     - [1-4. Github Update](1-4-github-update.md)
     - [1-5. Ticker](1-5-ticker.md)
+    - [1-6. Configuration](1-6-configuration.md)
 
 ## License
 Tap의 라이선스는 GPL-3.0입니다.

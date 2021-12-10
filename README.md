@@ -4,10 +4,6 @@
 
 웹 페이지는 https://monun.me 에서, Docs의 구조는 [docs 폴더](https://github.com/HyeonWorks/monun-docs/tree/main/docs/)를 확인해주세요.
 
-# 공지사항
-
-**현재 Maintainer 시험기간으로 인해 업데이트가 잦지 않습니다.**
-
 ---
 
 ## 오타지적, 내용 향상, 잘못된 부분 수정 등 기여 하기
@@ -20,7 +16,7 @@ Issue 또는 Pull Request 를 적극적으로 이용해 주세요!
 
 Discord: BaeHyeonWoo#1017 / PatrickKR#0645
 
-Twitter: [@qogusdn1017](https://twitter.com/qogusdn1017) or [@baehyeonwoo1017](https://twitter.com/baehyeonwoo1017)
+Twitter: [@monundocs](https://twitter.com/monundocs)
 
 ## 라이선스
 
@@ -48,6 +44,7 @@ Twitter: [@qogusdn1017](https://twitter.com/qogusdn1017) or [@baehyeonwoo1017](h
 - [Dytro](https://github.com/dytroInc)
 - [pikokr](https://github.com/pikokr)
 - [정현수](https://github.com/wjdgustn)
+- [dolphin2410](https://github.com/dolphin2410)
 
 ---
 

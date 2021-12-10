@@ -52,7 +52,7 @@ version: ...
 libraries:
     - io.github.monun:tap:+
 ```
-> 주의! 여기에서는 tap-api 대신 tap을 넣어야한다
+> 주의! 여기에서는 tap-api 대신 tap을 넣어야합니다
 
 <!--
 val heptagram = retrieveUser("Heptagram")

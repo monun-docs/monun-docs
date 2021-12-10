@@ -31,7 +31,7 @@ Monun Docs의 전체 문서 구조입니다!
 #### 라이브러리 문서:
 
 - [Tap](dev/tap)
-- [Kommmand](dev/kommand)
+- [Kommand](dev/kommand)
 - [Psychics](dev/psychics)
 - [InvFx](dev/invfx)
 
