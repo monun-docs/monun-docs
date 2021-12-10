@@ -14,7 +14,7 @@ sidebar_position: 2
 
 Oracle JDK의 라이선스 정책이 다시 Java 17 이전과 같아집니다! 자세한 내용은 [이 페이지](https://blogs.oracle.com/java/post/free-java-license)를 확인하세요
 
-물론 OpenJDK도 사용 가능합니다. 다음 내용을 확
+물론 OpenJDK도 사용 가능합니다. 다음 내용을 확인하세요.
 
 ## OS별 OpenJDK 배포판 설치 방법
 
