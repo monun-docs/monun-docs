@@ -22,3 +22,4 @@ slug: /dev
 - [Tap](tap/Index.md)
 - [Kommmand](kommand/Index.md)
 - [Psychics](psychics/Index.md)
+- [InvFX](invfx/Index.md)

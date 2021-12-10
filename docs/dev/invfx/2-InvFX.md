@@ -3,7 +3,7 @@ sidebar_position: 4
 ---
 
 # 2. Deep Dive into InvFX
-이 페이지는 InvFX의 더 다양한 기능에 대한 내용을 다룹니다
+이 페이지는 InvFX의 더 다양한 기능에 대한 내용을 다룹니다.
 
 ## InvSpace
 InvSpace는 인벤토리 상에서 공간을 차지하는 객체가 상속받고 있습니다. `InvPane`, `InvList`, `InvFrame` 모두 이에 상속받습니다. InvSpace의 기능은 아이템을 원하는 좌표에 놓을 수 있도록 하고 클릭이벤트를 핸들링 하는 것입니다.
@@ -20,16 +20,16 @@ frame(numLines, Component.text(invTitle)) {
 }
 ```
 
-위 코드와 같이, InvSpace의 기능을 활용하면, 아이템의 위치 좌표를 쉽게 파악할 수 있다는 장점이 있습니다
+위 코드와 같이, InvSpace의 기능을 활용하면, 아이템의 위치 좌표를 쉽게 파악할 수 있다는 장점이 있습니다.
 
 ## InvWindow
 InvWindow는 앞에서 말했듯이 물리적이지는 않지만 가상의 InventoryHolder입니다. 기본적인 InvFrame은 InvWindow에 상속받기 때문에 InvFrame 자체를 InvWindow라고 보셔도 무관합니다. InvFX에서 InvWindow의 역할은 기본적으로 두가지로 나뉘는데 하나는 InvFX에 의해 만들어진 인벤토리와 다른 인벤토리를 구별하는 것이고, 나머지 하나는 인벤토리에 이벤트를 전달해주는 역할입니다.
 
 ## InvRegion
-InvFX는 InvFrame을 그룹으로 나눌 수 있도록 설계되었습니다. InvRegion은 InvFrame 안의 그룹을 나타냅니다. InvRegion은 InvPane과 InvList, 두가지 종류가 있습니다
+InvFX는 InvFrame을 그룹으로 나눌 수 있도록 설계되었습니다. InvRegion은 InvFrame 안의 그룹을 나타냅니다. InvRegion은 InvPane과 InvList, 두가지 종류가 있습니다.
 
 ### InvPane
-InvPane은 특별한 기능이 없는 단순한 인벤토리 칸의 집합입니다. InvPane을 만드는 방법은 다음과 같습니다. 시작점의 x, y 좌표, 너비(w)와 높이(h)를 다음 코드에 대입하면 됩니다
+InvPane은 특별한 기능이 없는 단순한 인벤토리 칸의 집합입니다. InvPane을 만드는 방법은 다음과 같습니다. 시작점의 x, y 좌표, 너비(w)와 높이(h)를 다음 코드에 대입하면 됩니다.
 
 ```kotlin
 frame(numLines, Component.text(invTitle)) {
