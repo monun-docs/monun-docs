@@ -23,7 +23,7 @@ Please set the JAVA_HOME variable in your environment to match the
 location of your Java installation.
 ```
 
-와 같거나 유사한 경우, JDK가 설치되지 않았거나 PATH에 등록되지 않은 것입니다. 해결 방법은 [Java Installation](Java-Installation.md) 문서를 확인하고 와주세요.
+와 같거나 유사한 경우, JDK가 설치되지 않았거나 PATH에 등록되지 않은 것입니다. 해결 방법은 [Java Installation](Java17-Installation.md) 문서를 확인하고 와주세요.
 
 ## USING JRE
 
@@ -33,7 +33,7 @@ location of your Java installation.
 > Kotlin could not find the required JDK tools in the Java installation 'C:\Program Files (x86)\Java\jre1.8.0_291' used by Gradle. Make sure Gradle is running on a JDK, not JRE.
 ```
 
-와 같거나 유사한 경우, JDK가 설치되지 않았거나 PATH에 등록되지 않았고, JRE를 이용해 빌드 시도를 한 것입니다. 해결 방법은 [Java Installation](Java-Installation.md) 문서를 확인하고 와주세요.
+와 같거나 유사한 경우, JDK가 설치되지 않았거나 PATH에 등록되지 않았고, JRE를 이용해 빌드 시도를 한 것입니다. 해결 방법은 [Java Installation](Java17-Installation.md) 문서를 확인하고 와주세요.
 
 ## NMS Local Repository
 
