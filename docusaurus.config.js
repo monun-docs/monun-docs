@@ -15,9 +15,9 @@ module.exports = {
   favicon: '/img/favicon.ico',
   organizationName: 'monun-docs', // Usually your GitHub org/user name.
   projectName: 'monun-docs', // Usually your repo name.
-
+  plugin: ['@docusaurus/plugin-google-analytics'],
   themeConfig: {
-algolia: {
+  algolia: {
       apiKey: '8ad2a601315ccbff297d828d51ec6542',
       indexName: 'monun',
 
@@ -31,7 +31,9 @@ algolia: {
 
       //... other Algolia params
     },
-
+    googleAnalytics: {
+      trackingID: 'G-5BT26ER3SH',
+    },
     navbar: {
       title: 'monun',
       logo: {
