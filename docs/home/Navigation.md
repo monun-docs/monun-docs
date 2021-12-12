@@ -23,7 +23,7 @@ Monun Docs의 전체 문서 구조입니다!
 
 #### 개발 주요 문서:
 
-- [자바 설치 설명서 (Java Installation)](dev/Java-Installation.md)
+- [자바 설치 설명서 (Java Installation)](dev/Java16-Installation.md)
 - [서버 스크립트 (Server Script)](dev/Server-Script.md)
 - [마인크래프트 관련 Gradle 자주 묻는 질문 모음 (Minecraft Gradle FAQ)](dev/Minecraft-Gradle-FAQ.md)
 - [마인크래프트 서버 관련 자주 묻는 질문 모음 (Minecraft Server FAQ)](dev/Minecraft-Server-FAQ.md)
