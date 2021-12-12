@@ -2,15 +2,15 @@
 sidebar_position: 2
 ---
 
-# Java Installation
+# Java16 Installation
 
 ## 개요
 
 이 문서에서는 자바를 설치하는 내용을 다루고 있습니다.
 
-마인크래프트 [21w19a](https://www.minecraft.net/en-us/article/minecraft-snapshot-21w19a) 버전부터 Java 16 을 요구함에 따라, Spigot과 Paper을 포함한 모장의 서버 코드를 기반으로 하는 마인크래프트 서버 실행는 Java 16을 필요로 하게 되었습니다.
+마인크래프트 [21w19a](https://www.minecraft.net/en-us/article/minecraft-snapshot-21w19a) 버전부터 Java 16 을 요구함에 따라, Spigot과 Paper을 포함한 모장의 서버 코드를 기반으로 하는 마인크래프트 서버 실행은 Java 16을 필요로 하게 되었습니다.
 
-이에 따라, NMS (net.minecraft.server, 모장의 서버 코드를 의미) 나 Paper API (Spigot의 포크로, 퍼포먼스 향상 및 확장된 API 제공) 를 사용하는 플러그인 개발에서는, JDK 16을 필수적으로 사용해야 합니다. (단순 Bukkit 및 Spigot API 사용 시에는 JDK 1.8로도 충분합니다.)
+이에 따라, NMS (net.minecraft.server, 모장의 서버 코드를 의미) 나 Paper API (Spigot의 포크로, 퍼포먼스 향상 및 확장된 API 제공) 를 사용하는 플러그인 개발을 위해서는, JDK 16을 필수적으로 사용해야 합니다. (단순 Bukkit 및 Spigot API 사용 시에는 JDK 1.8로도 충분합니다.)
 
 ## 시작 하기 전
 
@@ -20,7 +20,7 @@ sidebar_position: 2
 
 대표적인 OpenJDK 기반의 배포판에는, AdoptOpenJDK 및 Azul Zulu, Amazon Corretto 등이 있습니다. 
 
-Oracle 에서 배포하는 OpenJDK 를 그대로 사용하거나 개인 사용 목적에 한해서는 OracleJDK 또한 사용이 가능합니다.
+Oracle 에서 배포하는 OpenJDK는 그대로 사용하거나 개인 사용 목적에 한해서는 OracleJDK 또한 사용이 가능합니다.
 
 각 배포판별 장단점 등을 고려하여, 원하는 배포판을 받아 사용하시면 됩니다.
 
@@ -100,7 +100,7 @@ yay -S <pkgname>
 # yay로 설치를 하시게 된다면 기본 경로는 상황에 따라 달라 질 수 있습니다.
 ```
 
-archlinux-java-run 패키지를 이용해 실시간으로 Java 버전 버데이트
+archlinux-java-run 패키지를 이용해 실시간으로 Java 버전 업데이트
 
 ```shell
 # yay

@@ -12,7 +12,7 @@ sidebar_position: 5
 
 간편하게 마인크래프트 Paper 서버를 구축해주는 스크립트를 담은 레포지토리입니다.
 
-리눅스 환경에서 스크립트 실행이 권장되며, 윈도우 환경에서도 사용이 가능하나 현재로써는 어느정도 복잡합니다.
+리눅스 환경에서 스크립트 실행이 권장되며, 윈도우 환경에서도 사용이 가능하나 현재로서는 어느정도 복잡합니다.
 
 ---
 
@@ -58,35 +58,53 @@ sidebar_position: 5
 
 #### mingw64
 
-* git을 설치하면 `C:\Program Files\Git\mingw64` 경로에 자동으로 설치됩니다.
+* git을 설치하면 기본적으로 `C:\Program Files\Git\mingw64` 에 설치됩니다.
 * 환경변수 PATH에 `C:\Program Files\Git\mingw64\bin` 을 추가하세요.
-* [wget.exe](https://eternallybored.org/misc/wget/) 파일을 다운로드하여 mingw64 폴더에 넣어주세요. (주의: GNU에서 릴리즈하는 공식 바이너리 파일이 아닙니다. 주의해 주시기 바랍니다.)
+* [wget.exe](https://eternallybored.org/misc/wget/) 파일을 다운로드하여 mingw64 폴더에 넣어주세요. ***(주의: GNU에서 릴리즈하는 공식 바이너리 파일이 아닙니다. 주의해 주시기 바랍니다.)***
 
 ---
 
-## start.sh.conf의 server 설정하기 (서버로 사용할 jar파일 설정하기)
+## 서버 설정하기
+### server 설정하기 (서버로 사용할 jar파일 설정하기)
 
 1. URL로 설정하기 (웹에서 파일을 다운로드하여 `~/.minecraft/server/` 폴더에 저장 후 서버 시작)
    * `server=https://papermc.io/api/v2/projects/<project>/versions/<version>/builds/<build>/downloads/<downloads>` : wget을 통해 웹에서 다운로드 합니다.
+
 2. 로컬 경로로 설정하기
-   * `server=/user/monun/my.jar`
-     * 리눅스 디렉터리 /user/monun/my.jar 를 이용해 서버를 실행합니다.
-   * `server=$HOME/my.jar`
-     * $HOME 변수가 존재할때 $HOME 디렉터리에 있는 my.jar 를 이용해 서버를 실행합니다.
-   * `server=C:\\Users\monun\my.jar`
-     * 윈도우 디렉터리 C:\Users\monun\my.jar 를 이용해 서버를 실행합니다.
-3. 현재 디렉토리에서 자동으로 찾기
+   * `server=/path/to/my.jar`
+     * `/path/to` 디렉토리에 위치한 `my.jar` 를 이용해 서버를 실행합니다.
+   
+   * `server=$ENV_VAR/my.jar`
+     * `$ENV_VAR` 변수가 존재할때 $ENV_VAR 디렉토리에 있는 `my.jar` 를 이용해 서버를 실행합니다. 
+
+3. 현재 디렉터리에서 자동으로 찾기
    * `server=.`
+
+### 메모리 할당하기
+* 메모리는 GB(기가바이트) 단위로 할당합니다.
+   * `memory=2`
+      * 2GB의 메모리를 할당합니다.
+
+### 백업
+* 서버 종료 후, 자동으로 서버를 백업 해주는 기능입니다.
+   * `backup=true`
+      * 자동으로 백업을 합니다.
+
+### 자동 재시작
+* 서버 종료 후, 자동으로 서버를 재시작 해주는 기능입니다.
+   * `force_restart=true`
+      * 자동으로 재시작을 합니다.
 
 ## 문제해결
 
-* 다운로드한 server jar이 인식이 안돼요
+* 다운로드한 `server.jar`이 인식이 안돼요
   * grep 에서 perl 정규식을 사용 할 수 있어야 합니다. grep 업데이트를 진행해주세요. (최소 grep 2.5)
 
 ## 다른 구현체들
 
 Go언어로 제작된 서버 실행기: [aroxu](https://github.com/aroxu/server-script)
-Python & Rust: [dolphin2410](https://github.com/dolphin2410/server-script)
+
+Rust: [dolphin2410](https://github.com/dolphin2410/server-script)
 
 ## License
 Server Script의 라이선스는 MIT입니다.
