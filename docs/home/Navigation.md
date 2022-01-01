@@ -37,11 +37,14 @@ Monun Docs의 전체 문서 구조입니다!
 
 ## Usage Docs
 
-- [능력자 (psychics)](usage/psychics)
+- **[해돋이 야생 (realtime / 현실과 마인크래프트간의 시간 연동)](usage/realtime)**
+- **[재산증식형 보드게임 (speculation)](usage/speculation)**
+- **[능력자 (psychics)](usage/psychics)**
 - [생존일지 (series-survival)](usage/series-survival)
 - [농작물 플러그인 (farm)](usage/farm)
 - [구역설정 플러그인 (regions)](usage/regions)
-- [불편한 동거 (inv-captive)](usage/inv-captive)
+- **[불편한 동거 (inv-captive)](usage/inv-captive)**
 - [포트리스 (minigame-fortress)](usage/minigame-fortress)
 - [파쿠르 메이커 (parkour-maker)](usage/parkour-maker)
 - [kotlin-plugin **(deprecated, 1.16.5 이하에서만 사용)**](usage/kotlin-plugin)
+- [하위버전 서버 설정하기(~1.16.5)](usage/Old-Plugin-Setup.md)
