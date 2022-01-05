@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Java17 Installation
+# Java 17 Installation
 
 ## 개요
 
@@ -12,7 +12,7 @@ sidebar_position: 2
 
 ## 시작 하기 전
 
-Oracle JDK의 라이선스 정책이 다시 Java 17 이전과 같아집니다! 자세한 내용은 [이 페이지](https://blogs.oracle.com/java/post/free-java-license)를 확인하세요
+Oracle JDK의 라이선스 정책이 다시 Java 16 이전과 같아집니다! 자세한 내용은 [이 페이지](https://blogs.oracle.com/java/post/free-java-license)를 확인하세요
 
 물론 OpenJDK도 사용 가능합니다. 다음 내용을 확인하세요.
 
@@ -26,15 +26,20 @@ Oracle JDK의 라이선스 정책이 다시 Java 17 이전과 같아집니다! �
 >
 > [Amazon Corretto](https://docs.aws.amazon.com/corretto/latest/corretto-17-ug/downloads-list.html): [.msi](https://corretto.aws/downloads/latest/amazon-corretto-17-x64-windows-jdk.msi) [.zip](https://corretto.aws/downloads/latest/amazon-corretto-17-x64-windows-jdk.zip)
 >
-> [AdoptOpenJDK](https://adoptopenjdk.net/releases.html?variant=openjdk17&jvmVariant=hotspot)
->
-> [Azul Zulu](https://www.azul.com/downloads/?version=java-17-sts&os=windows&package=jdk)
+> [Azul Zulu](https://www.azul.com/downloads/?version=java-17-lts&os=windows&package=jdk)
 
 원하는 배포판을 받아 설치한 뒤, JAVA_HOME 및 Path 환경변수를 설정해주시면 됩니다. 
 
+#### GUI
 1. `Win + R` 키를 눌러, 실행 창을 열고, `"C:\Windows\system32\rundll32.exe" sysdm.cpl,EditEnvironmentVariables` 를 입력해줍니다.
 2. 기존에 시스템 변수에 `JAVA_HOME` 이 있다면 더블클릭하여 수정을, 아니라면 `새로 만들기` 를 눌러 변수 이름에 `JAVA_HOME` 을 넣은 뒤, 설치한 Java 의 루트 경로 (Java 설치 시 bin, conf, lib 등 들어있는 폴더) 를 값으로 넣어줍니다.
 3. 시스템 변수의 Path를 더블클릭한 후, `%JAVA_HOME%\bin` 를 추가해줍니다.
+
+#### CLI
+1. `cmd`를 관리자 권한으로 엽니다.
+2. `set JAVA_HOME "<자바 설치 경로>"`을 실행합니다.
+> 자바 설치 경로 예: C:\Program Files\OpenJDK\jdk-17.0.1
+3. `setx /m JAVA_HOME %JAVA_HOME% && setx /m PATH "%PATH%;%JAVA_HOME%\bin"`을 실행합니다.
 
 ---
 ### macOS
@@ -44,9 +49,7 @@ Oracle JDK의 라이선스 정책이 다시 Java 17 이전과 같아집니다! �
 >
 > [Amazon Corretto](https://corretto.aws/downloads/latest/amazon-corretto-17-x64-macos-jdk.pkg)
 >
-> [AdoptOpenJDK](https://adoptopenjdk.net/releases.html?variant=openjdk17&jvmVariant=hotspot)
->
-> [Azul Zulu](https://www.azul.com/downloads/?version=java-17-sts&os=macos&package=jdk)
+> [Azul Zulu](https://www.azul.com/downloads/?version=java-17-lts&os=macos&package=jdk)
 
 JAVA_HOME 설정이 필요한 경우는 아래를 참조하세요.
 ```bash
@@ -62,9 +65,7 @@ export JAVA_HOME=$(/usr/libexec/java_home)
 >
 > [Amazon Corretto](https://docs.aws.amazon.com/corretto/latest/corretto-17-ug/downloads-list.html): [Linux x64 .deb](https://corretto.aws/downloads/latest/amazon-corretto-17-x64-linux-jdk.deb) [Linux x64 .rpm](https://corretto.aws/downloads/latest/amazon-corretto-17-x64-linux-jdk.rpm) [Linux x64 .tar.gz](https://corretto.aws/downloads/latest/amazon-corretto-17-x64-linux-jdk.tar.gz)
 >
-> [AdoptOpenJDK](https://adoptopenjdk.net/releases.html?variant=openjdk17&jvmVariant=hotspot)
->
-> [Azul Zulu](https://www.azul.com/downloads/?version=java-17-sts&os=linux&package=jdk)
+> [Azul Zulu](https://www.azul.com/downloads/?version=java-17-lts&os=linux&package=jdk)
 
 #### Debian 계열 Linux 환경 (apt 사용):
 
