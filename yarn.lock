@@ -2508,7 +2508,7 @@
     "@docsearch/css" "3.0.0-alpha.39"
     algoliasearch "^4.0.0"
 
-"@docusaurus/core@2.0.0-beta.14", "@docusaurus/core@^2.0.0-beta.14":
+"@docusaurus/core@2.0.0-beta.14":
   version "2.0.0-beta.14"
   resolved "https://registry.yarnpkg.com/@docusaurus/core/-/core-2.0.0-beta.14.tgz#9baf8fbfe29f444f985616013b5d80435ea5f29e"
   integrity sha512-dW95WbD+WE+35Ee1RYIS1QDcBhvUxUWuDmrWr1X0uH5ZHIeOmOnsGVjjn4FA8VN2MkF0uuWknmRakQmJk0KMZw==
@@ -2732,7 +2732,7 @@
     sitemap "^7.0.0"
     tslib "^2.3.1"
 
-"@docusaurus/preset-classic@^2.0.0-beta.14":
+"@docusaurus/preset-classic@2.0.0-beta.14":
   version "2.0.0-beta.14"
   resolved "https://registry.yarnpkg.com/@docusaurus/preset-classic/-/preset-classic-2.0.0-beta.14.tgz#128026fb201fdc6271614587ca09187bc83d930a"
   integrity sha512-43rHA6wM4FcbHLPiBpqY4VSUjUXOWvW/N4q0wvf1LMoPH25lUzIaldpjD3Unzq5+UCYCFES24ktl58QOh7PB2g==
@@ -5804,7 +5804,7 @@ dns-txt@^2.0.2:
   dependencies:
     buffer-indexof "^1.0.0"
 
-docusaurus@^1.14.7:
+docusaurus@1.14.7:
   version "1.14.7"
   resolved "https://registry.yarnpkg.com/docusaurus/-/docusaurus-1.14.7.tgz#f51858ab643b29ec52264d6dd85e0d629e5b3a4a"
   integrity sha512-UWqar4ZX0lEcpLc5Tg+MwZ2jhF/1n1toCQRSeoxDON/D+E9ToLr+vTRFVMP/Tk84NXSVjZFRlrjWwM2pXzvLsQ==
