@@ -31,3 +31,6 @@ org.bukkit.plugin.UnknownDependencyException: Unknown dependency ~~~. Please dow
 와 같거나 유사한 경우, 의존성 플러그인이 누락된 문제입니다. 의존성 플러그인을 다운받아 주세요.
 
 제가 제작한 의존 가능한 플러그인들은 [Tap](https://github.com/monun/tap/releases), [Kotlin](https://github.com/monun/kotlin-plugin/releases)등이 있으며, 다른 이들이 만든 의존성 플러그인들은 [WorldEdit](https://dev.bukkit.org/projects/worldedit/files), [ProtocolLib](https://github.com/dmulloy2/ProtocolLib/releases) 등이 있습니다.
+
+    - 1.17 업데이트 이후 Maven Central Repository에서 제 라이브러리를 바로 다운로드 할 수 있기에
+    1.17 이후에 나온 플러그인들은 의존성 플러그인을 다운받을 필요 없이 플러그인 파일을 받기만 하면 자동 적용됩니다.

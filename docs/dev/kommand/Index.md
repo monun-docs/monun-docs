@@ -32,6 +32,7 @@ Kommand는 위와 같은 문제를 해결하고 명령문을 보다 직관적인
 - [2. Requires, Arguments, Contexts](2-requires-arguments-contexts.md)
 - [3. More About KommandArgument](3-more-kommandargument.md)
     - [3-1. KommandArgument Content Explanation](3-1-kommandargument-content-explanation.md)
+    - [3-2. Dynamic Argument](3-2-dynamic-argument.md)
 
 ## License
 
