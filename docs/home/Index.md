@@ -1,5 +1,5 @@
 ---
-title: Welcome to Monun Docs!
+title: Welcome
 slug: /
 sidebar_position: 1
 ---
@@ -16,11 +16,11 @@ Issue 또는 Pull Request 를 적극적으로 이용해 주세요!
 
 ## monun-docs 멤버로 참여하기 
 
-자유롭게 디스코드 혹은 트위터 DM 남겨주세요!
+트위터 DM이나 이메일로 연락을 남겨주세요!
 
-Discord: BaeHyeonWoo#1017 / PatrickKR#0645
+Twitter: [@monundocs](https://github.com/monun-docs/monun-docs/)
 
-Twitter: [@qogusdn1017](https://twitter.com/qogusdn1017) or [@baehyeonwoo1017](https://twitter.com/baehyeonwoo1017)
+E-mail: [qogusdn1017@baehyeonwoo.com](mailto:qogusdn1017@baehyeonwoo.com)
 
 ## 라이선스
 
@@ -48,6 +48,7 @@ Twitter: [@qogusdn1017](https://twitter.com/qogusdn1017) or [@baehyeonwoo1017](h
 - [Dytro](https://github.com/dytroInc)
 - [pikokr](https://github.com/pikokr)
 - [정현수](https://github.com/wjdgustn)
+- [dolphin2410](https://github.com/dolphin2410)
 
 ---
 

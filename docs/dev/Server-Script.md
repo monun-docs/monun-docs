@@ -10,7 +10,7 @@ sidebar_position: 5
 
 ## Server Script 레포지토리가 뭔가요?
 
-간편하게 마인크래프트 Paper 서버를 구축해주는 스크립트를 담은 레포지토리입니다.
+간편하게 마인크래프트 서버를 구축해주는 스크립트를 담은 레포지토리입니다.
 
 리눅스 환경에서 스크립트 실행이 권장되며, 윈도우 환경에서도 사용이 가능하나 현재로서는 어느정도 복잡합니다.
 
@@ -18,89 +18,56 @@ sidebar_position: 5
 
 ## 실행 필수환경
 
-- JAVA
+- Java
+- Linux 환경
 
-- LINUX (Shell)
+## 실행하기
+아래 명령어들은 리눅스 환경을 요구합니다. 윈도우의 경우 [여기](Windows-Setup)에서 설정하세요.
 
-### Linux
+### 기본
+```bash
+wget https://raw.githubusercontent.com/monun/server-script/master/.server/start.sh # 다운로드
+chmod +x ./start.sh # 실행 권한 부여
+./start.sh launch # 실행
+```
+> [서버를 설정하기](#서버-설정하기)
 
-#### start.sh (기본)
+### 커스텀
 
-1. .server/start.sh 파일을 다운로드
-   * `wget https://raw.githubusercontent.com/monun/server-script/master/.server/start.sh`
-2. 실행권한 부여
-   * `chmod +x ./start.sh`
-3. 실행 
-   * `./start.sh` (현재 폴더에서 서버 실행됨)
-4. [선택] 서버 시작시 생성된 ./start.sh.conf 파일을 필요대로 수정
-
-#### {server}.sh (사전 설정 가능)
-
-1. 원하는 스크립트 선택 (아래 방법 중 하나를 선택)
-   * 예) paper 스크립트 다운로드 `wget https://raw.githubusercontent.com/monun/server-script/master/paper.sh`
-   * 예) 프로젝트를 복제 `git clone https://github.com/monun/server-script.git`
-2. [선택] 스크립트를 수정 (플러그인, 백업, 재시작 등)
-3. 실행권한 부여
-   * `chmod +x ./{script}.sh`
-4. 실행
-   * `./{script}.sh` (`.{script}` 폴더에서 server.sh 스크립트를 이용한 서버가 실행됨)
-5. [선택] 사전설정된 스크립트를 배포
-
-### Windows
-
-윈도우 유저분들은 WSL혹은 mingw64를 통해 실행하세요.
-
-#### WSL
-
-어느정도 리눅스에 대한 지식이 필요하기에, 아래의 mingw64 보다는 다소 복잡할 수 있습니다.
-
-[Microsoft 공식 설명서](https://docs.microsoft.com/ko-kr/windows/wsl/install-win10) 를 읽고, WSL을 구성한 뒤 서버스크립트를 WSL 내에서 실행시켜주시면 됩니다.
-
-#### mingw64
-
-* git을 설치하면 기본적으로 `C:\Program Files\Git\mingw64` 에 설치됩니다.
-* 환경변수 PATH에 `C:\Program Files\Git\mingw64\bin` 을 추가하세요.
-* [wget.exe](https://eternallybored.org/misc/wget/) 파일을 다운로드하여 mingw64 폴더에 넣어주세요. ***(주의: GNU에서 릴리즈하는 공식 바이너리 파일이 아닙니다. 주의해 주시기 바랍니다.)***
+`https://raw.githubusercontent.com/monun/server-script/master/paper.sh`에서 다운로드 받으신 후 파일을 수정해 배포하세요.
+```bash
+chmod +x ./{script}.sh # 실행 권한 주기
+./{script}.sh # 실행하기
+```
+> 만든 스크립트를 배포하실 수 있습니다.
 
 ---
 
 ## 서버 설정하기
-### server 설정하기 (서버로 사용할 jar파일 설정하기)
+```bash
+# start.sh.conf
 
-1. URL로 설정하기 (웹에서 파일을 다운로드하여 `~/.minecraft/server/` 폴더에 저장 후 서버 시작)
-   * `server=https://papermc.io/api/v2/projects/<project>/versions/<version>/builds/<build>/downloads/<downloads>` : wget을 통해 웹에서 다운로드 합니다.
+memory=2 # 2GB 메모리 할당
+backup=true # 서버 종료 후 자동 백업
+force_restart=true # 서버 종료 후 재시작
+plugins=(
+   'https://example.com/plugin.jar',
+   'https://example.com/world-edit.jar'
+) # 두 URL에서 플러그인 다운로드
 
-2. 로컬 경로로 설정하기
-   * `server=/path/to/my.jar`
-     * `/path/to` 디렉토리에 위치한 `my.jar` 를 이용해 서버를 실행합니다.
-   
-   * `server=$ENV_VAR/my.jar`
-     * `$ENV_VAR` 변수가 존재할때 $ENV_VAR 디렉토리에 있는 `my.jar` 를 이용해 서버를 실행합니다. 
-
-3. 현재 디렉터리에서 자동으로 찾기
-   * `server=.`
-
-### 메모리 할당하기
-* 메모리는 GB(기가바이트) 단위로 할당합니다.
-   * `memory=2`
-      * 2GB의 메모리를 할당합니다.
-
-### 백업
-* 서버 종료 후, 자동으로 서버를 백업 해주는 기능입니다.
-   * `backup=true`
-      * 자동으로 백업을 합니다.
-
-### 자동 재시작
-* 서버 종료 후, 자동으로 서버를 재시작 해주는 기능입니다.
-   * `force_restart=true`
-      * 자동으로 재시작을 합니다.
+server=https://example.com/server.jar # URL 설정하기
+# server=/path/to/my.jar # 로컬 경로로 찾기
+# server=. # 현재 경로에서 자동으로 찾기
+```
 
 ## 문제해결
 
-* 다운로드한 `server.jar`이 인식이 안돼요
-  * grep 에서 perl 정규식을 사용 할 수 있어야 합니다. grep 업데이트를 진행해주세요. (최소 grep 2.5)
+- 다운로드한 `server.jar`이 인식이 안돼요
+   - grep 에서 perl 정규식을 사용 할 수 있어야 합니다. grep 업데이트를 진행해주세요. (최소 grep 2.5)
 
 ## 다른 구현체들
+
+[Paper 전용 서버 실행기](Paper-Server-Script): [monun](https://github.com/monun/server-script/tree/paper)
 
 Go언어로 제작된 서버 실행기: [aroxu](https://github.com/aroxu/server-script)
 

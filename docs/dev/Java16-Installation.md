@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Java16 Installation
+# Java 16 Installation
 
 ## 개요
 

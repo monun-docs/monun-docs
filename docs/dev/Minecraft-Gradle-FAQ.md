@@ -69,3 +69,5 @@ build.gradle.kts에 [setupWorkspace가 들어가 있는 경우](https://github.c
 1.17 이상의 버전을 지원하는 대부분의 라이브러리들은 `paperstrap` 플러그인이 라이브러리에 내장되어 있어 사용하실 수 있습니다. 
 
 이 경우, `./gradlew setupDependencies`로 `Paper` 및 `Spigot`을 자동으로 받으실 수 있습니다. 하지만, 이러한 라이브러리들은 `Spigot`이 아닌 `Paper`에 의존하기 때문에, `./gradlew setupPaperAll`을 이용하셔도 무관합니다.
+
+- **주의: 사용자의 하드웨어 성능에 따라서 작업 환경에 영향을 미칠 수 있음을 미리 말씀드립니다.**

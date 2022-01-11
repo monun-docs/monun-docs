@@ -36,7 +36,7 @@ frame(numLines, Component.text(invTitle)) {
     pane(x, y, w, h, init)
 }
 ```
-> 주의! y + w의 값은 9이하어야 하고, x + h의 값은 `numLines`이하어야한다. 또한, x, y, w, h 모두 양수어야한다
+> 주의! y + w의 값은 9이하어야 하고, x + h의 값은 `numLines`이하여야합니다. 또한, x, y, w, h 모두 양수어야합니다.
 
 위 코드의 `init`에서 InvFrame의 초기 설정과 비슷하게, 핸들러 설정이나 아이템 위치를 할 수 있습니다. 아이템 위치를 설정할 때는, InvFrame 상에서의 좌표가 아닌 위에서 정의한 InvPane의 시작점을 기준으로 상대적인 좌표를 의미하니 주의하세요. `onClick` 핸들러 또한 x, y 는 시작점 중심 상대적 좌표를 의미합니다.
 
