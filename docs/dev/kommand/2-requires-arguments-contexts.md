@@ -39,7 +39,7 @@ kommand {
 
 Kommand 에서는 커맨드에 대한 Arguments를 지원합니다. 또 이러한 Argument를 Context로 가져와 사용 할 수 있습니다.
 
-then을 이용해 Argument를 만들 수 있으며, Context를 이용해 입력 된 Argument를 가져올 수 있습니다. 
+then을 이용해 Argument를 만들 수 있으며, Context를 이용해 입력 된 Argument를 가져올 수 있습니다(io.github.monun.kommand.getValue를 import해야 가져올 수 있습니다). 
 
 KommandArgument에서는 자주 사용되거나 기본적인 Argument를 불러올 수 있습니다.
 
@@ -58,7 +58,7 @@ kommand {
         then("argument" to string()) {
             executes {
                 val argument: String by it // Kommand의 getValue를 import해야 사용할 수 있는 구문입니다.
-                player.sendmessage(text("입력된 Argument는 다음과 같습니다: $argument"))
+                player.sendMessage(text("입력된 Argument는 다음과 같습니다: $argument"))
             }
         }
     }
