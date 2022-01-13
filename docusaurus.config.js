@@ -17,7 +17,7 @@ module.exports = {
   projectName: 'monun-docs', // Usually your repo name.
   themeConfig: {
   algolia: {
-      apiKey: '8ad2a601315ccbff297d828d51ec6542',
+      apiKey: '3b881cbfbaac356fe8518510a19cfb13',
       indexName: 'monun',
 
       // Optional: see doc section below
