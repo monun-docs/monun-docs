@@ -31,9 +31,7 @@ module.exports = {
 
       //... other Algolia params
     },
-    googleAnalytics: {
-      trackingID: 'G-5BT26ER3SH',
-    },
+    
     navbar: {
       title: 'monun',
       logo: {
