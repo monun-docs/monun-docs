@@ -2,6 +2,8 @@
 sidebar_position: 2
 ---
 
+import {MavenVersion,fetchLatestVersion} from "@site/src/components/MavenVersion"
+
 # 0. InvFX Getting Started
 
 ## 개발 환경
@@ -11,39 +13,37 @@ sidebar_position: 2
 
 ## InvFX 사용하기
 ### build.gradle
-```groovy
-repositories {
+<MavenVersion language="groovy" artifact="io.github.monun:invfx-api">
+    {`repositories {
     mavenCentral()
-}
-
+}${"\n"}
 dependencies {
-    implementation 'io.github.monun:invfx-api:+'
-}
-```
+    implementation 'io.github.monun:invfx-api:{version}'
+}`}
+</MavenVersion>
 
 ### build.gradle.kts
-```kotlin
-repositories {
+<MavenVersion language="kotlin" artifact="io.github.monun:invfx-api">
+    {`repositories {
     mavenCentral()
-}
-
+}${"\n"}
 dependencies {
-    implementation("io.github.monun:invfx-api:+")
-}
-```
+    implementation("io.github.monun:invfx-api:{version}")
+}`}
+</MavenVersion>
 
 ### plugin.yml
-```yaml
-name: ...
+<MavenVersion language="yaml" artifact="io.github.monun:invfx-api">
+    {`name: ...
 author: ...
 main: ...
 version: ...
 libraries:
-    - io.github.monun:invfx:+
+    - io.github.monun:invfx:{version}
     - org.jetbrains.kotlin:kotlin-stdlib:1.5.21
     - org.jetbrains.kotlin:kotlin-reflect:1.5.21
-    - org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0
-```
+    - org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0`}
+</MavenVersion>
 > 주의! 여기에서는 invfx-api 대신 invfx을 넣어야합니다.
 
 
