@@ -17,7 +17,8 @@ module.exports = {
   projectName: 'monun-docs', // Usually your repo name.
   themeConfig: {
   algolia: {
-      apiKey: '8ad2a601315ccbff297d828d51ec6542',
+      appId: "AUM0JP690H",
+      apiKey: '3b881cbfbaac356fe8518510a19cfb13',
       indexName: 'monun',
 
       // Optional: see doc section below
@@ -30,9 +31,7 @@ module.exports = {
 
       //... other Algolia params
     },
-    googleAnalytics: {
-      trackingID: 'G-5BT26ER3SH',
-    },
+    
     navbar: {
       title: 'monun',
       logo: {
