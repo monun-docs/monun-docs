@@ -83,7 +83,7 @@ sudo apt-get install -y ./파일이름.deb
 # AUR
 git clone https://aur.archlinux.org/<pkgname>
 cd <pkgname>
-makepkg-si
+makepkg -si
 
 # yay
 yay -S <pkgname>
