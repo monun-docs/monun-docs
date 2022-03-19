@@ -1,0 +1,9 @@
+[context.production]
+environment = { NETLIFY_EXPERIMENTAL_BUILD_RUST_SOURCE = "true" }
+
+[build]
+  functions = "functions"
+
+[[redirects]]
+  from = "/maven"
+  to = "/.netlify/functions/maven"
