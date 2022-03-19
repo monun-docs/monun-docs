@@ -6,6 +6,8 @@ import {MavenVersion,fetchLatestVersion} from "@site/src/components/MavenVersion
 
 # 0. InvFX Getting Started
 
+import {MavenVersion,fetchLatestVersion} from "@site/src/components/MavenVersion"
+
 ## 개발 환경
     * JDK 16+
     * Kotlin
@@ -23,7 +25,11 @@ dependencies {
 </MavenVersion>
 
 ### build.gradle.kts
+<<<<<<< HEAD
 <MavenVersion language="kotlin" notation="io.github.monun:invfx-api">
+=======
+<MavenVersion language="kotlin" artifact="io.github.monun:invfx-api">
+>>>>>>> ca1836f3f19de61b79817adbd05417ce1a099cae
     {`repositories {
     mavenCentral()
 }${"\n"}
@@ -33,7 +39,11 @@ dependencies {
 </MavenVersion>
 
 ### plugin.yml
+<<<<<<< HEAD
 <MavenVersion language="yaml" notation="io.github.monun:invfx-api">
+=======
+<MavenVersion language="yaml" artifact="io.github.monun:invfx-api">
+>>>>>>> ca1836f3f19de61b79817adbd05417ce1a099cae
     {`name: ...
 author: ...
 main: ...

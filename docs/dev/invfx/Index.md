@@ -8,7 +8,7 @@ slug: /dev/invfx
 
 ## InvFX 문서 Navigation
 
-- [0. Setup](0-getting-started.md)
+- [0. Setup](0-getting-started.mdx)
 - [1. Inventory Creation](1-inventory-creation.md)
 - [2. Deep Dive into InvFX](2-InvFX.md)
 
