@@ -1,6 +1,9 @@
 [context.production]
 environment = { NETLIFY_EXPERIMENTAL_BUILD_RUST_SOURCE = "true" }
 
+[context.development]
+environment = { NETLIFY_EXPERIMENTAL_BUILD_RUST_SOURCE = "true" }
+
 [build]
   functions = "functions"
 
