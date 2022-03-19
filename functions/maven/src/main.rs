@@ -5,18 +5,7 @@ use hyper::{Client, body};
 use hyper_tls::HttpsConnector;
 use lambda_runtime::{handler_fn, Context, Error};
 use log::LevelFilter;
-use serde::{Serialize, Deserialize};
 use simple_logger::SimpleLogger;
-
-#[derive(Debug, Serialize, Deserialize)]
-struct Response {
-    versioning: Versioning
-}
-
-#[derive(Debug, Serialize, Deserialize)]
-struct Versioning {
-    latest: String
-}
 
 #[tokio::main]
 async fn main() -> Result<(), Error> {
@@ -42,13 +31,13 @@ pub(crate) async fn my_handler(event: ApiGatewayProxyRequest, _ctx: Context) -> 
 
     let str = String::from_utf8(body_bytes.to_vec())?;
 
-    let res = serde_xml_rs::from_str::<Response>(str.as_str())?;
+    let regex = fancy_regex::Regex::new(r#"(?<=<latest>)(.*?)(?=<\/latest>)"#)?;
 
     let resp = ApiGatewayProxyResponse {
         status_code: 200,
         headers: HeaderMap::new(),
         multi_value_headers: HeaderMap::new(),
-        body: Some(Body::Text(format!("{}", res.versioning.latest))),
+        body: Some(Body::Text(format!("{}", regex.find(str.as_str()).unwrap().unwrap().as_str()))),
         is_base64_encoded: Some(false),
     };
 
