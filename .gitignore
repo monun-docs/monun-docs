@@ -23,4 +23,4 @@ yarn-error.log*
 # Local Netlify folder
 .netlify
 
-**/target
+yarn.lock
