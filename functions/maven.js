@@ -1,12 +1,12 @@
-const fetch = require("node-fetch")
+const axios  = require("axios")
 
 exports.handler = async (event, context) => {
     let uri = `https://repo.maven.apache.org/maven2/${event.queryStringParameters.group}/${event.queryStringParameters.artifact}/maven-metadata.xml`
     console.log(uri)
-    let response = await fetch(uri)
-    let text = await response.text()
+    let response = await axios.get(uri)
+
     return {
         statusCode: 200,
-        body: text.match(/(?<=<latest>)(.*?)(?=<\/latest>)/)[0]
+        body: response.data.match(/(?<=<latest>)(.*?)(?=<\/latest>)/)[0]
     }
 }
