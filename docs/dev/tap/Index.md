@@ -8,7 +8,7 @@ slug: /dev/tap
 
 ## Tap 문서 Navigation
 
-- [0. Setup](0-setup.md)
+- [0. Setup](0-getting-started.mdx)
 - [1. Features](1-features.md)
     - [1-1. Packets](1-1-packet.md)
     - [1-2. Fake Entity](1-2-fake-entity.md)

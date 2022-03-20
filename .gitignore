@@ -1,6 +1,7 @@
 # Dependencies
 /node_modules
-
+yarn.lock
+package-lock.json
 # Production
 /build
 
@@ -20,3 +21,7 @@ yarn-debug.log*
 yarn-error.log*
 
 .idea
+# Local Netlify folder
+.netlify
+
+yarn.lock

@@ -4,6 +4,8 @@ sidebar_position: 2
 
 # 0. Setup
 
+import {MavenVersion} from "@site/src/components/MavenVersion"
+
 ## 개발 환경
     * JDK 16+
     * Kotlin
@@ -22,36 +24,44 @@ sidebar_position: 2
 ## 사용
 ### Gradle
 #### Groovy
-```groovy
-repositories {
+
+<MavenVersion language="groovy" notation="io.github.monun:tap-api">
+    {
+`repositories {
     mavenCentral()
 }
-
+ 
 dependencies {
-    implementation 'io.github.monun:tap-api:+'
-}
-```
-
+    implementation 'io.github.monun:tap-api:{version}'
+}`
+    }
+</MavenVersion>
 #### Kotlin
-```kotlin
-repositories {
+
+<MavenVersion language="kotlin" notation="io.github.monun:tap-api">
+    {
+`repositories {
     mavenCentral()
 }
-
+ 
 dependencies {
-    implementation("io.github.monun:tap-api:+")
+    implementation("io.github.monun:tap-api:{version}")
 }
-```
+`
+    }
+</MavenVersion>
 
 ### plugin.yml
-```yaml
-name: ...
+<MavenVersion language="yaml" notation="io.github.monun:tap">
+    {
+`name: ...
 author: ...
 main: ...
 version: ...
 libraries:
-    - io.github.monun:tap:+
-```
+    - io.github.monun:tap:{version}`
+    }
+</MavenVersion>
 > 주의! 여기에서는 tap-api 대신 tap을 넣어야합니다
 
 <!--
