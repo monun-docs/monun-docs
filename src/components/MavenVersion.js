@@ -6,7 +6,7 @@ const fetchLatestVersion = (notation, callback) => {
     let split = notation.split(":")
     let group = split[0]
     let artifact = split[1]
-    axios.get(`/maven/?group=${group}&artifact=${artifact}`)
+    axios.get(`/maven/?group=${group.replaceAll(".", "/")}&artifact=${artifact}`)
         .then(response => {
             callback(response.data)
         })

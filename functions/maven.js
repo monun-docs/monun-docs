@@ -1,7 +1,7 @@
 const fetch = require("node-fetch")
 
 exports.handler = async (event, context) => {
-    let uri = `https://repo.maven.apache.org/maven2/${event.queryStringParameters.group.replaceAll(/\./g,"/")}/${event.queryStringParameters.artifact}/maven-metadata.xml`
+    let uri = `https://repo.maven.apache.org/maven2/${event.queryStringParameters.group}/${event.queryStringParameters.artifact}/maven-metadata.xml`
     console.log(uri)
     let response = await fetch(uri)
     let text = await response.text()
