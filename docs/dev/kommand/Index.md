@@ -27,7 +27,7 @@ Kommand는 위와 같은 문제를 해결하고 명령문을 보다 직관적인
 
 ## Kommand 문서 Navigation
 
-- [0. Getting Started](0-getting-started.md)
+- [0. Getting Started](0-getting-started.mdx)
 - [1. Writing Sample Kommand](1-sample-kommand.md)
 - [2. Requires, Arguments, Contexts](2-requires-arguments-contexts.md)
 - [3. More About KommandArgument](3-more-kommandargument.md)
