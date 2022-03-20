@@ -8,7 +8,7 @@ slug: /dev/psychics
 
 ## Psychics 문서 Navigation
 
-- [0. Getting Started](0-getting-started.md)
+- [0. Getting Started](0-getting-started.mdx)
 
 ## License
 Psychics의 라이선스는 GPL-3.0입니다.
