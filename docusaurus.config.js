@@ -93,6 +93,7 @@ module.exports = {
       copyright: `Copyright © ${copyrightYear} Docs Team. Licensed under CC BY-SA 4.0.`,
     },
     prism: {
+      additionalLanguages: ['kotlin', 'java'],
       theme: require('prism-react-renderer/themes/github'),
       darkTheme: require('prism-react-renderer/themes/dracula'),
     },
