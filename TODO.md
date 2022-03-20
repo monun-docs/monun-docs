@@ -8,7 +8,7 @@
 
 ## Usage:
 
-- auto-reloader
+- ~~auto-reloader~~ (DONE)
 
 - chunk-dematerializer(Not sure if I have to work with this...)
 
