@@ -1,6 +1,8 @@
 # Dependencies
 /node_modules
 
+ryan.cpp
+
 # Production
 /build
 
