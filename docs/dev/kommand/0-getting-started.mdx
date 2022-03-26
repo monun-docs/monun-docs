@@ -5,6 +5,8 @@ sidebar_position: 2
 # 0. Kommand Getting Started
 
 import {MavenVersion} from "@site/src/components/MavenVersion"
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 ## 개발 환경
     * JDK 16
@@ -17,22 +19,22 @@ Kommand 라이브러리를 프로젝트에 넣어봅시다.
 
 ---
 
-### Maven
-
-<MavenVersion language="xml" notation="io.github.monun:kommand-api">
+<Tabs>
+  <TabItem value="groovy" label="groovy" default>
+    <MavenVersion language="groovy" notation="io.github.monun:kommand-api">
     {
-`<dependency>
-    <groupId>io.github.monun</groupId>
-    <artifactId>kommand-api</artifactId>
-    <version>{version}</version>
-    <scope>compile</scope>
-</dependency>`
+`repositories {
+    mavenCentral()
+}
+    
+dependencies {
+    implementation 'io.github.monun:kommand-api:{version}'
+}`
     }
-</MavenVersion>
-
-### Gradle
-
-<MavenVersion language="kotlin" notation="io.github.monun:kommand-api">
+    </MavenVersion>
+  </TabItem>
+  <TabItem value="kotlin" label="kotlin">
+    <MavenVersion language="kotlin" notation="io.github.monun:kommand-api">
     {
 `repositories {
     mavenCentral()
@@ -42,7 +44,21 @@ dependencies {
     implementation("io.github.monun:kommand-api:{version}")
 }`
     }
-</MavenVersion>
+    </MavenVersion>
+  </TabItem>
+  <TabItem value="maven" label="maven">
+    <MavenVersion language="xml" notation="io.github.monun:kommand-api">
+    {
+`<dependency>
+    <groupId>io.github.monun</groupId>
+    <artifactId>kommand-api</artifactId>
+    <version>{version}</version>
+    <scope>compile</scope>
+</dependency>`
+    }
+    </MavenVersion>
+  </TabItem>
+</Tabs>
 
 ### plugin.yml
 
