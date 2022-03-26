@@ -5,6 +5,8 @@ sidebar_position: 2
 # 0. InvFX Getting Started
 
 import {MavenVersion} from "@site/src/components/MavenVersion"
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 ## 개발 환경
     * JDK 16+
@@ -12,8 +14,9 @@ import {MavenVersion} from "@site/src/components/MavenVersion"
     * Paper 1.17+
 
 ## InvFX 사용하기
-### build.gradle
-<MavenVersion language="groovy" notation="io.github.monun:invfx-api">
+<Tabs>
+  <TabItem value="groovy" label="groovy" default>
+    <MavenVersion language="groovy" notation="io.github.monun:invfx-api">
     {
 `repositories {
     mavenCentral()
@@ -23,10 +26,10 @@ dependencies {
     implementation 'io.github.monun:invfx-api:{version}'
 }`
     }
-</MavenVersion>
-
-### build.gradle.kts
-<MavenVersion language="kotlin" notation="io.github.monun:invfx-api">
+    </MavenVersion>
+  </TabItem>
+  <TabItem value="kotlin" label="kotlin">
+    <MavenVersion language="kotlin" notation="io.github.monun:invfx-api">
     {
 `repositories {
     mavenCentral()
@@ -36,7 +39,21 @@ dependencies {
     implementation("io.github.monun:invfx-api:{version}")
 }`
     }
-</MavenVersion>
+    </MavenVersion>
+  </TabItem>
+    <TabItem value="maven" label="maven">
+    <MavenVersion language="xml" notation="io.github.monun:invfx-api">
+    {
+`<dependency>
+    <groupId>io.github.monun</groupId>
+    <artifactId>invfx-api</artifactId>
+    <version>{version}</version>
+    <scope>compile</scope>
+</dependency>`
+    }
+    </MavenVersion>
+  </TabItem>
+</Tabs>
 
 ### plugin.yml
 <MavenVersion language="yaml" notation="io.github.monun:invfx-api">

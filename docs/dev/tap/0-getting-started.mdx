@@ -5,6 +5,8 @@ sidebar_position: 2
 # 0. Setup
 
 import {MavenVersion} from "@site/src/components/MavenVersion"
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
 ## 개발 환경
     * JDK 16+
@@ -21,25 +23,24 @@ import {MavenVersion} from "@site/src/components/MavenVersion"
     - GitHub를 통한 업데이트 (BETA)
     - Tick 기반 태스크 스케쥴러 (Ticker)
 
-## 사용
-### Gradle
-#### Groovy
+## Tap 사용하기
 
-<MavenVersion language="groovy" notation="io.github.monun:tap-api">
+<Tabs>
+  <TabItem value="groovy" label="groovy" default>
+    <MavenVersion language="groovy" notation="io.github.monun:tap-api">
     {
 `repositories {
     mavenCentral()
 }
- 
+    
 dependencies {
     implementation 'io.github.monun:tap-api:{version}'
 }`
     }
-</MavenVersion>
-
-#### Kotlin
-
-<MavenVersion language="kotlin" notation="io.github.monun:tap-api">
+    </MavenVersion>
+  </TabItem>
+  <TabItem value="kotlin" label="kotlin">
+    <MavenVersion language="kotlin" notation="io.github.monun:tap-api">
     {
 `repositories {
     mavenCentral()
@@ -47,10 +48,23 @@ dependencies {
  
 dependencies {
     implementation("io.github.monun:tap-api:{version}")
-}
-`
+}`
     }
-</MavenVersion>
+    </MavenVersion>
+  </TabItem>
+  <TabItem value="maven" label="maven">
+    <MavenVersion language="xml" notation="io.github.monun:tap-api">
+    {
+`<dependency>
+    <groupId>io.github.monun</groupId>
+    <artifactId>tap-api</artifactId>
+    <version>{version}</version>
+    <scope>compile</scope>
+</dependency>`
+    }
+    </MavenVersion>
+  </TabItem>
+</Tabs>
 
 ### plugin.yml
 <MavenVersion language="yaml" notation="io.github.monun:tap">
