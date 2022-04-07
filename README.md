@@ -47,6 +47,7 @@ Twitter: [@monundocs](https://twitter.com/monundocs)
 - [pikokr](https://github.com/pikokr)
 - [정현수](https://github.com/wjdgustn)
 - [dolphin2410](https://github.com/dolphin2410)
+- [cog25](https://github.com/cog25)
 
 ---
 
