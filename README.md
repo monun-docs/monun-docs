@@ -30,7 +30,7 @@ Twitter: [@monundocs](https://twitter.com/monundocs)
 
 프로젝트 총 관리
 
-- [BaeHyeonWoo](https://github.com/qogusdn1017)
+- [Dolphin2410](https://github.com/dolphin2410)
 
 관리자
 
