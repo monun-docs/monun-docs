@@ -4,21 +4,17 @@
 
 [각별 / monun](https://github.com/monun) 레포지토리를 사용하는 분들을 위해 제작한 사람들이 자주 묻는 질문 및 플러그인 & 라이브러리 적용 설명법 모음 문서입니다.
 
-웹 페이지는 https://monun.me 에서, Docs의 구조는 [docs 폴더](https://github.com/HyeonWorks/monun-docs/tree/main/docs/)를 확인해주세요.
+웹 페이지는 https://monun-docs.netlify.app/ 에서, Docs의 구조는 [docs 폴더](https://github.com/monun-docs/monun-docs/tree/main/docs/)를 확인해주세요.
 
 ---
+
+## 공지
+
+현재 이 프로젝트는 관리자에 의해 활발하게 활동되고 있지는 않습니다. 이 문서를 발전시키기 위해 PR 등으로 문서 작성을 도와주세요
 
 ## 오타지적, 내용 향상, 잘못된 부분 수정 등 기여 하기
 
 Issue 또는 Pull Request 를 적극적으로 이용해 주세요!
-
-## monun-docs 멤버로 참여하기 
-
-자유롭게 디스코드 혹은 트위터 DM 남겨주세요!
-
-Discord: BaeHyeonWoo#1017 / PatrickKR#0645
-
-Twitter: [@monundocs](https://twitter.com/monundocs)
 
 ## 라이선스
 
