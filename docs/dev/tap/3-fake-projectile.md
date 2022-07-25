@@ -1,8 +1,9 @@
 ---
-sidebar_position: 6
+sidebar_position: 4
 ---
 
 # 1-3. Fake Projectile
+
 Tap의 가상 발사체는 개체가 아닙니다. Tap의 가상 발사체를 이용하여 가상 개체를 쉽게 발사체로 사용할 수 있습니다. 
 
 ## 사용 방법

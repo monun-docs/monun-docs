@@ -79,6 +79,11 @@ module.exports = {
         //
         // },
         {
+          href: '/docsTeam',
+          label: 'Contributors',
+          position: 'right',
+        },
+        {
           href: 'https://github.com/monun-docs/monun-docs',
           label: 'GitHub',
           position: 'right',
@@ -90,7 +95,7 @@ module.exports = {
       links: [
         
       ],
-      copyright: `Copyright © ${copyrightYear} Docs Team. Licensed under CC BY-SA 4.0.`,
+      copyright: `Copyright © ${copyrightYear} <a href="/docsTeam">Docs Team</a>. Licensed under CC BY-SA 4.0.`,
     },
     prism: {
       theme: require('prism-react-renderer/themes/github'),
