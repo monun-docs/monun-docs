@@ -34,3 +34,10 @@
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
+
+#go_button {
+  background-color: #25c2a0;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}

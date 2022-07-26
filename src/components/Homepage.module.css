@@ -1,0 +1,21 @@
+.redirectPane {
+    width: 40%;
+    border: 2px solid var(--ifm-color-primary-lighter);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    background-color: var(--ifm-color-primary-lighter);
+    color: black;
+}
+
+.redirectPane:hover {
+    transform: translate(-10px, -10px);
+    cursor: pointer;
+}

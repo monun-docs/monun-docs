@@ -1,8 +1,9 @@
 ---
-sidebar_position: 8
+sidebar_position: 6
 ---
 
 # 1-5. Ticker
+
 Ticker는 BukkitRunnable을 개선하고 보완한 기능입니다.
 
 ## 종류
