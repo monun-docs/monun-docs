@@ -97,11 +97,12 @@ class MyPlugin: JavaPlugin(), Listener {
 ```
 
 ## FakeEntity 스폰
-서버 셋업이 완료 되었다면, 이제 FakeEntity를 추가해야 합니다. 개체를 네가지 종류로 나눌 수 있습니다.
+서버 셋업이 완료 되었다면, 이제 FakeEntity를 추가해야 합니다. 개체를 다섯가지 종류로 나눌 수 있습니다.
     - 몹(LivingEntity)
     - 떨어지는 블록(FallingBlockEntity)
     - 아이템(ItemEntity)
     - 일반 개체(Entity)
+    - 플레이어 개체(PlayerEntity)
 ※ '몹'과 '일반 개체'는 같은 종류로 분류합니다.
 
 ### 몹 & 일반 개체
@@ -122,6 +123,29 @@ FakeEntityServer#spawnFallingBlock(location: Location, blockData: BlockData): Fa
 ```kotlin
 FakeEntityServer#spawnItem(location: Location, item: ItemStack): FakeEntity<Item>
 ```
+
+### 플레이어
+***Since v4.6.1***
+```kotlin
+FakeEntityServer#spawnPlayer(location: Location, playerData: PlayerData): FakeEntity<Player>
+```
+
+플레이어를 스폰하기 위해서는 이름과 스킨에 대한 정보가 필요합니다. 이를 `io.github.monun.tap.fake.PlayerData` 객체에 저장해야 합니다. 
+
+#### PlayerData
+```kotlin
+PlayerData(name: String, skin: Pair<String, String>)
+```
+`name`은 플레이어의 이름, `skin`은 (`texture`, `signature`) 형태이어야 합니다. 이미 존재하는 플레이어의 스킨을 사용하실 경우, 다음을 사용하실 수 있습니다.
+```kotlin
+fetchSkinInfo(fetchUUID("<스킨 소유자 이름>")): Pair<String, String>
+```
+
+예를들어 저의 스킨을 불러오시려면, 
+```kotlin
+PlayerData("NPC_NAME", fetchSkinInfo(fetchUUID("Heptagram")))
+```
+을 사용하시면 됩니다.
 
 #### 예시
 ```kotlin
@@ -154,13 +178,20 @@ class MyPlugin: JavaPlugin(), Listener {
     fun onPlayerInteract(e: PlayerInteractEvent) {
         when (e.action) {
             Action.RIGHT_CLICK_BLOCK -> {
+                // 갑옷 거치대 스폰
                 val fakeEntity: FakeEntity<ArmorStand> = fakeServer.spawnEntity(e.player.location, ArmorStand::class.java)
             }
             Action.RIGHT_CLICK_AIR -> {
+                // 떨어지는 흙 스폰
                 val fakeEntity: FakeEntity<FallingBlock> = fakeServer.spawnFallingBlock(e.player.location, Material.DIRT.createBlockData())
             }
-            Action.LEFT_CLICK_AIR -> {
+            Action.LEFT_CLICK_BLOCK -> {
+                // 다이아몬드 아이템 스폰
                 val fakeEntity: FakeEntity<Item> = fakeServer.spawnItem(e.player.location, ItemStack(Material.DIAMOND))
+            }
+            Action.LEFT_CLICK_AIR -> {
+                // 이름이 NPC_1이고, Heptagram의 스킨을 가진 플레이어 스폰
+                val fakeEntity: FakeEntity<Player> = fakeServer.spawnPlayer(e.player.location, PlayerData("NPC_1", fetchSkinInfo(fetchUUID("Heptagram"))))
             }
         }
     }
