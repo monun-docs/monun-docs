@@ -98,14 +98,17 @@ class MyPlugin: JavaPlugin(), Listener {
 
 ## FakeEntity 스폰
 서버 셋업이 완료 되었다면, 이제 FakeEntity를 추가해야 합니다. 개체를 다섯가지 종류로 나눌 수 있습니다.
-    - 몹(LivingEntity)
-    - 떨어지는 블록(FallingBlockEntity)
-    - 아이템(ItemEntity)
-    - 일반 개체(Entity)
-    - 플레이어 개체(PlayerEntity)
+
+- 몹(LivingEntity)
+- 떨어지는 블록(FallingBlockEntity)
+- 아이템(ItemEntity)
+- 일반 개체(Entity)
+- 플레이어 개체(PlayerEntity)
+
 ※ '몹'과 '일반 개체'는 같은 종류로 분류합니다.
 
 ### 몹 & 일반 개체
+
 ```kotlin
 FakeEntityServer#spawnEntity<T: Entity>(location: Location, entityClass: Class<T>): FakeEntity<T>
 ```

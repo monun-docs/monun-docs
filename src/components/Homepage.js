@@ -1,27 +1,15 @@
 import React from 'react';
 import styles from './Homepage.module.css'
-
-{/* <div>
-<section>
-개발자를 위한 라이브러리 사용법 및 개발 환경 팁
-<button id="go_button">GO</button>
-</section>
-
-<section>
-각별님의 플러그인을 사용하고 싶은 분들
-</section>
-</div> */}
-
-function handleClick(url) {
-    window.location.href = url
-}
+import Link from '@docusaurus/Link'
 
 function Feature({title, desc, url}) {
     return (
-        <div className={styles.redirectPane} onClick={() => handleClick(url)}>
-            <h3 className="card-title">{title}</h3>
-            <p className="card-text">{desc}</p>
-        </div>
+        <Link className={`padding--md card col margin-left--md margin-right--md ${styles.color_reverse}`} to={url}>
+            <h3 className="card__title">{title}</h3>
+            <div className='card__body'>
+                <p>{desc}</p>
+            </div>
+        </Link>
     )
 }
 
