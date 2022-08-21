@@ -22,16 +22,28 @@
 프로젝트 총 관리
 
 <contributors include-only="var(admin)">
+
+- [dolphin2410](https://github.com/dolphin2410)
 </contributors>
 
 관리자
 
 <contributors include-only="var(moderator)">
+
+- [issac4892](https://github.com/issac4892)
+- [qogusdn1017](https://github.com/qogusdn1017)
+- [patrick-choe](https://github.com/patrick-choe)
 </contributors>
 
 기여 인원
 
 <contributors exclude="var(admin) + var(moderator)">
+
+- [pikokr](https://github.com/pikokr)
+- [dytroc](https://github.com/dytroc)
+- [MisileLab](https://github.com/MisileLab)
+- [cog25](https://github.com/cog25)
+- [wjdgustn](https://github.com/wjdgustn)
 </contributors>
 
 ---
