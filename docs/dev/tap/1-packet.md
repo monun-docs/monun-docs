@@ -1,8 +1,9 @@
 ---
-sidebar_position: 4
+sidebar_position: 2
 ---
 
-# 1-1. Packets
+# 1. Packets
+
 Tap에서는 패킷 관련 함수를 지원합니다. 
 
 ## 가상 개체 스폰

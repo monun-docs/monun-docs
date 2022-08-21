@@ -1,0 +1,18 @@
+name: contributor
+on:
+  push:
+  schedule:
+  - cron: '*/5 * * * *'
+
+
+jobs:
+  test:
+    name: Contributors Workflow
+    runs-on: ubuntu-latest
+    steps:
+      - name: Start workflow
+        uses: monun-docs/auto-contrib@v1.0
+        with:
+          gh_token: ${{ secrets.GITHUB_TOKEN }}
+          repo: monun-docs/monun-docs
+          vars: '{ "admin": [ "dolphin2410" ], "moderator": [ "aroxu", "patrick-choe", "issac4892", "qogusdn1017" ] }'
