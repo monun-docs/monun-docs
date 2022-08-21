@@ -40,8 +40,6 @@
 <contributors exclude="var(admin) + var(moderator)">
 
 - [pikokr](https://github.com/pikokr)
-- [dytroc](https://github.com/dytroc)
-- [MisileLab](https://github.com/MisileLab)
 - [cog25](https://github.com/cog25)
 - [wjdgustn](https://github.com/wjdgustn)
 </contributors>
