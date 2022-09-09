@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Start workflow
-        uses: monun-docs/auto-contrib@v1.0
+        uses: monun-docs/auto-contrib@v1.1
         with:
           gh_token: ${{ secrets.GITHUB_TOKEN }}
           repo: monun-docs/monun-docs
