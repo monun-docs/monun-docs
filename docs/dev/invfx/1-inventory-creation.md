@@ -59,7 +59,8 @@ frame(numLines, Component.text(invTitle)) {
 
 ### 아이템 설정
 InvFX의 좌표 표기 방식은 일반적인 좌표평면과는 다릅니다. 왼쪽 위에서 오른쪽으로 갈수록 x좌표값은 증가하고, 아래로 갈수록 y좌표값이 증가합니다. 
-![graph](https://user-images.githubusercontent.com/80996692/139722035-f8411a62-caa9-48e9-bcad-c2c68df5a9f9.png)
+
+![graph](@site/static/img/chest.png)
 
 ```kotlin
 import io.github.monun.invfx.InvFX

@@ -128,27 +128,49 @@ FakeEntityServer#spawnItem(location: Location, item: ItemStack): FakeEntity<Item
 ```
 
 ### 플레이어
-***Since v4.6.1***
+***Since v4.7.1***
 ```kotlin
-FakeEntityServer#spawnPlayer(location: Location, playerData: PlayerData): FakeEntity<Player>
+FakeEntityServer#spawnPlayer(
+    location: Location, 
+    name: String, 
+    profileProperties: Set<ProfileProperty> = emptySet(), 
+    skinParts: FakeSkinParts = FakeSkinParts(), 
+    uniqueId: UUID = UUID.randomUUID()): FakeEntity<Player>
 ```
 
-플레이어를 스폰하기 위해서는 이름과 스킨에 대한 정보가 필요합니다. 이를 `io.github.monun.tap.fake.PlayerData` 객체에 저장해야 합니다. 
+플레이어를 스폰하기 위해서는 이름과 스킨에 대한 정보가 필요합니다.
 
-#### PlayerData
+#### ProfileProperty
+ProfileProperty는 프로필정보, 즉 스킨에 대한 내용을 담고 있습니다. 모장은 플레이어의 프로필 정보를 API를 통해 제공합니다. 그리고 이는 tap의 `MojangAPI` 클래스를 이용해 쉽게 얻을 수 있습니다.
+
+프로필 정보를 얻기 위해서는 우선 스킨 소유자의 `UUID`를 가져와야 합니다.
 ```kotlin
-PlayerData(name: String, skin: Pair<String, String>)
-```
-`name`은 플레이어의 이름, `skin`은 (`texture`, `signature`) 형태이어야 합니다. 이미 존재하는 플레이어의 스킨을 사용하실 경우, 다음을 사용하실 수 있습니다.
-```kotlin
-fetchSkinInfo(fetchUUID("<스킨 소유자 이름>")): Pair<String, String>
+MojangAPI#fetchProfile(skinOwner: String): Profile?
 ```
 
-예를들어 저의 스킨을 불러오시려면, 
+`Profile` 클래스의 `uuid()` 메소드는 `UUID`를 리턴합니다.
 ```kotlin
-PlayerData("NPC_NAME", fetchSkinInfo(fetchUUID("Heptagram")))
+Profile#uuid(): UUID
 ```
-을 사용하시면 됩니다.
+
+UUID를 얻고 나면, 스킨에 대한 정보를 얻을 수 있습니다.
+```kotlin
+MojangAPI.fetchSkinProfile(uuid: UUID): SkinProfile?
+```
+
+`SkinProfile` 클래스의 `profileProperties`는 `List<ProfileProperty>`를 리턴합니다.
+```kotlin
+SkinProfile#profileProperties(): List<ProfileProperty>
+```
+
+#### FakeSkinParts
+FakeSkinParts는 스킨의 바깥 부분의 설정을 담고 있습니다. 이는 cape, jacket, sleeve 등을 포함합니다. 기본값은 모두 켜진상태입니다. 마인크래프트는 이러한 정보를 7bit의 정보로 표현합니다. 켜진 상태는 1, 꺼진 상태는 0으로 표현합니다.
+![img](@site/static/img/bytes.png)
+```kotlin
+FakeSkinParts(bytes: Int)
+```
+#### UUID
+가상 개체의 UUID, ***절대 중복되면 안됩니다!!***. 특별한 경우가 아니라면 기본 값으로 두세요.
 
 #### 예시
 ```kotlin
@@ -194,7 +216,11 @@ class MyPlugin: JavaPlugin(), Listener {
             }
             Action.LEFT_CLICK_AIR -> {
                 // 이름이 NPC_1이고, Heptagram의 스킨을 가진 플레이어 스폰
-                val fakeEntity: FakeEntity<Player> = fakeServer.spawnPlayer(e.player.location, PlayerData("NPC_1", fetchSkinInfo(fetchUUID("Heptagram"))))
+                // cape와 모자 이외의 외투는 없다 (0b1000001)
+                val uuid = MojangAPI.fetchProfile("Heptagram")!!.uuid()
+                val profiles = MojangAPI.fetchSkinProfile(uuid)!!.profileProperties()
+
+                val fakeEntity: FakeEntity<Player> = fakeServer.spawnPlayer(e.player.location, "NPC_1", profiles, FakeSkinParts(0b1000001))
             }
         }
     }
@@ -222,21 +248,16 @@ FakeEntity#moveTo(target: Location)
 
 *변위*
 ```kotlin
-FakeEntity#moveTo(x: Double, y: Double, z: Double)
+FakeEntity#move(x: Double, y: Double, z: Double)
 ```
 
 *회전을 포함한 변위*
 ```kotlin
-val fakeEntity: FakeEntity
-
-fakeEntity#moveAndRotation(x: Double, y: Double, z: Double, yaw: Float, pitch: Float)
+FakeEntity#moveAndRotation(x: Double, y: Double, z: Double, yaw: Float, pitch: Float)
 ```
 
 ## 개체 업데이트
 버킷 API를 사용해 FakeEntity를 수정할 경우, 모든 함수가 작동되는 것은 아니니 이 점을 참고해 주세요.
 ```kotlin
-fakeEntity: FakeEntity
-fakeEntity.updateMetadata<T: Entity> {
-    LAMBDA: T -> Unit
-}
+FakeEntity#updateMetadata<T: Entity>(lambda: T.() -> Unit)
 ```
