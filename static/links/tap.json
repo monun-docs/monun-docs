@@ -1,3 +1,4 @@
 [
-    "io.github.monun.tap.fake.FakeEntityServer#create"
+    "io.github.monun.tap.fake.FakeEntity#addPassenger",
+    "io.github.monun.tap.fake.FakeEntity#removePassenger"
 ]
