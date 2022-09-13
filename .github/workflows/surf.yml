@@ -1,0 +1,15 @@
+name: workflow
+on:
+  push:
+  schedule:
+    - cron: '*/5 * * * *'
+
+jobs:
+  workflow:
+    name: Workflow 
+    runs-on: ubuntu-22.04
+    steps:
+      - name: Run Surf
+        uses: monun-docs/surf@v1.0
+        with:
+          gh_token: ${{ secrets.GITHUB_TOKEN }}

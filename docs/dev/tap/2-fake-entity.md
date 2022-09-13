@@ -10,7 +10,9 @@ sidebar_position: 3
 존재하지 않지만 클라이언트 상에는 존재해 그 개체를 렌더링합니다. 클라이언트가 재접속하면, 그 개체는 서버상에 존재하지 않으므로, 더 이상 보여지지 않습니다. Tap은 이 개체들(이하 FakeEntity)을 따로 가상 서버(이하 FakeServer)에 저장해 이용을 가능하게 해줍니다.
 
 ## 서버 생성
-다음 메소드를 호출해 FakeServer를 생성할 수 있습니다
+다음 메소드를 호출해 FakeServer를 생성할 수 있습니다 
+
+[debug](@site/static/links/tap-links.json)
 
 ```kotlin
 FakeEntityServer.Companion#create(plugin: Plugin)
@@ -260,4 +262,14 @@ FakeEntity#moveAndRotation(x: Double, y: Double, z: Double, yaw: Float, pitch: F
 버킷 API를 사용해 FakeEntity를 수정할 경우, 모든 함수가 작동되는 것은 아니니 이 점을 참고해 주세요.
 ```kotlin
 FakeEntity#updateMetadata<T: Entity>(lambda: T.() -> Unit)
+```
+
+## 플레이어 스킨 변경
+
+```kotlin
+val fakeEntity: FakeEntity<Player> = fakeEntityServer.spawnPlayer(player.location, "npc", MojangAPI.fetchSkinProfile(MojangAPI.fetchProfile()!!.uuid())!!.textureProfiles())
+
+val skinParts = FakeSkinParts(0b1111111)
+
+fakeEntity.updateSkinParts(skinParts) // sth like this
 ```
