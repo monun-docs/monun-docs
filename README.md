@@ -13,7 +13,7 @@
 
 ## 라이선스
 
-[Creative Commons Attribution Share Alike 4.0 International](https://github.com/monun-docs/monun-docs/blob/main/LICENSE.md)
+[CC BY-SA 4.0](https://github.com/monun-docs/monun-docs/blob/main/LICENSE.md)
 
 ---
 
