@@ -1,4 +1,21 @@
 [
+    "io.github.monun.tap.fake.FakeEntityServer#create",
+    "io.github.monun.tap.fake.FakeEntityServer#update",
+    "io.github.monun.tap.fake.FakeEntityServer#addPlayer",
+    "io.github.monun.tap.fake.FakeEntityServer#removePlayer",
+    "io.github.monun.tap.fake.FakeEntityServer#spawnEntity",
+    "io.github.monun.tap.fake.FakeEntityServer#spawnFallingBlock",
+    "io.github.monun.tap.fake.FakeEntityServer#spawnItem",
+    "io.github.monun.tap.fake.FakeEntityServer#spawnPlayer",
+    "io.github.monun.tap.mojangapi.MojangAPI#fetchProfile",
+    "io.github.monun.tap.mojangapi.Profile#uuid",
+    "io.github.monun.tap.mojangapi.MojangAPI#fetchSkinProfile",
+    "io.github.monun.tap.mojangapi.SkinProfile#profileProperties",
     "io.github.monun.tap.fake.FakeEntity#addPassenger",
-    "io.github.monun.tap.fake.FakeEntity#removePassenger"
+    "io.github.monun.tap.fake.FakeEntity#removePassenger",
+    "io.github.monun.tap.fake.FakeEntity#moveTo",
+    "io.github.monun.tap.fake.FakeEntity#move",
+    "io.github.monun.tap.fake.FakeEntity#moveAndRotation",
+    "io.github.monun.tap.fake.FakeEntity#updateMetadata",
+    "io.github.monun.tap.fake.FakeEntity#updateSkinParts"
 ]

@@ -41,3 +41,29 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   border-radius: 10px;
   padding: 10px;
 }
+
+html[data-theme='dark'] span.class-name {
+	color: rgb(184, 184, 184);
+}
+
+span.class-name {
+	color: rgb(101, 101, 101);
+
+}
+
+span.generic {
+	color: green;
+}
+
+html[data-theme='dark'] span.parameter {
+	color: rgb(55, 209, 209);
+}
+
+span.parameter {
+	color: red;
+}
+
+.language-kodef:hover  *:not(:first-child) {
+  text-decoration: underline;
+  cursor: pointer;
+}

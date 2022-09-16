@@ -14,8 +14,10 @@ sidebar_position: 3
 
 [debug](@site/static/links/tap-links.json)
 
-```kotlin
-FakeEntityServer.Companion#create(plugin: Plugin)
+```kodef
+// io.github.monun.tap.fake.FakeEntityServer#create
+
+fun FakeEntityServer.Companion<T>#create(plugin: Plugin)
 ```
 
 #### 예시
@@ -36,8 +38,10 @@ class MyPlugin: JavaPlugin() {
 
 ## 서버 업데이트
 FakeServer는 틱(tick) 마다 업데이트를 해 주어야 변경사항이 플레이어에게 전송이 됩니다. 다음을 매 틱마다 호출해 업데이트를 해주세요
-```kotlin
-FakeEntityServer#update()
+```kodef
+// io.github.monun.tap.fake.FakeEntityServer#update
+
+fun FakeEntityServer#update()
 ```
 
 #### 예시
@@ -59,12 +63,16 @@ class MyPlugin: JavaPlugin() {
 
 ## 플레이어 추가
 다음을 사용해 FakeServer에 플레이어를 접속시킬 수 있습니다
-```kotlin
-FakeEntityServer#addPlayer(player: Player)
+```kodef
+// io.github.monun.tap.fake.FakeEntityServer#addPlayer
+
+fun FakeEntityServer#addPlayer(player: Player)
 ```
 플레이어를 내보낼 수도 있습니다
-```kotlin
-FakeEntityServer#removePlayer(player: Player)
+```kodef
+// io.github.monun.tap.fake.FakeEntityServer#removePlayer
+
+fun FakeEntityServer#removePlayer(player: Player)
 ```
 
 #### 예시
@@ -111,28 +119,36 @@ class MyPlugin: JavaPlugin(), Listener {
 
 ### 몹 & 일반 개체
 
-```kotlin
-FakeEntityServer#spawnEntity<T: Entity>(location: Location, entityClass: Class<T>): FakeEntity<T>
+```kodef
+// io.github.monun.tap.fake.FakeEntityServer#spawnEntity
+
+fun FakeEntityServer#spawnEntity<T: Entity>(location: Location, entityClass: Class<T>): FakeEntity<T>
 ```
 
 ### 떨어지는 블록
 > 이 코드를 실행하면, 버킷 API의 BlockData가 NMS의 BlockData가 되면서, 클론된 객체로 스폰되므로, 스폰 이후 BlockData의 변화는 생성된 개체에 영향을 미치지 않습니다.
 
-```kotlin
-FakeEntityServer#spawnFallingBlock(location: Location, blockData: BlockData): FakeEntity<FallingBlock>
+```kodef
+// io.github.monun.tap.fake.FakeEntityServer#spawnFallingBlock
+
+fun FakeEntityServer#spawnFallingBlock(location: Location, blockData: BlockData): FakeEntity<FallingBlock>
 ```
 
 ### 아이템
 > 이 코드를 실행하면, 버킷 API의 ItemStack이 NMS의 ItemStack이 되면서, 클론된 객체로 스폰되므로, 스폰 이후 ItemStack의 변화는 생성된 개체에 영향을 미치지 않습니다.
 
-```kotlin
-FakeEntityServer#spawnItem(location: Location, item: ItemStack): FakeEntity<Item>
+```kodef
+// io.github.monun.tap.fake.FakeEntityServer#spawnItem
+
+fun FakeEntityServer#spawnItem(location: Location, item: ItemStack): FakeEntity<Item>
 ```
 
 ### 플레이어
 ***Since v4.7.1***
-```kotlin
-FakeEntityServer#spawnPlayer(
+```kodef
+// io.github.monun.tap.fake.FakeEntityServer#spawnPlayer
+
+fun FakeEntityServer#spawnPlayer(
     location: Location, 
     name: String, 
     profileProperties: Set<ProfileProperty> = emptySet(), 
@@ -146,23 +162,31 @@ FakeEntityServer#spawnPlayer(
 ProfileProperty는 프로필정보, 즉 스킨에 대한 내용을 담고 있습니다. 모장은 플레이어의 프로필 정보를 API를 통해 제공합니다. 그리고 이는 tap의 `MojangAPI` 클래스를 이용해 쉽게 얻을 수 있습니다.
 
 프로필 정보를 얻기 위해서는 우선 스킨 소유자의 `UUID`를 가져와야 합니다.
-```kotlin
-MojangAPI#fetchProfile(skinOwner: String): Profile?
+```kodef
+// io.github.monun.tap.mojangapi.MojangAPI#fetchProfile
+
+fun MojangAPI#fetchProfile(skinOwner: String): Profile?
 ```
 
 `Profile` 클래스의 `uuid()` 메소드는 `UUID`를 리턴합니다.
-```kotlin
-Profile#uuid(): UUID
+```kodef
+// io.github.monun.tap.mojangapi.Profile#uuid
+
+fun Profile#uuid(): UUID
 ```
 
 UUID를 얻고 나면, 스킨에 대한 정보를 얻을 수 있습니다.
-```kotlin
-MojangAPI.fetchSkinProfile(uuid: UUID): SkinProfile?
+```kodef
+// io.github.monun.tap.mojangapi.MojangAPI#fetchSkinProfile
+
+fun MojangAPI#fetchSkinProfile(uuid: UUID): SkinProfile?
 ```
 
 `SkinProfile` 클래스의 `profileProperties`는 `List<ProfileProperty>`를 리턴합니다.
-```kotlin
-SkinProfile#profileProperties(): List<ProfileProperty>
+```kodef
+// io.github.monun.tap.mojangapi.SkinProfile#profileProperties
+
+fun SkinProfile#profileProperties(): List<ProfileProperty>
 ```
 
 #### FakeSkinParts
@@ -231,45 +255,55 @@ class MyPlugin: JavaPlugin(), Listener {
 
 ## 탑승객 추가 및 제거
 *추가*
-```kotlin
-FakeEntity#addPassenger(passenger: FakeEntity<*>)
+```kodef
+// io.github.monun.tap.fake.FakeEntity#addPassenger
+
+fun FakeEntity#addPassenger(passenger: FakeEntity<*>)
 ```
 
 *제거*
-```kotlin
-FakeEntity#removePassenger(passenger: FakeEntity<*>)
+```kodef
+// io.github.monun.tap.fake.FakeEntity#removePassenger
+
+fun FakeEntity#removePassenger(passenger: FakeEntity<*>)
 ```
 
 ## 이동
 FakeEntity를 이동할 경우, 이동할 목적지, 또는 변위를 설정해야합니다.
 
 *목적지*
-```kotlin
-FakeEntity#moveTo(target: Location)
+```kodef
+// io.github.monun.tap.fake.FakeEntity#moveTo
+
+fun FakeEntity#moveTo(target: Location)
 ```
 
 *변위*
-```kotlin
-FakeEntity#move(x: Double, y: Double, z: Double)
+```kodef
+// io.github.monun.tap.fake.FakeEntity#move
+
+fun FakeEntity#move(x: Double, y: Double, z: Double)
 ```
 
 *회전을 포함한 변위*
-```kotlin
-FakeEntity#moveAndRotation(x: Double, y: Double, z: Double, yaw: Float, pitch: Float)
+```kodef
+// io.github.monun.tap.fake.FakeEntity#moveAndRotation
+
+fun FakeEntity#moveAndRotation(x: Double, y: Double, z: Double, yaw: Float, pitch: Float)
 ```
 
 ## 개체 업데이트
 버킷 API를 사용해 FakeEntity를 수정할 경우, 모든 함수가 작동되는 것은 아니니 이 점을 참고해 주세요.
-```kotlin
-FakeEntity#updateMetadata<T: Entity>(lambda: T.() -> Unit)
+```kodef
+// io.github.monun.tap.fake.FakeEntity#updateMetadata
+
+fun FakeEntity#updateMetadata<T: Entity>(lambda: T.() -> Unit)
 ```
 
 ## 플레이어 스킨 변경
 
-```kotlin
-val fakeEntity: FakeEntity<Player> = fakeEntityServer.spawnPlayer(player.location, "npc", MojangAPI.fetchSkinProfile(MojangAPI.fetchProfile()!!.uuid())!!.textureProfiles())
+```kodef
+// io.github.monun.tap.fake.FakeEntity#updateSkinParts
 
-val skinParts = FakeSkinParts(0b1111111)
-
-fakeEntity.updateSkinParts(skinParts) // sth like this
+fun FakeEntity<T>#updateSkinParts(skinParts: FakeSkinParts) // sth like this
 ```
