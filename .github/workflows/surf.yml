@@ -13,3 +13,4 @@ jobs:
         uses: monun-docs/surf@v1.1
         with:
           gh_token: ${{ secrets.GITHUB_TOKEN }}
+          repo: monun-docs/monun-docs
