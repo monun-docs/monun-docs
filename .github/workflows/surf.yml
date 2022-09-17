@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Run Surf
-        uses: monun-docs/surf@v1.11
+        uses: monun-docs/surf@v1.12
         with:
           gh_token: ${{ secrets.GITHUB_TOKEN }}
           repo: monun-docs/monun-docs
