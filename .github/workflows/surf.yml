@@ -1,8 +1,8 @@
 name: workflow
 on:
   push:
-  # schedule:
-  #   - cron: '*/5 * * * *'
+  schedule:
+    - cron: '*/5 * * * *'
 
 jobs:
   workflow:
@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - name: Run Surf
-        uses: monun-docs/surf@v1.16
+        uses: monun-docs/surf@v1.20
         with:
           gh_token: ${{ secrets.GITHUB_TOKEN }}
           repo: monun-docs/monun-docs
