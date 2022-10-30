@@ -12,8 +12,6 @@ sidebar_position: 3
 ## 서버 생성
 다음 메소드를 호출해 FakeServer를 생성할 수 있습니다 
 
-[debug](@site/static/links/tap-links.json)
-
 ```kodef
 // io.github.monun.tap.fake.FakeEntityServer#create
 
