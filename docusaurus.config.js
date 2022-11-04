@@ -58,7 +58,12 @@ module.exports = {
           label: 'Usage',
           position: 'left'
         },
-
+        {
+          type: 'docsVersionDropdown',
+          position: 'right',
+          dropdownItemsAfter: [{to: '/versions', label: 'All versions'}],
+          dropdownActiveClassDisabled: true,
+        },
         // {
         //   label: 'Docs',
         //   position: 'left', // or 'right'
@@ -118,6 +123,18 @@ module.exports = {
           // Please change this to your repo.
           editUrl:
             'https://github.com/monun-docs/monun-docs/edit/development/',
+          includeCurrentVersion: false,
+          versions: {
+            v1: {
+              label: 'v1',
+              path: '/',
+            },
+            experimental: {
+              label: 'experimental 🚧',
+              path: 'experimental',
+              banner: 'unreleased'
+            }
+          },
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
