@@ -1,6 +1,5 @@
 name: workflow
 on:
-  push:
   schedule:
     - cron: '* * */1 * *'
 

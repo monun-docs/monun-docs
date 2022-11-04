@@ -1,6 +1,5 @@
 name: contributor
 on:
-  push:
   schedule:
   - cron: '* * */1 * *'
 
