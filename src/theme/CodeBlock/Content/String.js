@@ -97,9 +97,8 @@ export default function CodeBlockString({
                         classNames={lineClassNames[i]}
                         showLineNumbers={showLineNumbers}
                         onClick={() => {
-                          console.log("hi?")
                           if (language == "kodef") {
-                            window.location.href = tap[link]
+                            window.open(tap[link], '_blank').focus()
                           }
                         }}
                       />)
