@@ -1,9 +1,3 @@
----
-title: ""
-slug: /docsTeam
-hide_table_of_contents: true
----
-
 # Docs Team
 
 ### 프로젝트 총 관리
