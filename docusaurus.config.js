@@ -6,7 +6,7 @@ const copyrightYear = currentYear !== 2021 ? `2021-${currentYear}` : '2021';
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'Monun Docs',
+  title: '각별 | monun',
   tagline: '',
   url: 'https://monun.me',
   baseUrl: '/',
