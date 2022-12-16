@@ -33,7 +33,7 @@ module.exports = {
     },
     
     navbar: {
-      title: 'monun',
+      title: 'Monun Docs',
       logo: {
         alt: 'monun',
         src: 'img/logo1.svg',
@@ -48,15 +48,21 @@ module.exports = {
         },
         {
           type: 'doc',
-          docId: 'dev/Index',
-          label: 'Dev',
-          position: 'left'
+          docId: 'libraries/Index',
+          label: 'Library',
+          position: 'left',
         },
         {
           type: 'doc',
           docId: 'usage/Index',
           label: 'Usage',
-          position: 'left'
+          position: 'left',
+        },
+        {
+          type: 'doc',
+          docId: 'plugins/Index',
+          label: 'Plugins',
+          position: 'left',
         },
         {
           type: 'docsVersionDropdown',
@@ -120,7 +126,6 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
-          // Please change this to your repo.
           editUrl:
             'https://github.com/monun-docs/monun-docs/edit/development/',
           includeCurrentVersion: false,
@@ -145,5 +150,5 @@ module.exports = {
   i18n: {
     defaultLocale: 'ko',
     locales: ['ko'],
-  },
+  }
 };

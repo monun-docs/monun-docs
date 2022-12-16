@@ -22,6 +22,16 @@
   --ifm-color-primary-lighter: rgb(102, 212, 189);
   --ifm-color-primary-lightest: rgb(146, 224, 208);
   --ifm-code-font-size: 95%;
+
+
+
+  --ifm-color-primary-raw: 37, 194, 160;
+  --ifm-color-primary-dark-raw: 33, 175, 144;
+  --ifm-color-primary-darker-raw: 31, 165, 136;
+  --ifm-color-primary-darkest-raw: 26, 136, 112;
+  --ifm-color-primary-light-raw: 70, 203, 174;
+  --ifm-color-primary-lighter-raw: 102, 212, 189;
+  --ifm-color-primary-lightest-raw: 146, 224, 208;
 }
 
 .docusaurus-highlight-code-line {
