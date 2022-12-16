@@ -1,6 +1,6 @@
 ---
 title: Realtime Usage Index
-slug: /usage/realtime
+slug: /plugins/realtime
 ---
 
 # [Realtime](https://github.com/monun/realtime) Plugin Usage Index

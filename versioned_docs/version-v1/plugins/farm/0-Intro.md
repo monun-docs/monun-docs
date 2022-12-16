@@ -1,5 +1,5 @@
 ---
-slug: /usage/farm/features
+slug: /plugins/farm/features
 sidebar_position: 2
 ---
 

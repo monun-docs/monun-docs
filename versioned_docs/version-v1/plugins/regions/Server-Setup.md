@@ -1,5 +1,5 @@
 ---
-slug: /usage/server-setup
+slug: /plugins/server-setup
 ---
 
 # Server Setup

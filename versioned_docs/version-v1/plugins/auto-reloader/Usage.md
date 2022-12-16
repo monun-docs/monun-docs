@@ -1,5 +1,5 @@
 ---
-slug: /usage/auto-reloader/usage
+slug: /plugins/auto-reloader/usage
 ---
 
 # Usage

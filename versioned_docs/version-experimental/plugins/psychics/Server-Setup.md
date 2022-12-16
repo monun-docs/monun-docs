@@ -1,5 +1,5 @@
 ---
-slug: /usage/psychics/server-setup
+slug: /plugins/psychics/server-setup
 ---
 
 # Psychics Server Setup

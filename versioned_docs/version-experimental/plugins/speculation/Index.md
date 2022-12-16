@@ -1,6 +1,6 @@
 ---
 title: Realtime Usage Index
-slug: /usage/speculation
+slug: /plugins/speculation
 ---
 
 # [Speculation](https://github.com/monun/Speculation) Plugin Usage Index

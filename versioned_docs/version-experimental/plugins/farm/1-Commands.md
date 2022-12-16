@@ -1,5 +1,5 @@
 ---
-slug: /usage/farm/commands
+slug: /plugins/farm/commands
 sidebar_position: 3
 ---
 

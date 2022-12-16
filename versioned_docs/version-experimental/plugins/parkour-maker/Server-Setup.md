@@ -1,5 +1,5 @@
 ---
-slug: /usage/parkour-maker/server-setup
+slug: /plugins/parkour-maker/server-setup
 ---
 
 # Server Setup

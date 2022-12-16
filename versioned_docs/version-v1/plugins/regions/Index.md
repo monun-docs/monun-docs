@@ -1,6 +1,6 @@
 ---
 title: Regions Plugin Usage Index
-slug: /usage/regions
+slug: /plugins/regions
 ---
 
 # [Regions](https://github.com/monun/regions) Plugin Usage Index

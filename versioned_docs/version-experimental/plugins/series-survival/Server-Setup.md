@@ -1,5 +1,5 @@
 ---
-slug: /usage/series-survival/server-setup
+slug: /plugins/series-survival/server-setup
 ---
 
 # Server Setup

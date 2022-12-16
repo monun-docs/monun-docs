@@ -1,5 +1,5 @@
 ---
-slug: /usage/speculation/server-setup
+slug: /plugins/speculation/server-setup
 ---
 
 # Speculation Server Setup

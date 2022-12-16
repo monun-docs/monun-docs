@@ -1,6 +1,6 @@
 ---
 title: Kotlin Plugin Usage
-slug: /usage/kotlin-plugin
+slug: /plugins/kotlin-plugin
 ---
 
 # [Kotlin Plugin](https://github.com/monun/kotlin-plugin/) Usage

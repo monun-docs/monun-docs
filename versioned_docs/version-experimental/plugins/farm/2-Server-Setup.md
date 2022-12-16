@@ -1,5 +1,5 @@
 ---
-slug: /usage/farm/server-setup
+slug: /plugins/farm/server-setup
 sidebar_position: 4
 ---
 

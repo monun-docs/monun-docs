@@ -1,6 +1,6 @@
 ---
 title: Psychics Usage Index
-slug: /usage/psychics
+slug: /plugins/psychics
 ---
 
 # [Psychics](https://github.com/monun/psychics) Plugin Usage Index

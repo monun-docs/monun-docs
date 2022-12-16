@@ -1,6 +1,6 @@
 ---
 title: Farm 플러그인 사용하기
-slug: /usage/farm
+slug: /plugins/farm
 sidebar_position: 1
 ---
 

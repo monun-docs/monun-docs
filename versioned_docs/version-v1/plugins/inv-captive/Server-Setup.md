@@ -1,5 +1,5 @@
 ---
-slug: /usage/inv-captive/server-setup
+slug: /plugins/inv-captive/server-setup
 ---
 
 # Server Setup

@@ -1,5 +1,5 @@
 ---
-slug: /usage/minigame-fortress/server-setup
+slug: /plugins/minigame-fortress/server-setup
 ---
 
 # Server Setup

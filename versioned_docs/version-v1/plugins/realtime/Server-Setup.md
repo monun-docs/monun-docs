@@ -1,5 +1,5 @@
 ---
-slug: /usage/realtime/server-setup
+slug: /plugins/realtime/server-setup
 ---
 
 # Psychics Server Setup
