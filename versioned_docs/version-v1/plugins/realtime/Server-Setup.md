@@ -11,4 +11,4 @@ slug: /usage/realtime/server-setup
 ## JDK 지원 안내
 본 플러그인은 `JDK-17` 부터 지원하고 있습니다.
 
-JDK 설치 내용은 [여기](/dev/Java17-Installation)를 참조하여주시길 바랍니다.
+JDK 설치 내용은 [여기](/usage/Java17-Installation)를 참조하여주시길 바랍니다.

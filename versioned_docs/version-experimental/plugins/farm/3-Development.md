@@ -1,5 +1,4 @@
 ---
-slug: /usage/farm/development
 sidebar_position: 5
 ---
 
