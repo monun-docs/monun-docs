@@ -19,7 +19,7 @@ import io.github.monun.invfx.InvFX
 
 frame(numLines, Component.text(invTitle), init)
 ```
-> 위 코드의 `numLines` 대신에 원하는 인벤토리의 줄의 수(가로줄의 개수)를 넣으세요. 모든 칸의 수(세로줄의 개수)는 9입니다. 그리고 `invTitle` 대신에 원하는 인벤토리의 이름을 넣으세요.
+> 위 코드의 `numLines` 대신에 원하는 인벤토리의 줄의 수(세로줄의 개수)를 넣으세요. 모든 칸의 수(가로줄의 개수)는 9입니다. 그리고 `invTitle` 대신에 원하는 인벤토리의 이름을 넣으세요.
 
 제일 마지막 인수인 `init`은 인벤토리의 초기 설정을 위한 것입니다. 자세한 설명은 다음 내용을 확인하세요.
 
@@ -30,7 +30,7 @@ InvFrame을 생성할 때, InvFrame의 이벤트 핸들러(`InventoryClickEvent`
 
 핸들러는 다음과 같이 설정할 수 있습니다. 인벤토리 열림(`InventoryOpenEvent`)과 닫힘(`InventoryCloseEvent`) 이벤트 제외하고 모든 이벤트는 취소됩니다. 예를 들어, 아이템을 클릭했을 때, 아이템은 잡히거나, 움직이거나, 버려지지 않습니다.
 
-```
+```kotlin
 import io.github.monun.invfx.InvFX
 ...
 
