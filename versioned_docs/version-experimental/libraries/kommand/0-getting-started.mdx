@@ -22,40 +22,40 @@ Kommand 라이브러리를 프로젝트에 넣어봅시다.
 <Tabs>
   <TabItem value="groovy" label="groovy" default>
     <MavenVersion language="groovy" notation="io.github.monun:kommand-api">
-    {
-`repositories {
-    mavenCentral()
-}
-    
-dependencies {
-    implementation 'io.github.monun:kommand-api:{version}'
-}`
-    }
+        {
+            `repositories {
+                mavenCentral()
+            }
+                
+            dependencies {
+                implementation 'io.github.monun:kommand-api:{version}'
+            }`
+        }
     </MavenVersion>
   </TabItem>
   <TabItem value="kotlin" label="kotlin">
     <MavenVersion language="kotlin" notation="io.github.monun:kommand-api">
-    {
-`repositories {
-    mavenCentral()
-}
- 
-dependencies {
-    implementation("io.github.monun:kommand-api:{version}")
-}`
-    }
+        {
+            `repositories {
+                mavenCentral()
+            }
+            
+            dependencies {
+                implementation("io.github.monun:kommand-api:{version}")
+            }`
+        }
     </MavenVersion>
   </TabItem>
   <TabItem value="maven" label="maven">
     <MavenVersion language="xml" notation="io.github.monun:kommand-api">
-    {
-`<dependency>
-    <groupId>io.github.monun</groupId>
-    <artifactId>kommand-api</artifactId>
-    <version>{version}</version>
-    <scope>compile</scope>
-</dependency>`
-    }
+        {
+            `<dependency>
+                <groupId>io.github.monun</groupId>
+                <artifactId>kommand-api</artifactId>
+                <version>{version}</version>
+                <scope>compile</scope>
+            </dependency>`
+        }
     </MavenVersion>
   </TabItem>
 </Tabs>
@@ -64,11 +64,11 @@ dependencies {
 
 <MavenVersion language="yaml" notation="io.github.monun:kommand-core">
     {
-`name: ...
-version: ...
-main: ...
-libraries:
-  - io.github.monun:kommand-core:{version}`
+        `name: ...
+        version: ...
+        main: ...
+        libraries:
+        - io.github.monun:kommand-core:{version}`
     }
 </MavenVersion>
 
