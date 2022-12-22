@@ -13,15 +13,15 @@ const fetchLatestVersion = (notation, callback) => {
 }
 
 const MavenVersion = ({children, notation, language}) => {
-    const [result, setResult] = useState("");
+    const [result, setResult] = useState("Loading...");
 
-    useEffect(() => fetchLatestVersion(notation, (data) => setResult(data)), [])
+    useEffect(() => fetchLatestVersion(notation, (data) => setResult(children.replace("{version}", data))), [])
 
     return (
         <CodeBlock language={language}>
-            {children.replace("{version}", result)}
+            {result}
         </CodeBlock>
     )
 }
 
-export {fetchLatestVersion, MavenVersion}
+export default MavenVersion
