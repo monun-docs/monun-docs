@@ -16,10 +16,6 @@
 
 .color_reverse:hover {
     transform: translate(-10px, -10px);
-}
-
-.color_reverse:hover {
-    /* transform: translate(-10px, -10px); */
     cursor: pointer;
     text-decoration: none !important;
 }
@@ -48,7 +44,7 @@
     }
 }
 
-.homepage_container {
+.card_container {
     margin-top: 50px;
 
     margin-bottom: 100px;

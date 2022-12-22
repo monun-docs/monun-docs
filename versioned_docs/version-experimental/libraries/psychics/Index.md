@@ -5,9 +5,10 @@ sidebar_position: 1
 
 # [Psychics](https://github.com/monun/psychics/) Develop Docs
 
-## Psychics 문서 Navigation
+## Contents
 
-- [0. Getting Started](0-getting-started.mdx)
+- [시작하기](0-getting-started.mdx)
+- [능력 작성하기](1-writing-sample-ability.md)
 
 ## License
 Psychics의 라이선스는 GPL-3.0입니다.

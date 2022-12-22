@@ -1,0 +1,43 @@
+.cardmain {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    box-shadow: 0 0 0 1px var(--ifm-color-primary-light);
+    background-color: var(--ifm-background-color);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.noborder {
+    box-shadow: 0 0 0 1px var(--ifm-background-color) !important;
+    cursor: default !important;
+}
+
+.cardmain {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.cardmain > h3 {
+    margin-bottom: 20px;
+}
+
+.cardmain > * {
+    flex: 1;
+    margin: 0 1rem;
+}
+
+.cardmain:hover {
+    transform: translate(-10px, -10px);
+    cursor: pointer;
+    text-decoration: none !important;
+}
+
+.cardmain > *:hover {
+    text-decoration: none !important;
+}
