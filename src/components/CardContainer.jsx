@@ -4,12 +4,7 @@ import DocsCard from './DocsCard'
 
 function FakeCard({num, style}) {
     let index = 0
-    return Array(num).fill(0).map(i => {
-        return (
-            <DocsCard style={style} title="" desc="" to="" noborder={true} key={index++} />
-        )
-    })
-
+    return Array(num).fill(0).map(i => <DocsCard style={style} title="" desc="" to="" noborder={true} key={index++} />)
 }
 
 export default function CardContainer({className, num, children, fakeClass}) {
