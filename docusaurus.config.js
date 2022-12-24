@@ -150,5 +150,26 @@ module.exports = {
   i18n: {
     defaultLocale: 'ko',
     locales: ['ko'],
-  }
+  },
+  plugins: [
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          { from: "/dev/tap/", to: "/libraries/tap/" },
+          { from: "/dev/invfx/", to: "/libraries/invfx/" },
+          { from: "/dev/psychics/", to: "/libraries/psychics/" },
+          { from: "/dev/kommand/", to: "/libraries/kommand/" },
+        ],
+        createRedirects(existingPath) {
+          if (existingPath.includes('/usage')) {
+            return [
+              existingPath.replace('/usage', '/dev'),
+            ];
+          }
+          return undefined;
+        },
+      },
+    ]
+  ]
 };
