@@ -27,56 +27,56 @@ import TabItem from '@theme/TabItem';
 
 <Tabs>
   <TabItem value="groovy" label="groovy" default>
-    <MavenVersion language="groovy" notation="io.github.monun:tap-api">
-        {
-            `repositories {
-                mavenCentral()
-            }
+    <MavenVersion language="groovy" notation="io.github.monun:tap-api">{
+
+`repositories {
+    mavenCentral()
+}
                 
-            dependencies {
-                implementation 'io.github.monun:tap-api:{version}'
-            }`
-        }
-    </MavenVersion>
+dependencies {
+    implementation 'io.github.monun:tap-api:{version}'
+}`
+
+    }</MavenVersion>
   </TabItem>
   <TabItem value="kotlin" label="kotlin">
-    <MavenVersion language="kotlin" notation="io.github.monun:tap-api">
-        {
-            `repositories {
-                mavenCentral()
-            }
+    <MavenVersion language="kotlin" notation="io.github.monun:tap-api">{
+
+`repositories {
+    mavenCentral()
+}
             
-            dependencies {
-                implementation("io.github.monun:tap-api:{version}")
-            }`
-        }
-    </MavenVersion>
+dependencies {
+    implementation("io.github.monun:tap-api:{version}")
+}`
+
+    }</MavenVersion>
   </TabItem>
   <TabItem value="maven" label="maven">
-    <MavenVersion language="xml" notation="io.github.monun:tap-api">
-        {
-            `<dependency>
-                <groupId>io.github.monun</groupId>
-                <artifactId>tap-api</artifactId>
-                <version>{version}</version>
-                <scope>compile</scope>
-            </dependency>`
-        }
-    </MavenVersion>
+    <MavenVersion language="xml" notation="io.github.monun:tap-api">{
+
+`<dependency>
+    <groupId>io.github.monun</groupId>
+    <artifactId>tap-api</artifactId>
+    <version>{version}</version>
+    <scope>compile</scope>
+</dependency>`
+
+    }</MavenVersion>
   </TabItem>
 </Tabs>
 
 ### plugin.yml
-<MavenVersion language="yaml" notation="io.github.monun:tap-core">
-    {
-        `name: ...
-        author: ...
-        main: ...
-        version: ...
-        libraries:
-            - io.github.monun:tap-core:{version}`
-    }
-</MavenVersion>
+<MavenVersion language="yaml" notation="io.github.monun:tap-core">{
+
+`name: ...
+author: ...
+main: ...
+version: ...
+libraries:
+    - io.github.monun:tap-core:{version}`
+
+}</MavenVersion>
 
 > 주의! 여기에서는 tap-api 대신 tap-core을 넣어야합니다
 
