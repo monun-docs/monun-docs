@@ -14,69 +14,69 @@ import TabItem from '@theme/TabItem';
     * Paper 1.18+
 
 ## Tap의 기능 overview (Tap의 설명 中)
-    - 패킷
+    - 개체 패킷
     - 가상 개체
     - 가상 발사체
     - 개체별 이벤트 리스너
     - YamlConfiguration을 이용한 문자열 템플릿
     - 추가적인 인벤토리 함수
-    - GitHub를 통한 업데이트 (BETA)
+    - GitHub를 통한 업데이트
     - Tick 기반 태스크 스케쥴러 (Ticker)
 
 ## Tap 사용하기
 
 <Tabs>
   <TabItem value="groovy" label="groovy" default>
-    <MavenVersion language="groovy" notation="io.github.monun:tap-api">{
-
+    <MavenVersion language="groovy" notation="io.github.monun:tap-api">
+    {
 `repositories {
     mavenCentral()
 }
-                
+    
 dependencies {
     implementation 'io.github.monun:tap-api:{version}'
 }`
-
-    }</MavenVersion>
+    }
+    </MavenVersion>
   </TabItem>
   <TabItem value="kotlin" label="kotlin">
-    <MavenVersion language="kotlin" notation="io.github.monun:tap-api">{
-
+    <MavenVersion language="kotlin" notation="io.github.monun:tap-api">
+    {
 `repositories {
     mavenCentral()
 }
-            
+ 
 dependencies {
     implementation("io.github.monun:tap-api:{version}")
 }`
-
-    }</MavenVersion>
+    }
+    </MavenVersion>
   </TabItem>
   <TabItem value="maven" label="maven">
-    <MavenVersion language="xml" notation="io.github.monun:tap-api">{
-
+    <MavenVersion language="xml" notation="io.github.monun:tap-api">
+    {
 `<dependency>
     <groupId>io.github.monun</groupId>
     <artifactId>tap-api</artifactId>
     <version>{version}</version>
     <scope>compile</scope>
 </dependency>`
-
-    }</MavenVersion>
+    }
+    </MavenVersion>
   </TabItem>
 </Tabs>
 
 ### plugin.yml
-<MavenVersion language="yaml" notation="io.github.monun:tap-core">{
-
+<MavenVersion language="yaml" notation="io.github.monun:tap-core">
+    {
 `name: ...
 author: ...
 main: ...
 version: ...
 libraries:
     - io.github.monun:tap-core:{version}`
-
-}</MavenVersion>
+    }
+</MavenVersion>
 
 > 주의! 여기에서는 tap-api 대신 tap-core을 넣어야합니다
 

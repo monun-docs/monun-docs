@@ -16,56 +16,59 @@ import TabItem from '@theme/TabItem';
 ## InvFX 사용하기
 <Tabs>
   <TabItem value="groovy" label="groovy" default>
-    <MavenVersion language="groovy" notation="io.github.monun:invfx-api">{
-
+    <MavenVersion language="groovy" notation="io.github.monun:invfx-api">
+    {
 `repositories {
     mavenCentral()
 }
-                
+    
 dependencies {
     implementation 'io.github.monun:invfx-api:{version}'
 }`
-    
-    }</MavenVersion>
+    }
+    </MavenVersion>
   </TabItem>
   <TabItem value="kotlin" label="kotlin">
-    <MavenVersion language="kotlin" notation="io.github.monun:invfx-api">{
-
+    <MavenVersion language="kotlin" notation="io.github.monun:invfx-api">
+    {
 `repositories {
     mavenCentral()
 }
-            
+ 
 dependencies {
     implementation("io.github.monun:invfx-api:{version}")
 }`
-
-    }</MavenVersion>
+    }
+    </MavenVersion>
   </TabItem>
     <TabItem value="maven" label="maven">
-    <MavenVersion language="xml" notation="io.github.monun:invfx-api">{
-
+    <MavenVersion language="xml" notation="io.github.monun:invfx-api">
+    {
 `<dependency>
     <groupId>io.github.monun</groupId>
     <artifactId>invfx-api</artifactId>
     <version>{version}</version>
     <scope>compile</scope>
 </dependency>`
-    
-    }</MavenVersion>
+    }
+    </MavenVersion>
   </TabItem>
 </Tabs>
 
 ### plugin.yml
-<MavenVersion language="yaml" notation="io.github.monun:invfx">{
-
+<MavenVersion language="yaml" notation="io.github.monun:invfx">
+    {
 `name: ...
 author: ...
 main: ...
 version: ...
 libraries:
-    - io.github.monun:invfx:{version}`
-
-}</MavenVersion>
+    - io.github.monun:invfx-core:{version}
+    - org.jetbrains.kotlin:kotlin-stdlib:1.5.21
+    - org.jetbrains.kotlin:kotlin-reflect:1.5.21
+    - org.jetbrains.kotlinx:kotlinx-coroutines-core:1.5.0`
+    }
+</MavenVersion>
 
 > 주의! 여기에서는 invfx-api 대신 invfx을 넣어야합니다.
 
