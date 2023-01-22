@@ -8,7 +8,7 @@ hide_table_of_contents: true
 ## Contents
 
 - [시작하기](0-getting-started.mdx)
-- [Invfx 윈도우 생성하기](1-inventory-creation.md)
+- [InvFX 윈도우 생성하기](1-inventory-creation.md)
 - [InvFX의 기능들](2-InvFX.md)
 
 ## License
