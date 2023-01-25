@@ -5,7 +5,7 @@
 [Monun(각별)](https://github.com/monun)님의 라이브러리나 플러그인를 사용하는 분들을 위해 제작한, 라이브러리 개발 문서 및 플러그인 사용 문서입니다.
 
 ## 기여하기
-PR 및 이슈로 참여해주세요. 궁금한 것이 있으면 [Discord](https://discord.gg/qHGTYtNZ)에 질문해 주세요
+PR 및 이슈로 참여해주세요. 궁금한 것이 있으면 [Discord](https://discord.gg/3c4wAAZjEF)에 질문해 주세요
 
 ## 라이선스
 
