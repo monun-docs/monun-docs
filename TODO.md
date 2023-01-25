@@ -1,10 +1,12 @@
 # Docs TODO:
 
-## Dev:
+## Libraries:
 
 - heartbeat-coroutines
 
 - psychics (WIP)
+
+- tap(event listener)
 
 ## Usage:
 
