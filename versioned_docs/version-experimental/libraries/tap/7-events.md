@@ -2,7 +2,7 @@
 sidebar_position: 8
 ---
 
-# EntityEvents
+# Entity Events
 엔티티별 이벤트 등록 시스템
 
 ### Manager
