@@ -111,7 +111,7 @@ module.exports = {
     prism: {
       theme: require('prism-react-renderer/themes/github'),
       darkTheme: require('prism-react-renderer/themes/dracula'),
-      additionalLanguages: ['kotlin', 'yaml', 'groovy'],
+      additionalLanguages: ['kotlin', 'yaml', 'groovy', 'properties', 'bash'],
     },
     colorMode: {
       defaultMode: "dark",
