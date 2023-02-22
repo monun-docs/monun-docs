@@ -15,6 +15,7 @@ hide_table_of_contents: true
 - [Ticker](5-ticker.md)
 - [Configuration](6-configuration.md)
 - [Entity Events](7-events.md)
+- [PDC](8-pdc.md)
 
 ## License
 Tap의 라이선스는 GPL-3.0입니다.
