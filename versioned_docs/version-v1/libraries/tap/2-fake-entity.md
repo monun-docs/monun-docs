@@ -266,6 +266,13 @@ fun FakeEntity#addPassenger(passenger: FakeEntity<*>)
 fun FakeEntity#removePassenger(passenger: FakeEntity<*>)
 ```
 
+### 예시
+```kotlin
+fun oldTownRoad(horse: FakeEntity<Horse>, rider: FakeEntity<Player>) {
+    horse.addPassenger(rider)
+}
+```
+
 ## 이동
 FakeEntity를 이동할 경우, 이동할 목적지, 또는 변위를 설정해야합니다.
 
@@ -290,12 +297,49 @@ fun FakeEntity#move(x: Double, y: Double, z: Double)
 fun FakeEntity#moveAndRotation(x: Double, y: Double, z: Double, yaw: Float, pitch: Float)
 ```
 
+### 예시
+```kotlin
+fun toSpawn(server: FakeEntityServer) {
+    val players = server.entities.filter { it.bukkitEntity is Player }
+    for (player in players) {
+        player.moveTo(Locations.SPAWN)  // Locations.SPAWN으로 모든 플레이어 이동
+    }
+}
+```
+
 ## 개체 업데이트
-버킷 API를 사용해 FakeEntity를 수정할 경우, 모든 함수가 작동되는 것은 아니니 이 점을 참고해 주세요.
+FakeEntity의 상태를 변화시킵니다. Bukkit API를 사용하실 수 있습니다.
 ```kodef
 // io.github.monun.tap.fake.FakeEntity#updateMetadata
 
 fun FakeEntity#updateMetadata<T: Entity>(lambda: T.() -> Unit)
+```
+
+### 예시
+```kotlin
+fun cameleonAbility(entity: FakeEntity<ArmorStand>) {
+    entity.updateMetadata { // this: ArmorStand
+        isInvisible = true
+        health -= 4
+    }
+}
+```
+
+## 장비 변경
+```kodef
+// io.github.monun.tap.fake.FakeEntity#updateEquipment
+
+fun FakeEntity#updateEquipment<T: Entity>(lambda: T.() -> Unit)
+```
+FakeEntity의 장비(helmet, mainhand 등)를 변경합니다.
+
+### 예시
+```kotlin
+fun giveMagicalSword(entity: FakeEntity<Zombie>) {
+    entity.updateEquipment { // this: Zombie
+        setItemInMainHand(Abilities.WARRIOR.mainItem)   // Abilities.WARRIOR.mainItem을 가상개체의 mainHand에 놓습니다.
+    }
+}
 ```
 
 ## 플레이어 스킨 변경
@@ -304,4 +348,12 @@ fun FakeEntity#updateMetadata<T: Entity>(lambda: T.() -> Unit)
 // io.github.monun.tap.fake.FakeEntity#updateSkinParts
 
 fun FakeEntity<T>#updateSkinParts(skinParts: FakeSkinParts) // sth like this
+```
+
+### 예시
+```kotlin
+fun enableHat(entity: FakeEntity<Player>) {
+    val skinData = FakeSkinParts().apply { enable(SkinPart.HATS) }
+    entity.updateSkinParts(skinData)
+}
 ```
