@@ -25,6 +25,7 @@ PR 및 이슈로 참여해주세요. 궁금한 것이 있으면 [Discord](https:
 <contributors include-only="var(moderator)">
 
 - [issac4892](https://github.com/issac4892)
+- [lambdynma](https://github.com/lambdynma)
 - [patrick-choe](https://github.com/patrick-choe)
 </contributors>
 
@@ -32,7 +33,6 @@ PR 및 이슈로 참여해주세요. 궁금한 것이 있으면 [Discord](https:
 
 <contributors exclude="var(admin) + var(moderator)">
 
-- [lambdynma](https://github.com/lambdynma)
 - [pikokr](https://github.com/pikokr)
 - [dytroc](https://github.com/dytroc)
 - [MisileLab](https://github.com/MisileLab)
