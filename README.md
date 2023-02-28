@@ -34,6 +34,7 @@ PR 및 이슈로 참여해주세요. 궁금한 것이 있으면 [Discord](https:
 <contributors exclude="var(admin) + var(moderator)">
 
 - [pikokr](https://github.com/pikokr)
+- [Arewena](https://github.com/Arewena)
 - [dytroc](https://github.com/dytroc)
 - [MisileLab](https://github.com/MisileLab)
 - [cog25](https://github.com/cog25)
