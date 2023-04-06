@@ -9,12 +9,12 @@ sidebar_position: 5
 ## 플러그인 최신 버전 유지
 **동기**
 ```kotlin
-JavaPlugin.updateFromGithub(USER, REPO, ASSET_NAME, CALLBACK)
+updateFromGithub(USER, REPO, ASSET_NAME, CALLBACK)
 ```
 
 **비동기**
 ```kotlin
-JavaPlugin.updateFromGithubMagically(USER, REPO, ASSET_NAME, RECEIVER)
+updateFromGithubMagically(USER, REPO, ASSET_NAME, RECEIVER)
 ```
 
 ### 예시
