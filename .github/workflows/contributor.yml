@@ -14,4 +14,4 @@ jobs:
         with:
           gh_token: ${{ secrets.GITHUB_TOKEN }}
           repo: monun-docs/monun-docs
-          vars: '{ "admin": [ "dolphin2410" ], "moderator": [ "aroxu", "patrick-choe", "issac4892", "qogusdn1017" ] }'
+          vars: '{ "admin": [ "dolphin2410" ], "moderator": [ "aroxu", "patrick-choe", "issac4892", "lambdynma" ] }'
