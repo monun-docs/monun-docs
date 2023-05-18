@@ -44,7 +44,7 @@ frame(numLines, Component.text(invTitle)) {
     }
 
     onClickBottom { clickEvent ->
-        // 아이템이 놓일 수 없는 인벤토리 안쪽 부분을 클릭했을 때 실행
+        // 현재 인벤토리 이외의 슬롯을 클릭했을 때 실행
     }
 
     onClickOutside { clickEvent ->
