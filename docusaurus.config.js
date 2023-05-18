@@ -123,6 +123,10 @@ module.exports = {
     [
       '@docusaurus/preset-classic',
       {
+        gtag: {
+            trackingID: 'G-639D0VW8WR',
+            anonymizeIP: false,
+         },
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
