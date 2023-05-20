@@ -2,8 +2,7 @@
 sidebar_position: 7
 ---
 
-# Custom Argument
-
+# Dynamic Argument
 
 [여기](https://github.com/monun/kommand/blob/master/kommand-plugin/src/main/kotlin/io/github/monun/kommand/plugin/KommandPlugin.kt)를 확인하세요
 
@@ -63,7 +62,15 @@ val autoCompleteBlockPosition = blockPosition().apply {
 // StringType.GREEDY_PHRASE는 '/ability apply Heptagram spiderman'과 같이 여러개의 argument를 사용하실 수 있고, 이 같은 경우, `input`인수는 'apply Heptagram spiderman'를 반환합니다. 
 
 // StringType.QUOTABLE_PHRASE '/nick "Friend Of Heptagram"'과 같이 따옴표로 둘러쌓인 하나의 argument를 사용하실 수 있고, 이 같은 경우, `input`인수는 'Friend Of Heptagram'을 반환합니다. 
-dynamic(StringType.GREEDY_PHRASE) { ctx, input ->
+val argument = dynamic(StringType.GREEDY_PHRASE) { ctx, input ->
     ...
+}.apply {
+    suggests {
+        ...
+    }
 }
 ```
+
+
+### 예시
+예를 들어 입력값을 
