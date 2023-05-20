@@ -125,7 +125,7 @@ module.exports = {
       {
         gtag: {
             trackingID: 'G-639D0VW8WR',
-            anonymizeIP: false,
+            anonymizeIP: true,
          },
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
