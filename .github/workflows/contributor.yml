@@ -1,7 +1,8 @@
 name: contributor
 on:
-  schedule:
-  - cron: '0 0 * * *'
+  push:
+  # schedule:
+  # - cron: '0 0 * * *'
 
 
 jobs:
