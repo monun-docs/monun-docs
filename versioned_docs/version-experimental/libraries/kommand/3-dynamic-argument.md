@@ -63,14 +63,39 @@ val autoCompleteBlockPosition = blockPosition().apply {
 
 // StringType.QUOTABLE_PHRASE '/nick "Friend Of Heptagram"'과 같이 따옴표로 둘러쌓인 하나의 argument를 사용하실 수 있고, 이 같은 경우, `input`인수는 'Friend Of Heptagram'을 반환합니다. 
 val argument = dynamic(StringType.GREEDY_PHRASE) { ctx, input ->
-    ...
+    // input을 이용해 원하시는 타입을 반환하세요. Null을 반환하면, 플레이어가 명령어를 입력하는 단계에서 잘못된 인수로 경고가 뜹니다
+    MyUser(input)
 }.apply {
     suggests {
         ...
+    }
+}
+
+then("arg" to argument) {
+    executes {
+        val arg: MyUser by it   // 여기서 MyUser은 argument에서 반환하는 객체
     }
 }
 ```
 
 
 ### 예시
-예를 들어 입력값을 
+예를 들어 UUID string을 인수로 받고 UUID 객체를 반환하는 `argument`를 만드시려면
+```kotlin
+fun uuid() = dynamic { ctx, input ->
+    val regex = Regex("/^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i") // validate uuid string
+    regex.find(input)?.let { UUID.fromString(it.toString()) } // return uuid if valid, else return null
+} // 꼭 메소드일 필요는 없습니다. 
+
+kommand {
+    register("applySkin") {
+        then("uniqueId" to uuid()) {
+            executes {
+                val uniqueId: UUID by it
+
+                ...
+            }
+        }
+    }
+}
+```
