@@ -31,7 +31,7 @@ PR 및 이슈로 참여해주세요. 궁금한 것이 있으면 [Discord](https:
 
 기여 인원
 
-<contributors exclude="var(admin) + var(moderator)">
+<contributors exclude="var(admin) + var(moderator) + var(hidden)">
 
 - [pikokr](https://github.com/pikokr)
 - [Arewena](https://github.com/Arewena)
