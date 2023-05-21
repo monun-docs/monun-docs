@@ -4,6 +4,8 @@
 
 [Monun(각별)](https://github.com/monun)님의 라이브러리나 플러그인를 사용하는 분들을 위해 제작한, 라이브러리 개발 문서 및 플러그인 사용 문서입니다.
 
+**[현재 프로젝트 구조 유지와 관련한 투표가 진행되고 있습니다.](https://github.com/monun-docs/monun-docs/discussions/136) 한번 들러서 투표해주시고, 시간 되시는 분들은 의견도 남겨주시면 감사하겠습니다!**
+
 ## 기여하기
 PR 및 이슈로 참여해주세요. 궁금한 것이 있으면 [Discord](https://discord.gg/3c4wAAZjEF)에 질문해 주세요
 
