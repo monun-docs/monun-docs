@@ -4,11 +4,19 @@ import Link from "@docusaurus/Link"
 
 
 export default function DocsCard({style,title,desc,url,noborder=false}) {
-    let noborderclass = " " + (noborder ? styles.noborder : "");
     return (
-        <Link style={style} className={styles.cardmain + noborderclass} to={url}>
-            <h3>{title}</h3>
-            <p>{desc}</p>
+       <div className={styles.project}>
+      <div className={styles.flex}>
+        <span className={styles.projectGitHub}>
+          {title}
+        </span>
+        <p>{desc}</p>
+      </div>
+      <div>
+        <Link className="button button--primary" to={url}>
+          Go
         </Link>
+      </div>
+    </div>
     )
 }
