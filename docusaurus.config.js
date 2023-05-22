@@ -33,12 +33,12 @@ module.exports = {
     },
     
     navbar: {
-      title: '',
       logo: {
         alt: 'monun',
         src: 'img/logo1.svg',
         srcDark: 'img/77531416_negative.png',
       },
+      hideOnScroll: true,
       items: [
         {
           type: 'doc',
