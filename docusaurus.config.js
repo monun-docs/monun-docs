@@ -95,10 +95,17 @@ module.exports = {
           position: 'right',
         },
         {
-          href: 'https://github.com/monun-docs/monun-docs',
-          label: 'GitHub',
+          href: 'https://discord.gg/WEEtkz5Qbx',
           position: 'right',
+          className: "header-discord-link",
+          "aria-label": "MonunDocs Discord",
         },
+        {
+          href: 'https://github.com/monun-docs/monun-docs',
+          position: 'right',
+          className: "header-github-link",
+          "aria-label": "GitHub repository",
+        }
       ],
     },
     footer: {
