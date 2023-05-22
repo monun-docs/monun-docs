@@ -9,24 +9,14 @@
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard-dynamic-subset.css");
 :root {
   font-family: Pretendard, sans-serif;
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-color-primary: #f5ec00;
+  --ifm-color-primary-dark: #eee500;
+  --ifm-color-primary-darker: #e1d900;
+  --ifm-color-primary-darkest: #ddd400;
+  --ifm-color-primary-light: #fff500;
+  --ifm-color-primary-lighter: #fff60a;
+  --ifm-color-primary-lightest: #fff60f;
   --ifm-code-font-size: 95%;
-
-
-
-  --ifm-color-primary-raw: 37, 194, 160;
-  --ifm-color-primary-dark-raw: 33, 175, 144;
-  --ifm-color-primary-darker-raw: 31, 165, 136;
-  --ifm-color-primary-darkest-raw: 26, 136, 112;
-  --ifm-color-primary-light-raw: 70, 203, 174;
-  --ifm-color-primary-lighter-raw: 102, 212, 189;
-  --ifm-color-primary-lightest-raw: 146, 224, 208;
 }
 
 .docusaurus-highlight-code-line {
@@ -34,6 +24,17 @@
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #fefb41;
+  --ifm-color-primary-dark: #fefa21;
+  --ifm-color-primary-darker: #fefa11;
+  --ifm-color-primary-darkest: #dedb01;
+  --ifm-color-primary-light: #fefc61;
+  --ifm-color-primary-lighter: #fefc71;
+  --ifm-color-primary-lightest: #fffda0;
+  --ifm-code-font-size: 95%;
 }
 
 html[data-theme='dark'] .docusaurus-highlight-code-line {
@@ -57,7 +58,7 @@ span.class-name {
 }
 
 span.generic {
-	color: green;
+	color: yellow;
 }
 
 html[data-theme='dark'] span.parameter {
