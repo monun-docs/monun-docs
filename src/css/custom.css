@@ -63,7 +63,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   content: "";
   display: flex;
   height: 24px;
-  width: 30px;  /* discord 아이콘은 옆으로 길어서 width = height + 6px */
+ /* ㅁㅏㅈㅣㄴㅇㅣㅅㅏㅇㅎㅐㅂㅗㅇㅣㅁ width: 30px;  /* discord 아이콘은 옆으로 길어서 width = height + 6px */
 }
 
 html[data-theme='dark'] .header-discord-link:before {
