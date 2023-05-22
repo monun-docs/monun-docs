@@ -10,12 +10,12 @@
 :root {
   font-family: Pretendard, sans-serif;
   --ifm-color-primary: #f5ec00;
-  --ifm-color-primary-dark: #eee500;
-  --ifm-color-primary-darker: #e1d900;
-  --ifm-color-primary-darkest: #ddd400;
-  --ifm-color-primary-light: #fff500;
-  --ifm-color-primary-lighter: #fff60a;
-  --ifm-color-primary-lightest: #fff60f;
+  --ifm-color-primary-dark: #cea800;
+  --ifm-color-primary-darker: #c39f00;
+  --ifm-color-primary-darkest: #bf9c00;
+  --ifm-color-primary-light: #dcb400;
+  --ifm-color-primary-lighter: #e5bb00;
+  --ifm-color-primary-lightest: #e9be00;
   --ifm-code-font-size: 95%;
 }
 
