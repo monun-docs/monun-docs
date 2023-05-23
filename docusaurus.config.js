@@ -33,6 +33,7 @@ module.exports = {
     },
     
     navbar: {
+      title: 'Monun',
       logo: {
         alt: 'monun',
         src: 'img/logo1.svg',
