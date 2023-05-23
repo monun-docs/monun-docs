@@ -19,10 +19,6 @@
   --ifm-code-font-size: 95%;
 }
 
-.mainpage {
-  max-width: 800;
-}
-
 .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.1);
   display: block;
