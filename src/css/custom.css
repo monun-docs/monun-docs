@@ -7,16 +7,29 @@
 
 /* You can override the default Infima variables here. */
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard-dynamic-subset.css");
+@import url("https://cdn.jsdelivr.net/gh/sunn-us/SUITE/fonts/variable/woff2/SUITE-Variable.css");
+@import url("https://cdn.jsdelivr.net/gh/sunn-us/SUIT/fonts/variable/woff2/SUIT-Variable.css");
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;1,300&display=swap');
+
+pre[class*="language-"] {
+  font-family: 'IBM Plex Mono', 'SUIT Variable', Pretendard, monospace;
+  font-weight: 300;
+}
+
 :root {
-  font-family: Pretendard, sans-serif;
-  --ifm-color-primary: #f5ec00;
-  --ifm-color-primary-dark: #cea800;
-  --ifm-color-primary-darker: #c39f00;
-  --ifm-color-primary-darkest: #bf9c00;
-  --ifm-color-primary-light: #dcb400;
-  --ifm-color-primary-lighter: #e5bb00;
-  --ifm-color-primary-lightest: #e9be00;
+  font-family: 'SUIT Variable', Pretendard, sans-serif;
+  --ifm-color-primary: #e6b800;
+  --ifm-color-primary-dark: #d9a700;
+  --ifm-color-primary-darker: #cc9900;
+  --ifm-color-primary-darkest: #bf8a00;
+  --ifm-color-primary-light: #e9c633;
+  --ifm-color-primary-lighter: #ecd14d;
+  --ifm-color-primary-lightest: #f4e699;
   --ifm-code-font-size: 95%;
+}
+
+h1, h2 {
+    font-family: 'SUITE Variable', sans-serif;
 }
 
 .docusaurus-highlight-code-line {
