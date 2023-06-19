@@ -10,6 +10,7 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  max-width: 800px;
 }
 
 @media screen and (max-width: 966px) {

@@ -1,0 +1,25 @@
+html[data-theme='dark'] .language-kodef span.class-name {
+	color: rgb(184, 184, 184);
+}
+
+.language-kodef span.class-name {
+	color: rgb(101, 101, 101);
+
+}
+
+.language-kodef span.generic {
+	color: green;
+}
+
+html[data-theme='dark'] .language-kodef span.parameter {
+	color: rgb(55, 209, 209);
+}
+
+.language-kodef span.parameter {
+	color: red;
+}
+
+.language-kodef:hover  *:not(:first-child) {
+  text-decoration: underline;
+  cursor: pointer;
+}

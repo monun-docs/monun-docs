@@ -33,12 +33,13 @@ module.exports = {
     },
     
     navbar: {
-      title: 'Monun Docs',
+      title: 'Monun',
       logo: {
         alt: 'monun',
         src: 'img/logo1.svg',
         srcDark: 'img/77531416_negative.png',
       },
+      hideOnScroll: true,
       items: [
         {
           type: 'doc',
@@ -95,10 +96,17 @@ module.exports = {
           position: 'right',
         },
         {
-          href: 'https://github.com/monun-docs/monun-docs',
-          label: 'GitHub',
+          href: 'https://discord.gg/WEEtkz5Qbx',
           position: 'right',
+          className: "header-discord-link",
+          "aria-label": "MonunDocs Discord",
         },
+        {
+          href: 'https://github.com/monun-docs/monun-docs',
+          position: 'right',
+          className: "header-github-link",
+          "aria-label": "GitHub repository",
+        }
       ],
     },
     footer: {
@@ -146,7 +154,7 @@ module.exports = {
           },
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: [require.resolve('./src/css/custom.css'), require.resolve("./src/css/kodef.css")],
         },
       },
     ],

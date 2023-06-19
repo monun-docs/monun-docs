@@ -6,7 +6,7 @@
 ### 관리자
 - [aroxu](https://github.com/aroxu)
 - [PatrickKR](https://github.com/patrick-mc)
-- [심심하다 (issac4892)](https://github.com/issac4892)
+- [미기 (issac4892)](https://github.com/issac4892)
 - [BaeHyeonWoo](https://github.com/qogusdn1017)
 
 ### 기여 인원
