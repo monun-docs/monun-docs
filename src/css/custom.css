@@ -28,7 +28,7 @@ pre[class*="language-"], code {
   --ifm-code-font-size: 95%;
 }
 
-h1, h2 {
+h1, h2, h3, h4 {
     font-family: 'SUITE Variable', sans-serif;
 }
 
