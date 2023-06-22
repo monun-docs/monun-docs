@@ -39,17 +39,6 @@ h1, h2, h3, h4 {
   padding: 0 var(--ifm-pre-padding);
 }
 
-[data-theme='dark'] {
-  --ifm-color-primary: #fefb41;
-  --ifm-color-primary-dark: #fefa21;
-  --ifm-color-primary-darker: #fefa11;
-  --ifm-color-primary-darkest: #dedb01;
-  --ifm-color-primary-light: #fefc61;
-  --ifm-color-primary-lighter: #fefc71;
-  --ifm-color-primary-lightest: #fffda0;
-  --ifm-code-font-size: 95%;
-}
-
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
